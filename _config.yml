@@ -1,0 +1,11 @@
+title: "Kishore D. B. – Applied Research & Whitepapers"
+description: "Technical whitepapers, AI/ML innovation projects, and architecture insights by Kishore D. B."
+theme: jekyll-theme-minimal
+show_downloads: false
+logo: /assets/KDBprofile.png
+github:
+  is_project_page: true
+  is_user_page: false
+  repository_url: https://github.com/kishoredb/kishoredb-research
+author: Kishore D. B.
+email: kishoredb@gmail.com
