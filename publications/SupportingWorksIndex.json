@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "author": "Kishore D. B.",
+  "updated": "2025-10-28",
+  "works": [
+    {
+      "title": "Aegis: AI-Driven Innovation and Simulation Framework",
+      "type": "Applied Research Project",
+      "keywords": ["Explainable AI", "Simulation", "Cloud HPC", "Scientific Workflows"],
+      "repository": "/projects/aegis-nlp-video"
+    },
+    {
+      "title": "AI-Enhanced Inverse Modeling Framework",
+      "type": "Research Manuscript (in preparation)",
+      "repository": "/projects/ai-inverse-modeling"
+    }
+  ]
+}
