@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "author": "Kishore D. B.",
+  "updated": "2025-10-28",
+  "sections": [
+    {
+      "section": "Peer-Reviewed Articles",
+      "entries": [
+        {
+          "title": "AI-Enhanced Inverse Modeling in Computational Engineering",
+          "status": "Manuscript in preparation",
+          "target_journal": "Computational Intelligence and Engineering Systems (Planned 2025)"
+        }
+      ]
+    },
+    {
+      "section": "Technical Disclosure / Patent",
+      "entries": [
+        {
+          "title": "Automated Security Vulnerability Triaging in Multi-Tenant SaaS Environments",
+          "registry": "Finastra Technical Disclosure #SEC-2023-41",
+          "status": "Patent Pending"
+        }
+      ]
+    },
+    {
+      "section": "Invited Talks & Mentoring",
+      "entries": [
+        {"title": "DevSecOps Culture for AI and Computational Engineering", "year": 2022},
+        {"title": "Explainable AI for Model Interpretability in Scientific Simulation", "year": 2023},
+        {"title": "Global Mentor – Applied AI & Computational Simulation", "year_range": "2019–Present"}
+      ]
+    },
+    {
+      "section": "Independent & Applied Research Projects",
+      "entries": [
+        {"title": "Aegis: AI-Driven Innovation and Simulation Framework", "year_range": "2020–Present"},
+        {"title": "CredScore: Explainable AI for Financial Trust Modeling", "year": 2022},
+        {"title": "AI-Driven Fraud Detection Engine", "year_range": "2021–2023"},
+        {"title": "Cloud HPC Workflow Simulator", "year_range": "2023–Present"}
+      ]
+    },
+    {
+      "section": "Educational Technology & Learning Analytics",
+      "entries": [
+        {"title": "Explainable AI and Scientific Visualization Curriculum", "year_range": "2020–2023"},
+        {"title": "Learning Analytics for Computational Thinking", "year": 2024}
+      ]
+    }
+  ]
+}
