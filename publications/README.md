@@ -41,3 +41,7 @@ Detailed index providing metadata, abstracts, and repository links for each supp
 
 © 2025 Kishore D. B — All Rights Reserved.  
 Repository: [github.com/kishoredb/kishoredb-research](https://github.com/kishoredb/kishoredb-research)
+
+---
+📘 *For update history and version details, see [CHANGELOG.md](./CHANGELOG.md).*
+
