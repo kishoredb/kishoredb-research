@@ -34,9 +34,9 @@ kishoredb-research/
 
 | Year | Title | File | Theme | Public Outcome |
 |------|--------|------|--------|----------------|
-| 2022 | **Secure SaaS Platforms** | [2022_Secure_SaaS_Azure_DevSecOps_Abstract.pdf](whitepapers/2022_Secure_SaaS_Azure_DevSecOps_Abstract.pdf) | Secure SDLC, Zero Trust, and supply-chain risk mitigation in Azure-based SaaS platforms. | *Might have influenced Finastra’s regulated cloud posture initiatives.* |
-| 2021 | **Event-Driven Microservices** | [2021_EventDriven_ISO20022_Abstract.pdf](whitepapers/2021_EventDriven_ISO20022_Abstract.pdf) | CQRS, Domain-Driven Design, and Azure Service Bus for ISO 20022-compliant lending platforms. | *Might have been adopted across certain cloud lending modules.* |
-| 2020 | **Cloud Cost & Observability** | [2020_CloudCost_Observability_Abstract.pdf](whitepapers/2020_CloudCost_Observability_Abstract.pdf) | Predictive scaling, telemetry pipelines, and multi-tenant SaaS observability practices. | *Introduced methodologies that informed later monitoring and cost efficiency enhancements.* |
+| 2022 | **Secure SaaS Platforms** | [2022_Secure_SaaS_Azure_DevSecOps_Abstract.pdf](whitepapers/KishoreDB_2022_Secure_SaaS_Azure_DevSecOps_Abstract.pdf) | Secure SDLC, Zero Trust, and supply-chain risk mitigation in Azure-based SaaS platforms. | *Might have influenced Finastra’s regulated cloud posture initiatives.* |
+| 2021 | **Event-Driven Microservices** | [2021_EventDriven_ISO20022_Abstract.pdf](whitepapers/KishoreDB_2021_EventDriven_ISO20022_Abstract.pdf) | CQRS, Domain-Driven Design, and Azure Service Bus for ISO 20022-compliant lending platforms. | *Might have been adopted across certain cloud lending modules.* |
+| 2020 | **Cloud Cost & Observability** | [2020_CloudCost_Observability_Abstract.pdf](whitepapers/KishoreDB_2020_CloudCost_Observability_Abstract.pdf) | Predictive scaling, telemetry pipelines, and multi-tenant SaaS observability practices. | *Introduced methodologies that informed later monitoring and cost efficiency enhancements.* |
 
 ---
 
