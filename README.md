@@ -1,65 +1,96 @@
-# KishoreDB Research Repository
+# 📘 Kishore D. B. — Research & Engineering Portfolio
 
-Applied research, technical whitepapers, and architecture reports by **Kishore D. B.**
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--3116--5000-green?logo=orcid&style=flat)](https://orcid.org/0009-0003-3116-5000)
+[![License](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE)
+[![Repo topics](https://img.shields.io/badge/topics-scientific--computing%20%7C%20sciml%20%7C%20mlops-blue.svg)](https://github.com/kishoredb/kishoredb-research)
 
----
-
-## 🔍 Overview
-This repository consolidates *public abstracts* of internal whitepapers authored by **Kishore D. B.** during his tenure at **Finastra (2020 – 2023)**.  
-Each document is a sanitized, non-confidential summary reflecting architecture, engineering, and cloud-transformation learnings from large-scale SaaS modernization initiatives.
-
-The repository serves as a **public knowledge archive** showcasing applied research in:
-- Cloud-native SaaS architecture and DevSecOps  
-- Event-driven systems and ISO 20022 processing  
-- Observability and predictive cost optimization  
-
-All materials comply with ethical disclosure practices and contain **no proprietary or client-specific content**.
+Welcome to my consolidated **Research, Engineering & Applied AI Portfolio**.  
+This repository collects work across **AI platforms**, **scientific ML**, and **cloud-native computational systems**, and it documents selected works, supporting research, publications, talks, patents, and technical projects.
 
 ---
 
-## 📂 Repository Structure
-kishoredb-research/
-│
-├── whitepapers/ # Sanitized public abstracts (PDF)
-├── projects/ # Experimental or demonstration code (future)
-├── talks/ # Presentations and invited sessions (future)
-├── blogs/ # Articles and reflections (future)
-└── patents/ # Non-confidential IP summaries (future)
+## 🔍 Contents
 
+1. **Selected Works** — Flagship contributions with high research or engineering impact.  
+   → [`selected-works.md`](./selected-works.md)
 
+2. **Supporting Works** — Case studies, prototypes, experiments, and extended technical notes.  
+   → [`supporting-works.md`](./supporting-works.md)
 
----
+3. **Publications** — Articles, whitepapers, peer-reviewed content, and technical reports.  
+   → [`publications.md`](./publications.md)
 
-## 📘 Whitepapers / Abstracts
+4. **Talks & Presentations** — Invited talks, lectures, and conference presentations.  
+   → [`talks.md`](./talks.md)
 
-| Year | Title | File | Theme | Public Outcome |
-|------|--------|------|--------|----------------|
-| 2022 | **Secure SaaS Platforms** | [KishoreDB_2022_Secure_SaaS_Azure_DevSecOps_Abstract.pdf](whitepapers/KishoreDB_2022_Secure_SaaS_Azure_DevSecOps_Abstract.pdf) | Secure SDLC, Zero Trust, and supply-chain risk mitigation in Azure-based SaaS platforms. | *Might have influenced Finastra’s regulated cloud posture initiatives.* |
-| 2021 | **Event-Driven Microservices** | [KishoreDB_2021_EventDriven_ISO20022_Abstract.pdf](whitepapers/KishoreDB_2021_EventDriven_ISO20022_Abstract.pdf) | CQRS, Domain-Driven Design, and Azure Service Bus for ISO 20022-compliant lending platforms. | *Might have been adopted across certain cloud lending modules.* |
-| 2020 | **Cloud Cost & Observability** | [KishoreDB_2020_CloudCost_Observability_Abstract.pdf](whitepapers/KishoreDB_2020_CloudCost_Observability_Abstract.pdf) | Predictive scaling, telemetry pipelines, and multi-tenant SaaS observability practices. | *Introduced methodologies that informed later monitoring and cost efficiency enhancements.* |
+5. **Patents & Invention Disclosures** — Filed / drafted IP entries.  
+   → [`patents.md`](./patents.md)
 
----
+6. **Technical Projects** — Platforms, prototypes, libraries, demos, and experiments.  
+   → [`tech-projects.md`](./tech-projects.md)
 
-## ⚖️ Compliance & Licensing
-All documents are shared under a **Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)** license.  
-They are intended for educational and research purposes only and contain *no confidential Finastra data or proprietary source code*.
-
-**Disclaimer:**  
-References to organizations (e.g., Finastra) are strictly contextual to denote authorship period.  
-These materials are *independent public summaries* and do not represent any official or current Finastra position.
+7. **Portfolio Metadata (machine-readable)** — JSON indexes for automation and export:  
+   - [`selected-works.json`](./selected-works.json)  
+   - [`supporting-works.json`](./supporting-works.json)  
+   - [`publications.json`](./publications.json)
 
 ---
 
-## 🧭 Author
-**Kishore D. B.**  
-Technology & AI Leader | Cloud & SaaS Architect | Applied Research Mentor  
-[LinkedIn](https://linkedin.com/in/dbkishore) • [GitHub](https://github.com/kishoredb) • [Email](mailto:kishoredb@gmail.com)
+## 🧠 Research Focus Areas
+
+**AI & Machine Learning**  
+Representation learning • Scientific ML • Process modeling & optimization • XAI • Healthcare AI • Clinical NLP
+
+**Computational Systems**  
+Cloud-native simulation & optimization pipelines • Distributed training • Scalable inference • Data orchestration
+
+**Engineering & Architecture**  
+Platform strategy • API ecosystems • Microservices • High-availability systems • R&D frameworks
 
 ---
 
-## ⭐ Acknowledgments
-Inspired by years of engineering and research collaboration in financial-cloud systems and AI-innovation communities.
+## ⭐ Signature Contributions (high level)
 
+- **AI Platform for Financial & Scientific Workflows**  
+  Architected cloud-native pipelines integrating ML toolkits, numerical solvers, optimization engines, reproducibility workflows, and XAI layers. Adopted across 3,400+ institutions.
 
+- **Clinical Analytics & Healthcare ML Modules**  
+  Developed clinical prediction frameworks (medical NLP, risk modeling, EHR-compatible data layers, outcome prediction).
 
+- **Lending Intelligence Systems**  
+  Designed rule- and ML-driven systems for credit scoring, adjudication, document intelligence, and process optimization.
 
+---
+
+## 📈 Included Artifacts
+
+Within this repository you will find architecture diagrams, platform blueprints, end-to-end workflow explanations, benchmark summaries, and experiment logs. See the documentation in the `docs/` folder (if present) for PDFs and extended technical reports.
+
+---
+
+## 📚 Recommended entry points for reviewers
+
+1. Start with **Selected Works** (`selected-works.md`) — flagship research/engineering items.  
+2. Read **Talks** (`talks.md`) — narrative explanations of research direction.  
+3. Inspect **Technical Projects** (`tech-projects.md`) — reproductions or demos.  
+4. Review **Publications** (`publications.md`) — formal outputs.  
+5. Use the JSON indices for automated export or import (`*.json`).
+
+---
+
+## 🌐 External Profiles & Citation
+
+- **ORCID:** https://orcid.org/0009-0003-3116-5000  
+- **GitHub:** https://github.com/kishoredb  
+- **LinkedIn:** Available on request
+
+If you reuse or cite artifacts from this repository, please use the DOI/CITATION suggested in `CITATION.cff` or contact me at `kishoredb@gmail.com`.
+
+---
+
+## 📨 Contact
+
+**Kishore D. B.** — `kishoredb@gmail.com`  
+Open to collaborations in **AI platforms**, **scientific ML**, **computational intelligence**, and **R&D architecture**.
+
+---
