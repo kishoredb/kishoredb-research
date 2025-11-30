@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./assets/hero.jpg" width="100%" />
+</p>
+
+
 # 📘 Kishore D. B. — Research & Engineering Portfolio
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--3116--5000-green?logo=orcid&style=flat)](https://orcid.org/0009-0003-3116-5000)
