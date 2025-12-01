@@ -1,1 +1,21 @@
+[
+  {
+    "id": "talk-2022-devsecops",
+    "title": "DevSecOps Culture for AI & Computational Engineering",
+    "year": 2022,
+    "event": "Global Engineering Summit",
+    "type": "invited-talk",
+    "domains": ["ai-engineering", "governance", "platform-reliability"],
+    "summary": "Talk on observability, explainability, traceability, and security controls in AI/HPC pipelines."
+  },
+  {
+    "id": "talk-2023-xai-simulation",
+    "title": "Explainable AI for Simulation Workflows",
+    "year": 2023,
+    "event": "Finastra Innovation Forum",
+    "type": "invited-presentation",
+    "domains": ["scientific-ml", "xai"],
+    "summary": "Presented explainability layers for simulation-driven ML workflows with SHAP and gradient-based methods."
+  }
+]
 
