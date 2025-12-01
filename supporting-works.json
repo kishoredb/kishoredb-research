@@ -1,1 +1,75 @@
 
+[
+  {
+    "id": "sw-2023-sim-data-toolkit",
+    "title": "Simulation Data Processing Toolkit",
+    "years": "2023-2024",
+    "type": "experiment-toolkit",
+    "domain": ["scientific-ml", "simulation-data"],
+    "summary": "Python utilities for preparing simulation datasets, feature extraction, normalization, and dataset versioning.",
+    "visibility": "internal-summary"
+  },
+  {
+    "id": "sw-2023-xai-dashboard",
+    "title": "Model Explainability Dashboard",
+    "year": 2023,
+    "type": "prototype",
+    "domain": ["xai", "ui", "apis"],
+    "summary": "Interactive dashboard aggregating SHAP, sensitivity, and gradient-based interpretability metrics.",
+    "visibility": "internal"
+  },
+  {
+    "id": "sw-2022-batch-orchestration",
+    "title": "Cloud-Native Batch Orchestration Templates",
+    "years": "2022-2023",
+    "type": "iac-templates",
+    "domain": ["hpc", "kubernetes"],
+    "summary": "Reusable IaC templates for orchestrating simulation and ML batch workloads on AKS.",
+    "visibility": "internal-summary"
+  },
+  {
+    "id": "sw-2021-ts-feature-lib",
+    "title": "Time-Series Feature Engineering Library",
+    "year": 2021,
+    "type": "python-library",
+    "domain": ["forecasting", "anomaly-detection"],
+    "summary": "Internal library for automated lag creation, decomposition, transforms, and anomaly prefilters.",
+    "visibility": "internal"
+  },
+  {
+    "id": "sw-2020-ehr-normalization",
+    "title": "EHR Data Normalization Pipeline",
+    "years": "2020-2021",
+    "type": "data-engineering-prototype",
+    "domain": ["healthcare-ml"],
+    "summary": "Rules-based and statistical normalization pipeline for heterogeneous medical datasets.",
+    "visibility": "internal-summary"
+  },
+  {
+    "id": "sw-2020-param-sweeps",
+    "title": "Parameter Sweep Experiment Scripts",
+    "years": "2020-Present",
+    "type": "automation-scripts",
+    "domain": ["optimization", "simulation"],
+    "summary": "Shell/Python experiment toolkit for large-scale parameter sweeps in simulation workflows.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sw-2024-learning-analytics",
+    "title": "Learning Analytics Prototype for Simulation Tasks",
+    "year": 2024,
+    "type": "exploratory-prototype",
+    "domain": ["education", "learning-analytics"],
+    "summary": "Prototype that collects student behavior patterns during simulation-based tasks.",
+    "visibility": "concept-summary"
+  },
+  {
+    "id": "sw-2019-observability-pack",
+    "title": "Microservice Observability Pack",
+    "years": "2019-2020",
+    "type": "engineering-toolkit",
+    "domain": ["platform-reliability"],
+    "summary": "Logging, tracing, and health-check utilities for ML microservices.",
+    "visibility": "public-summary"
+  }
+]
