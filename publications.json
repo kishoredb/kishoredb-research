@@ -1,1 +1,87 @@
+[
+  {
+    "id": "pub-2025-inverse-modeling",
+    "title": "AI-Enhanced Inverse Modeling Framework",
+    "year": 2025,
+    "type": "manuscript-in-preparation",
+    "authors": ["Kishore D. B."],
+    "areas": ["scientific-ml", "inverse-problems", "optimization", "xai"],
+    "status": "in-preparation",
+    "abstract": "Research manuscript exploring an explainable AI method for parameter inversion in physics-based models, combining uncertainty quantification and interpretable latent parameter spaces.",
+    "repository_path": "publications.md",
+    "visibility": "internal-draft"
+  },
+  {
+    "id": "pub-2023-aegis-framework",
+    "title": "Aegis: An AI-Driven Innovation & Simulation Framework",
+    "year": 2023,
+    "type": "internal-whitepaper",
+    "authors": ["Kishore D. B."],
+    "areas": ["simulation", "scientific-ml", "hpc", "platforms"],
+    "status": "completed",
+    "abstract": "Technical whitepaper describing a modular framework that integrates simulation data, explainable ML, and distributed HPC pipelines for reproducible experimentation and model comparison.",
+    "repository_path": "whitepapers/",
+    "visibility": "internal-summary-available"
+  },
+  {
+    "id": "pub-2022-credscore",
+    "title": "CredScore: Explainable Credit Risk Modeling",
+    "year": 2022,
+    "type": "technical-report",
+    "authors": ["Kishore D. B."],
+    "areas": ["credit-risk", "xai", "fintech"],
+    "status": "completed",
+    "abstract": "Report documenting an interpretable credit scoring engine using tree-based models and SHAP/LIME explanations, developed for the Finastra AI Innovation Challenge 2022.",
+    "repository_path": "projects/",
+    "visibility": "summary-only"
+  },
+  {
+    "id": "pub-2021-fraud-engine",
+    "title": "AI-Driven Fraud Detection Engine",
+    "year": 2021,
+    "type": "internal-report",
+    "authors": ["Kishore D. B."],
+    "areas": ["fraud-detection", "time-series", "nlp"],
+    "status": "completed",
+    "abstract": "Internal report on a hybrid anomaly detection and NLP pipeline for real-time financial transaction monitoring.",
+    "repository_path": "projects/",
+    "visibility": "internal"
+  },
+  {
+    "id": "pub-2024-hpc-simulator",
+    "title": "Cloud HPC Workflow Simulator: Orchestration for Distributed Experiments",
+    "year": 2024,
+    "type": "prototype-design-report",
+    "authors": ["Kishore D. B."],
+    "areas": ["hpc", "orchestration", "cloud-native"],
+    "status": "draft",
+    "abstract": "Design document for an orchestration layer that manages distributed simulation experiments using Kubernetes and Python-based workflows.",
+    "repository_path": "projects/",
+    "visibility": "internal-summary-available"
+  },
+  {
+    "id": "pub-2020-xai-visualization-curriculum",
+    "title": "Explainable AI & Scientific Visualization Curriculum",
+    "year": 2020,
+    "type": "educational-material",
+    "authors": ["Kishore D. B."],
+    "areas": ["xai", "visualization", "education"],
+    "status": "completed",
+    "abstract": "Curriculum modules linking explainable ML with simulation visualization and computational thinking activities.",
+    "repository_path": "publications.md",
+    "visibility": "summary-only"
+  },
+  {
+    "id": "pub-2024-learning-analytics-ct",
+    "title": "Learning Analytics for Computational Thinking in Simulation Tasks",
+    "year": 2024,
+    "type": "conceptual-framework",
+    "authors": ["Kishore D. B."],
+    "areas": ["learning-analytics", "education", "simulation"],
+    "status": "concept",
+    "abstract": "Framework proposal for analyzing student reasoning during simulation-based tasks using learning analytics and adaptive feedback models.",
+    "repository_path": "publications.md",
+    "visibility": "concept"
+  }
+]
 
