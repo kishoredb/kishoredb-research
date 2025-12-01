@@ -1,1 +1,43 @@
+[
+  {
+    "id": "pat-2023-sec41",
+    "title": "Automated Vulnerability Classification & Prioritization",
+    "year": 2023,
+    "type": "technical-disclosure",
+    "status": "internal",
+    "domain": ["security", "ml-classification", "saas"],
+    "description": "ML-assisted triage framework for vulnerability classification and prioritization in multi-tenant SaaS environments.",
+    "visibility": "summary"
+  },
+  {
+    "id": "pat-2023-xai-simulation",
+    "title": "Explainable AI Framework for Simulation-Based Decision Systems",
+    "year": 2023,
+    "type": "concept-disclosure",
+    "status": "internal",
+    "domain": ["xai", "simulation", "scientific-ml"],
+    "description": "Method for generating structured explanations for simulation-driven ML models using SHAP, gradient analysis, and sensitivity indices.",
+    "visibility": "summary"
+  },
+  {
+    "id": "pat-2022-doc-intel",
+    "title": "AI-Driven Document Intelligence Normalization Pipeline",
+    "year": 2022,
+    "type": "draft-disclosure",
+    "status": "internal",
+    "domain": ["nlp", "document-intelligence", "fintech"],
+    "description": "Architecture for document extraction using rule-enhanced NLP and ONNX-based inference with explainability layers.",
+    "visibility": "summary"
+  },
+  {
+    "id": "pat-2024-hpc-orchestration",
+    "title": "Distributed Simulation Job Orchestration Framework",
+    "year": 2024,
+    "type": "research-disclosure",
+    "status": "internal",
+    "domain": ["hpc", "kubernetes", "scientific-workflows"],
+    "description": "Kubernetes-native orchestration framework for large-scale simulation tasks with metadata tracking and deterministic replay.",
+    "visibility": "summary"
+  }
+]
 
