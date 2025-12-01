@@ -43,12 +43,6 @@ This repository collects work across **AI platforms**, **scientific ML**, and **
 
 ## 🧠 Research Focus Areas
 
-<p align="center">
-  <img src="./assets/research-card-ai-platforms.png" width="32%" />
-  <img src="./assets/research-card-sciml.png" width="32%" />
-  <img src="./assets/research-card-hpc-simulation.png" width="32%" />
-</p>
-
 **AI & Machine Learning**  
 Representation learning • Scientific ML • Process modeling & optimization • XAI • Healthcare AI • Clinical NLP
 
@@ -58,6 +52,11 @@ Cloud-native simulation & optimization pipelines • Distributed training • Sc
 **Engineering & Architecture**  
 Platform strategy • API ecosystems • Microservices • High-availability systems • R&D frameworks
 
+<p align="center">
+  <img src="./assets/research-card-ai-platforms.png" width="32%" />
+  <img src="./assets/research-card-sciml.png" width="32%" />
+  <img src="./assets/research-card-hpc-simulation.png" width="32%" />
+</p>
 ---
 
 ## ⭐ Signature Contributions (high level)
