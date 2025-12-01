@@ -1,1 +1,39 @@
+[
+  {
+    "id": "swk-2020-aegis",
+    "title": "Aegis — AI-Driven Innovation & Simulation Framework",
+    "years": "2020-Present",
+    "type": "framework-architecture",
+    "domain": ["scientific-ml", "simulation", "cloud-native"],
+    "summary": "Modular framework integrating simulation pipelines, XAI, and HPC workflows with reproducible experimentation.",
+    "visibility": "summary"
+  },
+  {
+    "id": "swk-2025-inverse-modeling",
+    "title": "AI-Enhanced Inverse Modeling Framework",
+    "year": 2025,
+    "type": "manuscript-in-preparation",
+    "domain": ["inverse-problems", "xai"],
+    "summary": "Explainable AI approach for parameter inversion with uncertainty quantification and interpretable latent structures.",
+    "visibility": "summary"
+  },
+  {
+    "id": "swk-2022-credscore",
+    "title": "CredScore — Explainable Credit Risk Modeling",
+    "year": 2022,
+    "type": "applied-ai-prototype",
+    "domain": ["credit-risk", "xai"],
+    "summary": "Interpretable scoring engine using SHAP/LIME for regulated lending.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "swk-2023-sec41",
+    "title": "Technical Disclosure #SEC-2023-41",
+    "year": 2023,
+    "type": "technical-disclosure",
+    "domain": ["security", "ml-classification"],
+    "summary": "ML-assisted vulnerability classification and prioritization for SaaS systems.",
+    "visibility": "summary"
+  }
+]
 
