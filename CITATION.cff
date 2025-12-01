@@ -1,1 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this repository for research, teaching, or software development, please cite it as described below."
+title: "kishoredb-research: Research & Engineering Portfolio"
+version: "1.0.0"
+date-released: "2025-12-01"
+
+authors:
+  - family-names: "Kishore"
+    given-names: "D. B."
+    orcid: "https://orcid.org/0009-0003-3116-5000"
+
+repository-code: "https://github.com/kishoredb/kishoredb-research"
+
+abstract: >
+  A curated and structured collection of research contributions across scientific
+  machine learning (SciML), computational systems engineering, simulation workflows,
+  applied AI, and cloud-native architectures. This portfolio includes selected works,
+  supporting research artifacts, publications, technical projects, talks, patents,
+  and machine-readable metadata, designed to support academic evaluation, reproducible
+  research workflows, and applied engineering analysis.
+
+keywords:
+  - scientific machine learning
+  - simulation workflows
+  - cloud-native computing
+  - AI platforms
+  - numerical optimization
+  - computational engineering
+  - MLOps
+  - scientific computing
+  - applied AI
+
+preferred-citation:
+  type: software
+  title: "kishoredb-research: Research & Engineering Portfolio"
+  authors:
+    - family-names: "Kishore"
+      given-names: "D. B."
+  year: 2025
+  url: "https://github.com/kishoredb/kishoredb-research"
 
