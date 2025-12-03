@@ -92,13 +92,5 @@ checklist for building safer services without slowing innovation.
 ---
 
 ## Summary  
-These talks reflect where engineering, community, and human-centered values  
-intersect in my work. They highlight my focus on:
-
-- mentoring  
-- security culture  
-- responsible AI in lending  
-- practical cloud architecture  
-
-All sessions are based on **real experiences**, not theory —  
-delivered with the intent to simplify, uplift, and empower teams and individuals.
+These talks highlight my focus on practical engineering, responsible AI,  
+secure cloud systems, and long-term mentoring contributions.
