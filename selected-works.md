@@ -1,130 +1,131 @@
-# ⭐ Selected Research & Technical Works  
+# ⭐ Selected Research & Engineering Works  
 **Author:** Kishore D. B.  
-**Version:** 1.1  
-**Updated:** 2025-12-01  
+**Version:** 2.1  
+**Updated:** 2025-12-02  
 
-These selected works represent high-impact contributions at the intersection of  
-**AI platforms**, **scientific computing**, **simulation workflows**,  
-**optimization**, and **enterprise-scale engineering**.  
-Each item connects engineering depth with applied or scientific research themes.
-
----
-
-## 1. Aegis — AI-Driven Innovation & Simulation Framework  
-**Years:** 2020–Present  
-**Type:** Applied Research / Framework Architecture  
-**Domain:** Scientific ML, simulation intelligence, cloud-native systems  
-
-A modular framework integrating simulation data pipelines, explainable ML  
-components, parameter exploration utilities, and distributed HPC workflows.  
-Supports reproducible experiments, semantic indexing, model comparisons,  
-and wide-parameter exploration for scientific or financial workloads.
+These selected works reflect real, high-impact engineering and applied AI contributions spanning  
+**NLP**, **credit analytics**, **fraud detection**, **healthcare analytics**, **cloud modernization**,  
+and **secure SaaS design**. Each item is fully grounded in practical systems you designed, led,  
+or delivered — providing a credible and confidently explainable portfolio for academic and industry review.
 
 ---
 
-## 2. AI-Enhanced Inverse Modeling Framework  
-**Year:** 2025  
-**Type:** Research Manuscript (In Preparation)  
-**Domain:** Inverse problems, parameter estimation, explainable ML  
+## 1. Aegis — NLP-Driven Video Intelligence Platform  
+**Years:** 2020–2021  
+**Type:** Applied AI Platform  
+**Domains:** NLP, video analytics, content intelligence  
 
-Explores an explainable AI approach for parameter inversion in physics-based  
-models, integrating uncertainty quantification and interpretable latent  
-parameter structures. The work enhances transparency in simulation-driven  
-decision pipelines.
+Developed an intelligent platform combining NLP-based transcription, semantic analysis,  
+and metadata extraction for video archives. Delivered automated tagging, summarization,  
+sentiment insights, and content search capabilities. Designed to support media indexing,  
+governance workflows, and knowledge retrieval.
 
 ---
 
-## 3. CredScore — Explainable Credit Risk Modeling  
-**Year:** 2022  
+## 2. CredScore — Explainable Credit Scoring System  
+**Years:** 2022–2023  
+**Type:** Applied ML System  
+**Domains:** Fintech, explainable ML, risk analytics  
+
+Built an interpretable credit scoring engine integrating ML models, SHAP/LIME explanations,  
+rule-based logic, and regulatory compliance features. Designed to support transparent decision  
+making in retail and corporate lending workflows. Recognized internally for innovation.
+
+---
+
+## 3. Real-Time Fraud Detection Engine  
+**Year:** 2023  
 **Type:** Applied AI Prototype  
-**Recognition:** Finastra AI Innovation Challenge 2022 (Awarded)  
-**Domain:** Fintech, interpretability, credit risk  
+**Domains:** Fraud analytics, anomaly detection, NLP  
 
-An interpretable credit scoring engine leveraging tree-based models with  
-SHAP- and LIME-based reasoning layers. Focused on transparent decision  
-support in regulated lending environments.
-
----
-
-## 4. Technical Disclosure #SEC-2023-41  
-**Year:** 2023  
-**Type:** Security-focused ML Disclosure  
-**Domain:** Security automation, SaaS systems  
-
-An ML-assisted vulnerability classification and prioritization mechanism  
-designed for multi-tenant cloud systems. Integrates risk scoring, ML  
-signals, and rule-engine overrides.
+Created a hybrid fraud detection pipeline using time-series signal analysis, pattern scoring,  
+and NLP-based feature extraction. Designed for near–real-time detection with explainable anomaly  
+flags and workflow integration for risk operations.
 
 ---
 
-## 5. AI-Driven Fraud Detection Engine  
-**Years:** 2021–2023  
-**Type:** Applied Computational AI  
-**Domain:** Anomaly detection, NLP, financial fraud  
+## 4. SmartCare — Eldercare Analytics Platform  
+**Years:** 2003–2006  
+**Type:** Applied Analytics Platform  
+**Domains:** Healthcare analytics, social care, decision support  
 
-A hybrid system combining time-series anomaly models and NLP-based  
-transaction analysis to surface potentially fraudulent activity in  
-real time. Includes probabilistic scoring and rule-based filters.
+Designed an early care analytics platform leveraging rule-based reasoning, symptom pattern  
+evaluation, and patient monitoring workflows. Used in eldercare settings for triage support,  
+early warning signals, and caregiver recommendations — long before modern ML tooling existed.
 
 ---
 
-## 6. DevSecOps Culture for AI & Computational Engineering  
+## 5. Cloud Cost Observability & Optimization  
+**Year:** 2021  
+**Type:** Engineering Whitepaper  
+**Domains:** Cloud governance, FinOps, observability engineering  
+
+Whitepaper outlining a systematic approach to cloud cost transparency, budgeting, and  
+runtime optimization. Covered metrics instrumentation, usage attribution, forecasting patterns,  
+and operational guardrails for controlled, predictable cost behavior.
+
+---
+
+## 6. Event-Driven ISO20022 Modernization  
 **Year:** 2022  
-**Type:** Invited Talk (Engineering Summit)  
-**Domain:** AI governance, reliability engineering  
+**Type:** Architecture Whitepaper  
+**Domains:** Payments modernization, event-driven systems, cloud-native design  
 
-A talk outlining frameworks for observability, explainability, traceability,  
-and governance in ML-in-production and HPC workflow settings.
+Documented architectural principles and integration patterns for cloud-ready ISO20022 payments  
+processing pipelines. Included schema transformation strategies, event orchestration, and  
+resilience principles for regulated financial ecosystems.
 
 ---
 
-## 7. Explainable AI for Simulation Workflows  
+## 7. Secure SaaS on Azure — DevSecOps Blueprint  
 **Year:** 2023  
-**Type:** Invited Research Presentation  
-**Domain:** Simulation-based ML, explainability  
+**Type:** Security Engineering Whitepaper  
+**Domains:** SaaS security, DevSecOps, cloud architecture  
 
-Introduced structured interpretation methods (SHAP, gradients, sensitivity  
-indices) for simulation-driven ML models and illustrated integration  
-patterns for model introspection tools.
-
----
-
-## 8. Cloud HPC Workflow Simulator  
-**Years:** 2023–Present  
-**Type:** Technical Prototype  
-**Domain:** HPC orchestration, distributed workflows  
-
-A workflow simulator enabling distributed simulation experiments using  
-Kubernetes (AKS), autoscaling, and Python-based orchestration systems.  
-Supports metadata capture, run lineage, and deterministic replay.
+Produced a reference architecture and technical blueprint for secure SaaS workloads on Azure.  
+Covered authentication flows, data isolation, traceability, policy enforcement, threat modeling,  
+pipeline security, and observability foundations.
 
 ---
 
-## 9. Explainable AI & Scientific Visualization Curriculum  
+## 8. DevSecOps Culture for Regulated SaaS  
 **Years:** 2020–2023  
-**Type:** Educational Framework  
-**Domain:** XAI, visualization, computational pedagogy  
+**Type:** Invited Talk  
+**Domains:** Engineering leadership, DevSecOps, SaaS governance  
 
-Developed instructional modules connecting explainable ML concepts with  
-simulation visualization and computational thinking learning pathways.
+Delivered a widely attended session on building robust DevSecOps culture in regulated industries.  
+Covered security-by-design, auditability, reproducibility, and platform governance practices  
+critical in large enterprise SaaS environments.
 
 ---
 
-## 10. Learning Analytics for Computational Thinking  
-**Year:** 2024  
-**Type:** Educational Research Framework  
-**Domain:** Learning analytics, simulation education  
+## 9. AI-Driven Credit Analytics in Lending Platforms  
+**Years:** 2021–2023  
+**Type:** Invited Talk  
+**Domains:** AI in lending, explainability, financial analytics  
 
-A conceptual framework for studying student reasoning patterns during  
-simulation tasks using learning analytics, interaction data, and  
-adaptive feedback methods.
+Presented approaches to integrating ML-driven credit scoring, document intelligence,  
+and risk assessment into lending workflows. Discussed feature engineering, transparency,  
+bias considerations, and operational alignment with credit teams.
+
+---
+
+## 10. Automated Security Vulnerability Triaging  
+**Disclosure ID:** SEC-2023-41  
+**Year:** 2023  
+**Type:** Technical Disclosure / Patent  
+**Domains:** Security automation, ML classification, multi-tenant SaaS  
+
+Authored a technical disclosure describing an ML-assisted vulnerability triage system for  
+multi-tenant cloud applications. Designed to combine static/dynamic analysis signals with  
+risk scoring and priority classification for large-scale SaaS deployments.
 
 ---
 
 ## Summary  
-These selected works highlight core contributions that link **modeling**,  
-**simulation**, **explainability**, **cloud-native computation**, **research-driven  
-engineering**, and **computational pedagogy**.  
-They represent the highest-level outputs across research, engineering, and  
-applied scientific computing domains.
-
+These Selected Works capture the core of my real, hands-on contributions across  
+**applied AI**, **credit and fraud analytics**, **secure SaaS engineering**,  
+**cloud modernization**, **healthcare analytics**, and **DevSecOps leadership**.  
+They reflect systems I personally designed, implemented, or led — allowing for  
+authentic, confident discussion in technical interviews, academic evaluations,  
+and doctoral application reviews.
