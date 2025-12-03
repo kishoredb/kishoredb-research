@@ -1,75 +1,74 @@
-
 [
   {
-    "id": "sw-2023-sim-data-toolkit",
-    "title": "Simulation Data Processing Toolkit",
-    "years": "2023-2024",
-    "type": "experiment-toolkit",
-    "domain": ["scientific-ml", "simulation-data"],
-    "summary": "Python utilities for preparing simulation datasets, feature extraction, normalization, and dataset versioning.",
-    "visibility": "internal-summary"
-  },
-  {
-    "id": "sw-2023-xai-dashboard",
-    "title": "Model Explainability Dashboard",
-    "year": 2023,
-    "type": "prototype",
-    "domain": ["xai", "ui", "apis"],
-    "summary": "Interactive dashboard aggregating SHAP, sensitivity, and gradient-based interpretability metrics.",
-    "visibility": "internal"
-  },
-  {
-    "id": "sw-2022-batch-orchestration",
-    "title": "Cloud-Native Batch Orchestration Templates",
-    "years": "2022-2023",
-    "type": "iac-templates",
-    "domain": ["hpc", "kubernetes"],
-    "summary": "Reusable IaC templates for orchestrating simulation and ML batch workloads on AKS.",
-    "visibility": "internal-summary"
-  },
-  {
-    "id": "sw-2021-ts-feature-lib",
-    "title": "Time-Series Feature Engineering Library",
-    "year": 2021,
-    "type": "python-library",
-    "domain": ["forecasting", "anomaly-detection"],
-    "summary": "Internal library for automated lag creation, decomposition, transforms, and anomaly prefilters.",
-    "visibility": "internal"
-  },
-  {
-    "id": "sw-2020-ehr-normalization",
-    "title": "EHR Data Normalization Pipeline",
-    "years": "2020-2021",
-    "type": "data-engineering-prototype",
-    "domain": ["healthcare-ml"],
-    "summary": "Rules-based and statistical normalization pipeline for heterogeneous medical datasets.",
-    "visibility": "internal-summary"
-  },
-  {
-    "id": "sw-2020-param-sweeps",
-    "title": "Parameter Sweep Experiment Scripts",
-    "years": "2020-Present",
-    "type": "automation-scripts",
-    "domain": ["optimization", "simulation"],
-    "summary": "Shell/Python experiment toolkit for large-scale parameter sweeps in simulation workflows.",
+    "id": "sup-aks-deploy-automation",
+    "title": "AKS-Based Deployment Automation Framework",
+    "years": "2020-2023",
+    "type": "engineering-infrastructure",
+    "domains": ["kubernetes", "azure", "devops"],
+    "summary": "Deployment automation templates for AKS using Helm charts, gated approvals, and environment-specific configuration.",
     "visibility": "public-summary"
   },
   {
-    "id": "sw-2024-learning-analytics",
-    "title": "Learning Analytics Prototype for Simulation Tasks",
-    "year": 2024,
-    "type": "exploratory-prototype",
-    "domain": ["education", "learning-analytics"],
-    "summary": "Prototype that collects student behavior patterns during simulation-based tasks.",
-    "visibility": "concept-summary"
+    "id": "sup-cicd-governance",
+    "title": "CI/CD Governance Pipelines for Regulated SaaS",
+    "years": "2020-2023",
+    "type": "devsecops",
+    "domains": ["ci-cd", "compliance", "pipeline-security"],
+    "summary": "Governance-focused CI/CD pipelines with scanning, artifact signing, promotion gates, and auditability for regulated SaaS.",
+    "visibility": "public-summary"
   },
   {
-    "id": "sw-2019-observability-pack",
-    "title": "Microservice Observability Pack",
-    "years": "2019-2020",
-    "type": "engineering-toolkit",
-    "domain": ["platform-reliability"],
-    "summary": "Logging, tracing, and health-check utilities for ML microservices.",
+    "id": "sup-observability-layer",
+    "title": "Centralized Observability & Telemetry Layer",
+    "years": "2021-2023",
+    "type": "observability",
+    "domains": ["monitoring", "tracing", "finops"],
+    "summary": "Unified telemetry layer with tracing, structured logs, metrics, and cost probes for SaaS workloads.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sup-api-gateway",
+    "title": "API Gateway Architecture for Multi-Product SaaS",
+    "year": 2022,
+    "type": "platform-architecture",
+    "domains": ["api-design", "security", "routing"],
+    "summary": "Architecture for secure API gateway handling routing, throttling, RBAC, token validation, and lifecycle consistency.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sup-doc-classification",
+    "title": "Document Classification Prototype (NLP)",
+    "year": 2021,
+    "type": "ai-prototype",
+    "domains": ["nlp", "document-intelligence"],
+    "summary": "Prototype NLP classifier for routing documents in lending workflows, reducing manual effort and improving consistency.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sup-risk-flagging",
+    "title": "Rule-Augmented Risk Flagging Utility",
+    "years": "2020-2022",
+    "type": "analytics-component",
+    "domains": ["credit-risk", "heuristics"],
+    "summary": "Hybrid rules + heuristic system used as a transparent pre-check before ML-based credit scoring.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sup-data-quality-layer",
+    "title": "Data Quality Validation Layer for Credit & Fraud Pipelines",
+    "years": "2021-2023",
+    "type": "data-engineering",
+    "domains": ["data-validation", "pipeline-reliability"],
+    "summary": "Reusable validation layer ensuring schema correctness, completeness, and temporal consistency for analytics pipelines.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sup-devsecops-maturity",
+    "title": "DevSecOps Maturity Model & Assessment Toolkit",
+    "year": 2023,
+    "type": "leadership-artifact",
+    "domains": ["devsecops", "platform-governance"],
+    "summary": "Maturity model and assessment toolkit with rubrics, tiers, and best practices for regulated cloud SaaS teams.",
     "visibility": "public-summary"
   }
 ]
