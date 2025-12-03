@@ -1,39 +1,92 @@
 [
   {
-    "id": "swk-2020-aegis",
-    "title": "Aegis — AI-Driven Innovation & Simulation Framework",
-    "years": "2020-Present",
-    "type": "framework-architecture",
-    "domain": ["scientific-ml", "simulation", "cloud-native"],
-    "summary": "Modular framework integrating simulation pipelines, XAI, and HPC workflows with reproducible experimentation.",
-    "visibility": "summary"
-  },
-  {
-    "id": "swk-2025-inverse-modeling",
-    "title": "AI-Enhanced Inverse Modeling Framework",
-    "year": 2025,
-    "type": "manuscript-in-preparation",
-    "domain": ["inverse-problems", "xai"],
-    "summary": "Explainable AI approach for parameter inversion with uncertainty quantification and interpretable latent structures.",
-    "visibility": "summary"
-  },
-  {
-    "id": "swk-2022-credscore",
-    "title": "CredScore — Explainable Credit Risk Modeling",
-    "year": 2022,
-    "type": "applied-ai-prototype",
-    "domain": ["credit-risk", "xai"],
-    "summary": "Interpretable scoring engine using SHAP/LIME for regulated lending.",
+    "id": "sw-2020-aegis-video-intel",
+    "title": "Aegis — NLP-Driven Video Intelligence Platform",
+    "years": "2020-2021",
+    "type": "applied-ai-platform",
+    "domains": ["nlp", "video-analytics", "content-intelligence"],
+    "summary": "A platform combining NLP-based transcription, semantic indexing, and metadata extraction for intelligent video retrieval.",
     "visibility": "public-summary"
   },
   {
-    "id": "swk-2023-sec41",
-    "title": "Technical Disclosure #SEC-2023-41",
+    "id": "sw-2022-credscore",
+    "title": "CredScore — Explainable Credit Scoring System",
+    "years": "2022-2023",
+    "type": "ml-system",
+    "domains": ["fintech", "explainable-ml", "credit-risk"],
+    "summary": "An interpretable credit scoring engine integrating ML models, SHAP/LIME explanations, and rule-based validation for transparent lending.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sw-2023-fraud-detection",
+    "title": "Real-Time Fraud Detection Engine",
+    "year": 2023,
+    "type": "applied-ai-prototype",
+    "domains": ["fraud-analytics", "anomaly-detection", "nlp"],
+    "summary": "A hybrid anomaly detection pipeline combining time-series analysis, NLP-driven feature extraction, and pattern scoring.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sw-2003-smartcare",
+    "title": "SmartCare — Eldercare Analytics Platform",
+    "years": "2003-2006",
+    "type": "analytics-platform",
+    "domains": ["healthcare-analytics", "decision-support"],
+    "summary": "An early proactive care analytics system for symptom evaluation, triage support, and caregiver guidance in eldercare settings.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sw-2021-cloud-cost",
+    "title": "Cloud Cost Observability & Optimization",
+    "year": 2021,
+    "type": "engineering-whitepaper",
+    "domains": ["cloud-governance", "finops", "observability"],
+    "summary": "Whitepaper describing methods for cloud cost transparency, consumption analytics, and operational cost governance.",
+    "visibility": "summary"
+  },
+  {
+    "id": "sw-2022-iso20022-modernization",
+    "title": "Event-Driven ISO20022 Modernization",
+    "year": 2022,
+    "type": "architecture-whitepaper",
+    "domains": ["payments-modernization", "event-driven-architecture", "cloud-native-design"],
+    "summary": "Architecture paper outlining cloud-ready patterns for ISO20022 transformation, event orchestration, and schema modernization.",
+    "visibility": "summary"
+  },
+  {
+    "id": "sw-2023-secure-saas-devsecops",
+    "title": "Secure SaaS on Azure — DevSecOps Blueprint",
+    "year": 2023,
+    "type": "security-whitepaper",
+    "domains": ["saas-security", "devsecops", "cloud-architecture"],
+    "summary": "Blueprint for building secure SaaS systems on Azure with identity isolation, policy enforcement, CI/CD hardening, and observability.",
+    "visibility": "summary"
+  },
+  {
+    "id": "sw-2023-devsecops-talk",
+    "title": "DevSecOps Culture for Regulated SaaS",
+    "years": "2020-2023",
+    "type": "invited-talk",
+    "domains": ["devsecops", "saas-governance", "engineering-leadership"],
+    "summary": "Invited talk on establishing security-by-design engineering culture in regulated SaaS environments.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sw-2021-credit-analytics-talk",
+    "title": "AI-Driven Credit Analytics in Lending Platforms",
+    "years": "2021-2023",
+    "type": "invited-talk",
+    "domains": ["credit-analytics", "ai-in-lending", "explainable-ml"],
+    "summary": "Talk exploring ML-driven credit analytics, explainable underwriting models, and document intelligence in lending workflows.",
+    "visibility": "public-summary"
+  },
+  {
+    "id": "sw-2023-sec41-patent",
+    "title": "Automated Security Vulnerability Triaging — SEC-2023-41",
     "year": 2023,
     "type": "technical-disclosure",
-    "domain": ["security", "ml-classification"],
-    "summary": "ML-assisted vulnerability classification and prioritization for SaaS systems.",
-    "visibility": "summary"
+    "domains": ["security-automation", "ml-classification", "multi-tenant-saas"],
+    "summary": "Technical disclosure describing ML-assisted vulnerability classification and prioritization for multi-tenant SaaS platforms.",
+    "visibility": "public-summary"
   }
 ]
-
