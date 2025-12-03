@@ -1,75 +1,46 @@
 [
   {
-    "id": "tp-2022-inference-backend",
-    "title": "Cloud-Native Model Serving & Inference Backend",
-    "years": "2022-2023",
-    "type": "production-engineering",
-    "tech": ["python", "fastapi", "docker", "aks", "redis"],
-    "summary": "A scalable inference backend supporting batch and real-time ML workloads with versioning, async execution, and XAI integration.",
-    "visibility": "internal-summary"
-  },
-  {
-    "id": "tp-2023-simulation-runner",
-    "title": "Azure-Kubernetes Simulation Runner",
-    "years": "2023-Present",
-    "type": "hpc-orchestration",
-    "tech": ["aks", "argo", "keda", "python"],
-    "summary": "Distributed simulation runner supporting autoscaling, parameter sweeps, and experiment metadata capture on AKS.",
-    "visibility": "internal-summary"
-  },
-  {
-    "id": "tp-2021-feature-store",
-    "title": "Feature Store Prototype for Risk Modeling",
-    "year": 2021,
-    "type": "data-engineering-prototype",
-    "tech": ["python", "postgresql", "pandas", "prefect"],
-    "summary": "Workflow for defining, materializing, and validating ML features with lineage tracking.",
-    "visibility": "internal"
-  },
-  {
-    "id": "tp-2021-ts-library",
-    "title": "Python Library for Time-Series Signal Processing",
-    "year": 2021,
-    "type": "analytics-library",
-    "tech": ["numpy", "scipy", "statsmodels"],
-    "summary": "Toolkit supporting decomposition, transforms, and feature extraction for time-series workloads.",
-    "visibility": "internal-summary"
-  },
-  {
-    "id": "tp-2020-doc-intelligence",
-    "title": "Document Intelligence Extraction Pipeline",
-    "year": 2020,
-    "type": "applied-ml-prototype",
-    "tech": ["python", "spacy", "onnx", "ocr"],
-    "summary": "Pipeline for extracting structured data from unstructured financial documents.",
-    "visibility": "internal"
-  },
-  {
-    "id": "tp-2019-observability-pack",
-    "title": "Microservices Reliability & Observability Pack",
-    "years": "2019-2020",
-    "type": "engineering-toolkit",
-    "tech": ["opentelemetry", "prometheus", "grafana", "python"],
-    "summary": "Tracing, metrics, and health-check utilities for ML microservices.",
+    "id": "tp-2020-aegis-video-intel",
+    "title": "Aegis — NLP-Driven Video Intelligence Platform",
+    "years": "2020-2021",
+    "type": "ai-platform",
+    "domains": ["nlp", "video-analytics", "content-intelligence"],
+    "role": "lead-architect",
+    "summary": "AI-powered video intelligence platform with transcription, semantic indexing, tagging, and search workflows.",
+    "tech": ["python", "transformers", "microservices"],
     "visibility": "public-summary"
   },
   {
-    "id": "tp-2020-calibration-utils",
-    "title": "Automated Model Calibration Utilities",
-    "years": "2020-2022",
-    "type": "optimization-tools",
-    "tech": ["python", "scipy"],
-    "summary": "Optimization utilities for calibration and refinement of ML and simulation models.",
-    "visibility": "internal-summary"
+    "id": "tp-2022-credscore",
+    "title": "CredScore — Explainable Credit Scoring System",
+    "years": "2022-2023",
+    "type": "ml-system",
+    "domains": ["credit-analytics", "explainable-ml"],
+    "role": "system-architect",
+    "summary": "Transparent ML scoring engine with SHAP/LIME explainability and rule-based compliance components.",
+    "tech": ["python", "scikit-learn", "xgboost", "json-api"],
+    "visibility": "public-summary"
   },
   {
-    "id": "tp-2021-experiment-tracker",
-    "title": "Lightweight Experiment Tracking Module",
-    "years": "2021-Present",
-    "type": "research-tooling",
-    "tech": ["python", "sqlite", "json"],
-    "summary": "Simple experiment tracker for logging parameters, metrics, and artifacts without external dependencies.",
+    "id": "tp-2023-fraud-detection",
+    "title": "Real-Time Fraud Detection Engine",
+    "year": 2023,
+    "type": "anomaly-detection-engine",
+    "domains": ["fraud-analytics", "time-series", "nlp"],
+    "role": "engineering-lead",
+    "summary": "Hybrid real-time fraud detection system combining temporal analysis, NLP features, and rule triggers.",
+    "tech": ["event-streaming", "python", "microservices"],
+    "visibility": "public-summary"
+  },
+  {
+    "id": "tp-2003-smartcare",
+    "title": "SmartCare — Eldercare Analytics Platform",
+    "years": "2003-2006",
+    "type": "decision-support-system",
+    "domains": ["healthcare", "analytics", "decision-support"],
+    "role": "developer",
+    "summary": "Early rule-based eldercare decision support tool providing symptom evaluation and early warning insights.",
+    "tech": ["rule-engine", "lightweight-analytics"],
     "visibility": "public-summary"
   }
 ]
-
