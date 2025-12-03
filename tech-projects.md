@@ -1,107 +1,98 @@
-# 🧪 Technical Projects  
+# 🧩 Technical Projects  
 **Author:** Kishore D. B.  
-**Version:** 1.0  
-**Updated:** 2025-12-01  
+**Version:** 2.0  
+**Updated:** 2025-12-02  
 
-This page lists engineering-focused projects, prototypes, libraries, and  
-technical experiments spanning cloud-native systems, scientific ML, simulation  
-workflows, and applied AI engineering. These projects demonstrate hands-on  
-implementation depth supporting the research themes documented in this  
-repository.
+This page lists major technical systems and applied AI solutions I have engineered or led.  
+Each project reflects hands-on implementation, architectural design, and integration work  
+across AI-driven platforms, secure SaaS systems, and healthcare analytics.
 
 ---
 
-## 1. Cloud-Native Model Serving & Inference Backend  
+## 1. Aegis — NLP-Driven Video Intelligence Platform  
+**Years:** 2020–2021  
+**Domains:** NLP, video processing, content intelligence  
+**Role:** Lead Architect / Engineering Lead
+
+Aegis is an AI-powered video intelligence platform combining:
+
+- NLP-based speech-to-text transcription  
+- Semantic indexing & entity detection  
+- Text summarization and metadata tagging  
+- Content search workflows and knowledge retrieval tools  
+
+**Technical Highlights:**
+- Python backend with NLP pipelines  
+- Use of transformer-based models for transcription & tagging  
+- Modular processing using microservices  
+- Integration with content management & compliance workflows  
+
+---
+
+## 2. CredScore — Explainable Credit Scoring System  
 **Years:** 2022–2023  
-**Type:** Production engineering project  
-**Tech:** Python, FastAPI, Docker, AKS, Redis  
+**Domains:** Explainable ML, credit analytics, risk modelling  
+**Role:** System Architect / Technical Lead
 
-A scalable inference backend supporting batch and real-time prediction  
-workloads using containerized ML models. Includes model versioning,  
-asynchronous task execution, distributed caching, and explainability hooks  
-integrated with SHAP summaries.
+CredScore is a transparent ML system used for lending decisions.  
+It integrates:
 
----
+- Feature engineering workflows  
+- Gradient-boosted and linear ML models  
+- SHAP/LIME-based model explainability  
+- Policy and rule-based overrides for compliance  
+- Integration with loan origination systems  
 
-## 2. Azure-Kubernetes Simulation Runner  
-**Years:** 2023–Present  
-**Type:** HPC orchestration prototype  
-**Tech:** AKS, Argo Workflows, KEDA, Python  
-
-A distributed simulation runner enabling large-scale scientific workflows.  
-Supports parameter sweeps, job queueing, autoscaling, and experiment  
-metadata capture. Integrated with monitoring dashboards for experiment  
-health and resource utilization.
+**Technical Highlights:**
+- Built with Python, scikit-learn, XGBoost  
+- Real-time inference services  
+- JSON-based explainability outputs  
+- Designed for auditability and regulator alignment  
 
 ---
 
-## 3. Feature Store Prototype for Risk Modeling  
-**Year:** 2021  
-**Type:** Internal data engineering prototype  
-**Tech:** Python, PostgreSQL, Pandas, Prefect  
+## 3. Real-Time Fraud Detection Engine  
+**Year:** 2023  
+**Domains:** Anomaly detection, time-series analytics, NLP signals  
+**Role:** Engineering Lead
 
-Implements a workflow for defining, materializing, and querying ML features  
-used in credit risk and fraud detection models. Includes automated feature  
-validation, data-quality checks, and lineage tracking.
+This engine detects anomalous financial transactions using:
 
----
+- Temporal pattern analysis  
+- NLP-based metadata inspection  
+- Score fusion from multiple detectors  
+- Real-time rule triggers and risk flags  
 
-## 4. Python Library for Time-Series Signal Processing  
-**Year:** 2021  
-**Type:** Internal analytics toolkit  
-**Tech:** NumPy, SciPy, statsmodels  
-
-Lightweight internal library that supports detrending, decomposition,  
-wavelet-based transforms, and feature extraction for financial and  
-operational time-series.
+**Technical Highlights:**
+- Stream-processing pipeline (event-driven)  
+- Hybrid anomaly detection strategy  
+- Model introspection outputs for review teams  
+- Integration with fraud operations workflow  
 
 ---
 
-## 5. Document Intelligence Extraction Pipeline  
-**Year:** 2020  
-**Type:** Applied ML prototype  
-**Tech:** Python, spaCy, ONNX, cognitive OCR  
+## 4. SmartCare — Eldercare Analytics Platform  
+**Years:** 2003–2006  
+**Domains:** Healthcare analytics, social care decision support  
+**Role:** Developer / Research Assistant (Early Career)
 
-Pipeline for extracting structured data and semantic signals from  
-unstructured documents (bank statements, forms, financial text). Includes  
-custom rule-based postprocessing and model explainability summaries.
+SmartCare was an early analytics platform providing:
 
----
+- Symptom-based decision support  
+- Pattern-based triage recommendations  
+- Patient-specific early warning signals  
+- Monitoring dashboards for caregivers  
 
-## 6. Microservices Reliability & Observability Pack  
-**Years:** 2019–2020  
-**Type:** Engineering toolkit  
-**Tech:** OpenTelemetry, Prometheus, Grafana, Python  
-
-Provides tracing, structured logging, health-check libraries, and API-level  
-metrics aggregation for ML-enabled microservices.
-
----
-
-## 7. Automated Model Calibration Utilities  
-**Years:** 2020–2022  
-**Type:** Optimization utilities  
-**Tech:** Python, SciPy Optimize, statistical calibration methods  
-
-A set of utilities to perform model calibration, hyperparameter refinement,  
-and optimization-based model alignment for simulation and ML models.
-
----
-
-## 8. Lightweight Experiment Tracking Module  
-**Years:** 2021–Present  
-**Type:** Research tooling  
-**Tech:** Python, SQLite, JSON  
-
-Simple experiment tracker that logs parameters, metrics, artifacts, and  
-run metadata for small to mid-scale research workflows without requiring  
-external infrastructure.
+**Technical Highlights:**
+- Early rule-based reasoning system  
+- Lightweight analytics engine (pre-ML era)  
+- Domain modeling of eldercare scenarios  
+- Deployment in assisted-living environments  
 
 ---
 
 ## Summary  
-The above projects illustrate a combination of production-grade engineering  
-and research-oriented tooling. They provide the foundations for the larger  
-systems, frameworks, and research themes documented in the Selected Works  
-and Supporting Works sections.
-
+These technical projects highlight hands-on engineering depth across  
+**AI-driven intelligence systems**, **explainable ML**, **fraud analytics**,  
+and **healthcare decision support**. They demonstrate practical architecture,  
+implementation experience, and integration with enterprise platforms.
