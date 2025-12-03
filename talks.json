@@ -1,21 +1,38 @@
 [
   {
-    "id": "talk-2022-devsecops",
-    "title": "DevSecOps Culture for AI & Computational Engineering",
-    "year": 2022,
-    "event": "Global Engineering Summit",
+    "id": "talk-devsecops-culture",
+    "title": "DevSecOps Culture for Regulated SaaS",
+    "years": "2020-2023",
     "type": "invited-talk",
-    "domains": ["ai-engineering", "governance", "platform-reliability"],
-    "summary": "Talk on observability, explainability, traceability, and security controls in AI/HPC pipelines."
+    "audience": ["engineering-teams", "architects", "platform-leads"],
+    "summary": "A practical talk on building secure-by-design engineering culture in regulated SaaS environments with auditability, compliance alignment, and frictionless DevSecOps practices.",
+    "themes": ["devsecops", "security-culture", "saas", "platform-governance"]
   },
   {
-    "id": "talk-2023-xai-simulation",
-    "title": "Explainable AI for Simulation Workflows",
-    "year": 2023,
-    "event": "Finastra Innovation Forum",
-    "type": "invited-presentation",
-    "domains": ["scientific-ml", "xai"],
-    "summary": "Presented explainability layers for simulation-driven ML workflows with SHAP and gradient-based methods."
+    "id": "talk-credit-analytics-ai",
+    "title": "AI-Driven Credit Analytics in Lending Platforms",
+    "years": "2021-2023",
+    "type": "technical-talk",
+    "audience": ["data-science", "product-teams", "risk-operations"],
+    "summary": "A session on how ML enhances credit analytics with explainable modelling, hybrid rule+ML patterns, and regulatory alignment for lending workflows.",
+    "themes": ["credit-analytics", "explainable-ml", "lending", "responsible-ai"]
+  },
+  {
+    "id": "talk-women-in-tech-mentoring",
+    "title": "Women-in-Tech Mentoring Circle",
+    "years": "2011-2023",
+    "type": "mentorship-series",
+    "audience": ["women-in-tech", "early-career-engineers"],
+    "summary": "A long-running mentorship initiative supporting women in technology through coaching, workshops, and leadership growth.",
+    "themes": ["mentoring", "diversity", "leadership", "community"]
+  },
+  {
+    "id": "talk-secure-cloud-apis",
+    "title": "Secure Cloud APIs — Design to Deployment",
+    "year": 2022,
+    "type": "technical-talk",
+    "audience": ["platform-engineers", "solution-architects"],
+    "summary": "A hands-on session covering secure authentication patterns, API gateways, token flows, and versioning strategies for cloud-native API ecosystems.",
+    "themes": ["cloud-security", "api-architecture", "saas-security"]
   }
 ]
-
