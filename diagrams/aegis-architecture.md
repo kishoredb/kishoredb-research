@@ -89,8 +89,6 @@ Diagrams below reflect the real project—not theoretical modules.
 - **AEGIS.Search** — Query matching & ranking  
 - **AEGIS.Player** — Timestamp navigation  
 - **UI** — Upload, search, playback interfaces  
-```
-
 ---
 
 # 🧩 **1. AEGIS High-Level Architecture Diagram**
@@ -140,8 +138,12 @@ flowchart TD
 
     U2 --> Q1 --> Q2 --> Q3
     Q3 --> P1 --> P2 --> U3
+---
+
+
 
 🧪 2. AEGIS Experiment Workflow Diagram
+```mermaid
 flowchart LR
 
     UPLOAD[User Uploads Video] --> EXTAUD[Extract Audio (FFmpeg)]
