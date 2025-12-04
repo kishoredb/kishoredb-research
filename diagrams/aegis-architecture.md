@@ -1,6 +1,3 @@
-# 🧩 1. AEGIS High-Level Architecture Diagram
-
-```mermaid
 flowchart TD
 
     subgraph STT["AEGIS.STT — Speech-to-Text"]
@@ -27,7 +24,7 @@ flowchart TD
     end
 
     subgraph PLAYER["AEGIS.Player — Video Navigation"]
-        P1[Matched Timestamps]
+        P1[Matched Timestamps)]
         P2[Jump to Video Frame]
     end
 
