@@ -35,3 +35,26 @@ flowchart TB
     A5 --> A6
     A5 --> A7
 ```
+
+```mermaid
+flowchart TB
+
+    %% SEARCH
+    subgraph SEARCH [AEGIS.Search Module]
+        Q1[User Query Input]
+        Q2[Query Embedding Creation]
+        Q3[Vector Similarity Search]
+        Q4[Ranked Segment Results]
+        Q5[Timestamp Match Output]
+        SEARCH_NOTE[Note: Finds the best video segments]
+    end
+
+    %% UI
+    subgraph UI [User Interface]
+        U2[Search Interface]
+        U3[Video Player]
+        UI_NOTE[Note: Displays results and jumps to time]
+    end
+
+    U2 --> Q1 --> Q2 --> Q3 --> Q4 --> Q5 --> U3
+```
