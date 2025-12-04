@@ -131,10 +131,3 @@ By combining speech recognition, NLP, vector search, and timestamp-linked playba
 
 The architecture is intentionally modular—each component (STT, NLP, Index, Search, UI) can evolve independently as models and search technologies improve.  
 This design supports both applied industry use cases (training, compliance, support) and research workflows requiring scalable semantic retrieval.
-
-If you would like, I can also generate:
-
-- A PDF-ready version  
-- A GitHub Pages HTML version  
-- A single merged diagram  
-- A research-paper style architecture section  
