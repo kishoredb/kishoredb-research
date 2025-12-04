@@ -20,6 +20,7 @@ flowchart LR
     SEARCH --> METADATA
     METADATA --> RESULTS[Search Results / Insights]
     RESULTS --> U
+
 ```
 
 ---
