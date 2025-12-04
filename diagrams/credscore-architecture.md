@@ -30,9 +30,8 @@ flowchart LR
 
     SCORE --> LOS[Loan Origination System]
     SCORE --> REVIEW[Underwriter / Risk Review UI]
-```mermaid
 ---
-
+```
 ---
 
 ## Notes  
