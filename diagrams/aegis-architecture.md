@@ -1,47 +1,42 @@
 ```mermaid
 flowchart LR
 
-    %% =======================
+    %% Invisible spacers to widen layout
+    SPACE1[ ]:::invis
+    SPACE2[ ]:::invis
+    SPACE3[ ]:::invis
+
+    classDef invis fill=transparent,stroke=transparent;
+
     %% USER INTERFACE
-    %% =======================
     subgraph UI [User Interface]
         U1[Video Upload]
         U2[Search Interface]
         U3[Video Player]
     end
 
+    SPACE1 --- SPACE2 --- SPACE3
 
-    %% =======================
-    %% AEGIS.STT PIPELINE
-    %% =======================
+    %% AEGIS.STT
     subgraph STT [AEGIS.STT Module]
         A1[Audio Extraction - FFmpeg]
         A2[Speech To Text - Whisper Or Azure STT]
         A3[Transcript Normalization - Cleanup]
     end
 
-
-    %% =======================
-    %% AEGIS.NLP PIPELINE
-    %% =======================
+    %% AEGIS.NLP
     subgraph NLP [AEGIS.NLP Module]
         A4[Sentence Splitting And Chunking]
         A5[Embedding Creation - BERT / GPT]
     end
 
-
-    %% =======================
-    %% AEGIS.INDEX MODULE
-    %% =======================
+    %% AEGIS.Index
     subgraph INDEX [AEGIS.Index Module]
         A6[Transcript Storage - CosmosDB]
         A7[Vector Index Storage - Azure Search]
     end
 
-
-    %% =======================
-    %% AEGIS.SEARCH PIPELINE
-    %% =======================
+    %% AEGIS.Search
     subgraph SEARCH [AEGIS.Search Module]
         Q1[User Query Input]
         Q2[Query Embedding Creation]
@@ -50,20 +45,10 @@ flowchart LR
         Q5[Timestamp Match Output]
     end
 
+    %% Module-to-module flow
+    UI --> STT --> NLP --> INDEX --> SEARCH --> UI
 
-    %% =======================
-    %% HIGH LEVEL FLOW
-    %% =======================
-    UI --> STT
-    STT --> NLP
-    NLP --> INDEX
-    INDEX --> SEARCH
-    SEARCH --> UI
-
-
-    %% =======================
-    %% INTERNAL DATA FLOWS
-    %% =======================
+    %% Internal flows
     U1 --> A1
     A1 --> A2 --> A3 --> A4 --> A5
     A5 --> A6
