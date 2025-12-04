@@ -139,6 +139,7 @@ flowchart TD
     MC --> API
     MC --> RSCH
 ```
+
 ---
 
 # 🧪 2. AEGIS Experiment Workflow Diagram
@@ -195,4 +196,30 @@ flowchart LR
     RG3 --> DP1
     RG3 --> DP2
     RG3 --> DP3
+---
+
+# 🔄 3. AEGIS Dataflow Diagram
+
+```mermaid
+flowchart TD
+
+    RAW[Raw Inputs<br/>Transactional / Clinical / Behavioral] -->
+    VAL[Validation & Schema Enforcement] -->
+    FEAT[Feature Engineering<br/>Transformers / Encoders] -->
+    FSTORE[Feature Store<br/>Versioned Features]
+
+    FSTORE --> MLPREP[Model Prep<br/>Train/Test Splits]
+    FSTORE --> SINPUT[Simulation Input Layer]
+    FSTORE --> OINPUT[Optimization Input Layer]
+
+    MLPREP --> TRAIN[ML Training]
+    SINPUT --> SIMRUN[Sims / Solvers]
+    OINPUT --> OPTRUN[Optimization]
+
+    TRAIN --> OUT[Outputs<br/>Scores / Embeddings / Predictions]
+    SIMRUN --> OUT
+    OPTRUN --> OUT
+
+    OUT --> XAI[XAI Layer]
+    OUT --> DEC[Rules / Policies]
 
