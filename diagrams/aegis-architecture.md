@@ -4,7 +4,7 @@ flowchart TD
     %% AEGIS Speech to Text
     subgraph STT [Speech To Text Pipeline]
         A1[Audio Extraction - Video]
-        A2[Speech To Text - Whisper Or Azure]
+        A2[Speech To Text - Whisper / Azure]
         A3[Transcript Normalization - Cleanup]
     end
 
