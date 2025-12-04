@@ -242,4 +242,38 @@ flowchart LR
     MON --> RETRAIN[Triggered Retraining]
 
     RETRAIN --> TRAIN
+```
+
+---
+
+# ☁️ 5. AEGIS Multi-Cloud Deployment View
+
+```mermaid
+flowchart TD
+
+    subgraph CLOUD["Multi-Cloud Layer"]
+        AWS[AWS Cluster]
+        AZ[Azure Cluster]
+        GCP[GCP Cluster]
+    end
+
+    subgraph K8S["Kubernetes Control Plane"]
+        SCH[Scheduler]
+        AUTOSCALE[Auto-scaling Layer]
+        MESH[Service Mesh]
+    end
+
+    subgraph SVC["AEGIS Services"]
+        MLAPI[ML Inference API]
+        SIMAPI[Simulation API]
+        OPTAPI[Optimization API]
+        DECAPI[Decision Intelligence API]
+    end
+
+    AWS --> K8S
+    AZ --> K8S
+    GCP --> K8S
+
+    K8S --> SVC
+    SVC --> USR[Applications / Research Workloads]
 
