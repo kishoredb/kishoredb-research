@@ -98,20 +98,20 @@ Diagrams below reflect the real project—not theoretical modules.
 flowchart TD
 
     subgraph STT["AEGIS.STT — Speech-to-Text"]
-        A1[Extract Audio\n(FFmpeg)]
-        A2[Transcribe Audio\n(Whisper / Azure STT)]
+        A1[Extract Audio<br/>(FFmpeg)]
+        A2[Transcribe Audio<br/>(Whisper / Azure STT)]
         A3[Raw Transcript]
     end
 
     subgraph NLP["AEGIS.NLP — Embeddings & Semantic Processing"]
         N1[Text Cleanup & Sentence Splitting]
         N2[Chunking with Timestamps]
-        N3[Embedding Generation\n(BERT / GPT)]
+        N3[Embedding Generation<br/>(BERT / GPT)]
     end
 
     subgraph INDEX["AEGIS.Index — Storage & Search"]
-        I1[CosmosDB\n(Transcript + Metadata)]
-        I2[Azure Cognitive Search\n(Vector Index)]
+        I1[CosmosDB<br/>(Transcript + Metadata)]
+        I2[Azure Cognitive Search<br/>(Vector Index)]
     end
 
     subgraph QUERY["AEGIS.Search — Query & Ranking"]
