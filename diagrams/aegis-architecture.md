@@ -1,10 +1,17 @@
 ```mermaid
 flowchart TD
 
+    %% USER INTERFACE
+    subgraph UI [User Interface]
+        U1[Video Upload]
+        U2[Search Interface]
+        U3[Video Player]
+    end
+
     %% AEGIS.STT
     subgraph STT [AEGIS.STT Module]
         A1[Audio Extraction - FFmpeg]
-        A2[Speech To Text - Whisper / Azure STT]
+        A2[Speech To Text - Whisper Or Azure STT]
         A3[Transcript Normalization - Cleanup]
     end
 
@@ -25,11 +32,16 @@ flowchart TD
         Q1[User Query Input]
         Q2[Query Embedding Creation]
         Q3[Vector Similarity Search]
-        Q4[Segment Ranking]
-        Q5[Jump To Timestamp]
+        Q4[Ranked Segment Results]
+        Q5[Timestamp Match Output]
     end
 
-    %% Pipeline
+    %% USER FLOW
+    U1 --> A1
+    U2 --> Q1
+    Q5 --> U3
+
+    %% BACKEND FLOW
     A1 --> A2 --> A3 --> A4 --> A5
     A5 --> A6
     A5 --> A7
