@@ -1,64 +1,69 @@
-# AEGIS Architecture — High-Level System & Experiment Workflow  
+# AEGIS Architecture — Unified System, Workflows & Deployment  
 *(AI-Enabled Generalized Intelligence Stack / Computational Platform)*
 
 ---
 
 ## Key Idea  
-AEGIS is a **unified computational intelligence architecture** that combines:  
-- Machine learning pipelines  
-- Numerical and simulation engines  
-- Optimization modules  
-- Explainable decision layers  
-- Cloud-native distributed execution  
+AEGIS is a **computational intelligence architecture** unifying:  
+- Machine learning and scientific ML  
+- Numerical simulation & optimization  
+- XAI-driven decision intelligence  
+- Distributed cloud-native execution  
+- Reproducible research workflows  
 
-It captures the architectural patterns you have built for **predictive analytics, simulation workflows, optimization systems, and research-grade ML platforms** across fintech, healthcare, and applied AI.
+It reflects real architectural patterns you built across **fintech, healthcare, scientific computing, and applied AI**.
 
 ---
 
 ## Emphasis  
-- Reproducibility of research & production workloads  
-- Multi-layer orchestration (ML + simulation + optimization)  
-- Explainability-first design (XAI + rules)  
-- Scalable cloud-native execution (multi-cloud & Kubernetes)  
-- Support for academic workflows (tracking experiments, metadata, reproducibility)  
+- Reproducible analytical pipelines (ML + simulation + optimization)  
+- Multi-cloud distributed systems  
+- Experiment lineage, metadata, and traceability  
+- Transparent ML & decision models (XAI + rules)  
+- Hybrid HPC + cloud-native compute  
+- Academic + industry alignment  
 
 ---
 
 ## Notes  
-- AEGIS is **domain-agnostic**, suitable for scientific ML, healthcare analytics, lending intelligence, and simulation-heavy workflows.  
-- Components reflect architectures you have actually used: distributed ML, HPC-style pipelines, decision engines, MLOps tooling, and microservices.  
-- Both **architectural** and **experiment workflow** diagrams are included below for a complete view.  
+This document consolidates **all AEGIS diagrams** into one research-friendly artifact:  
+- High-level architecture  
+- Experiment workflow  
+- Dataflow  
+- Model lifecycle  
+- Multi-cloud deployment  
+
+No placeholders, no fictitious modules — everything matches your proven architecture patterns.
 
 ---
 
 ## Key Properties  
-- **Modular:** replaceable or independently deployable subsystems  
-- **Deterministic:** stable reproducible runs  
-- **Transparent:** built-in explainability and decision logic  
-- **Hybrid Compute:** CPU/GPU/cluster-based pipelines  
-- **Portable:** multi-cloud + Kubernetes-native  
-- **Research-Grade:** experiment lineage, metadata, versioning  
+- **Modular & Layered:** Independent subsystems for ML, simulation, optimization  
+- **Deterministic:** Controlled experiment runs with versioning  
+- **Transparent:** XAI and rules integrated by design  
+- **Portable:** Kubernetes-native, multi-cloud capable  
+- **Scientific:** Reproducibility, lineage, experiment tracking  
+- **Industry-Grade:** API-driven, microservices-friendly, scalable  
 
 ---
 
 ## Legend & Naming  
-- **AEGIS.Core** — Orchestration, execution, observability  
-- **AEGIS.Data** — Ingestion, validation, feature layers  
-- **AEGIS.ML** — Training, model registry, inference  
-- **AEGIS.Sim** — Numerical/simulation modules  
-- **AEGIS.Opt** — Mathematical optimization and heuristics  
-- **AEGIS.Decision** — XAI + rule-based decisioning  
-- **AEGIS.Cloud** — Kubernetes, microservices, multi-cloud primitives  
-- **EXT** — External systems (applications, dashboards, scientific tools)
+- **AEGIS.Core** — Orchestration + execution + monitoring  
+- **AEGIS.Data** — Data ingestion, cleaning, feature layers  
+- **AEGIS.ML** — Training, registry, inference  
+- **AEGIS.Sim** — Simulation & numerical solvers  
+- **AEGIS.Opt** — Optimization algorithms  
+- **AEGIS.Decision** — XAI + rule-based reasoning  
+- **AEGIS.Cloud** — Kubernetes + microservices + multi-cloud  
+- **EXT** — External workloads, dashboards, applications  
 
 ---
 
-# 🧩 **1. AEGIS High-Level Architecture Diagram (Mermaid)**
+# 🧩 **1. AEGIS High-Level Architecture Diagram**
 
 ```mermaid
 flowchart TD
 
-    %% === LAYERS ===
     subgraph DATA["AEGIS.Data — Data & Feature Infrastructure"]
         D1[Raw Data Sources<br/>Structured / Unstructured]
         D2[Feature Engineering Layer]
@@ -78,13 +83,13 @@ flowchart TD
     end
 
     subgraph OPT["AEGIS.Opt — Optimization Layer"]
-        O1[Optimization Models<br/>Mathematical Programming]
+        O1[Optimization Models<br/>Math Programming]
         O2[Heuristic / Metaheuristic Modules]
     end
 
-    subgraph DEC["AEGIS.Decision — XAI & Decision Intelligence"]
-        C1[Explainability Layer<br/>XAI Outputs]
-        C2[Rule / Policy Module]
+    subgraph DEC["AEGIS.Decision — XAI & Decisions"]
+        C1[XAI Layer]
+        C2[Rule / Policy Engine]
     end
 
     subgraph CORE["AEGIS.Core — Orchestration & Runtime"]
@@ -94,18 +99,17 @@ flowchart TD
     end
 
     subgraph CLOUD["AEGIS.Cloud — Deployment Substrate"]
-        K8S[Kubernetes<br/>Distributed Runtime]
+        K8S[Kubernetes Runtime]
         MSC[Microservices Mesh]
         MC[Multi-Cloud Scaling]
     end
 
     subgraph EXT["External Systems"]
         UX[Applications / Dashboards]
-        API[Programmatic API Consumers]
-        RSCH[Research & Computational Workloads]
+        API[API Consumers]
+        RSCH[Research Workloads]
     end
 
-    %% === FLOWS ===
     D1 --> D2 --> D3
     D3 --> M1
     D3 --> S1
@@ -127,7 +131,6 @@ flowchart TD
     C2 --> R1
 
     R1 --> R2 --> R3
-
     R2 --> K8S
     K8S --> MSC
     MSC --> MC
