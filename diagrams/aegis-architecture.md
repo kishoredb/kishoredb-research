@@ -6,6 +6,7 @@ flowchart TB
         U1[Video Upload]
         U2[Search Interface]
         U3[Video Player]
+        UI_NOTE[User portal for uploading and searching videos]:::note
     end
 
 
@@ -14,6 +15,7 @@ flowchart TB
         A1[Audio Extraction - FFmpeg]
         A2[Speech To Text - Whisper Or Azure STT]
         A3[Transcript Normalization - Cleanup]
+        STT_NOTE[Converts raw video into structured text for NLP]:::note
     end
 
 
@@ -21,6 +23,7 @@ flowchart TB
     subgraph NLP [AEGIS.NLP Module]
         A4[Sentence Splitting And Chunking]
         A5[Embedding Creation - BERT / GPT]
+        NLP_NOTE[Transforms text into semantic representations]:::note
     end
 
 
@@ -28,6 +31,7 @@ flowchart TB
     subgraph INDEX [AEGIS.Index Module]
         A6[Transcript Storage - CosmosDB]
         A7[Vector Index Storage - Azure Search]
+        INDEX_NOTE[Stores structured text and vectors for retrieval]:::note
     end
 
 
@@ -38,6 +42,7 @@ flowchart TB
         Q3[Vector Similarity Search]
         Q4[Ranked Segment Results]
         Q5[Timestamp Match Output]
+        SEARCH_NOTE[Maps queries to relevant video segments]:::note
     end
 
 
@@ -54,4 +59,7 @@ flowchart TB
     U2 --> Q1
     Q1 --> Q2 --> Q3 --> Q4 --> Q5
     Q5 --> U3
+
+    %% Note style
+    classDef note fill=#f5f5f5,stroke=#999,stroke-width=0.5px,font-size=11px;
 ```
