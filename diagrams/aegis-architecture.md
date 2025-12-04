@@ -124,10 +124,21 @@ flowchart TB
 
 ---
 
-# Closing Summary
+## Business Impact
 
-AEGIS demonstrates how modern AI systems can transform raw video into a rich, searchable knowledge layer.  
-By combining speech recognition, NLP, vector search, and timestamp-linked playback, the platform enables rapid navigation through large video repositories.  
+AEGIS accelerates video understanding and navigation through multimodal AI:
 
-The architecture is intentionally modular—each component (STT, NLP, Index, Search, UI) can evolve independently as models and search technologies improve.  
-This design supports both applied industry use cases (training, compliance, support) and research workflows requiring scalable semantic retrieval.
+- Around **90 percent faster content discovery**  
+- Useful in **compliance training**, **corporate learning**, and **media analytics**  
+- Demonstrates practical application of **speech recognition, NLP, embeddings, and semantic search** across real enterprise challenges  
+
+---
+
+## Summary
+
+AEGIS shows how modern AI can turn raw video into a searchable knowledge layer.  
+By combining speech recognition, NLP processing, vector search, and timestamp linked playback, the platform enables users to jump directly to relevant moments inside long videos.
+
+The architecture is modular. Each components like Speech To Text, NLP, Indexing, Search, and the User Interface can evolve independently as models or search technologies improve.  
+This design supports applied industry use cases such as training and compliance, as well as research workflows that require scalable semantic retrieval.
+
