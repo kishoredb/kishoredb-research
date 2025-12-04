@@ -30,3 +30,9 @@ flowchart LR
 
     SCORE --> LOS[Loan Origination System]
     SCORE --> REVIEW[Underwriter / Risk Review UI]
+---
+
+## Notes  
+- Combines **ML-based scoring** with **rule-based overrides** for compliance.  
+- Explainability engine produces **SHAP/LIME-based insights** for transparency.  
+- Outputs integrate with **Loan Origination Systems (LOS)** and **risk review dashboards**.  
