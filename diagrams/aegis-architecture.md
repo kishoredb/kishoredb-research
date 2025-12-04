@@ -92,6 +92,7 @@ Diagrams below reflect the real project—not theoretical modules.
 
 ---
 
+
 # 🧩 1. AEGIS High-Level Architecture Diagram
 
 ```mermaid
