@@ -224,4 +224,22 @@ flowchart TD
 
     OUT --> XAI[XAI Layer]
     OUT --> DEC[Rules / Policies]
+```
+
+---
+
+# 🔁 4. AEGIS Model Lifecycle Diagram
+
+```mermaid
+flowchart LR
+
+    DSET[Dataset Versioning] --> TRAIN[Model Training]
+    TRAIN --> REG[Model Registry]
+    REG --> VAL[Validation & QA]
+    VAL --> DEP[Deployment]
+
+    DEP --> MON[Monitoring & Drift Detection]
+    MON --> RETRAIN[Triggered Retraining]
+
+    RETRAIN --> TRAIN
 
