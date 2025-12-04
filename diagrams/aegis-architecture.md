@@ -18,3 +18,20 @@ flowchart TB
 
     A1 --> A2 --> A3 --> A4 --> A5
 ```
+
+```mermaid
+flowchart TB
+
+    subgraph NLP [NLP Outputs]
+        A5[Embedding Creation - BERT / GPT]
+    end
+
+    subgraph INDEX [AEGIS.Index Module]
+        A6[Transcript Storage - CosmosDB]
+        A7[Vector Index Storage - Azure Search]
+        INDEX_NOTE[Note: Stores transcripts and vectors]
+    end
+
+    A5 --> A6
+    A5 --> A7
+```
