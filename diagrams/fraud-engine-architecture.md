@@ -178,6 +178,6 @@ The Fraud Engine was designed to reduce losses while keeping alert quality high:
 ## Summary
 
 The Fraud Engine is a real time, AI driven fraud detection platform that combines streaming, feature stores, multiple ML models, and graph analysis.  
-Its modular design allows each part of the system—streaming, features, models, graph analytics, decision logic, and dashboards—to evolve as fraud patterns and technologies change.
+Its modular design allows each part of the system like streaming, features, models, graph analytics, decision logic, and dashboards to evolve as fraud patterns and technologies change.
 
 By providing both powerful detection capabilities and operational visibility, it supports proactive fraud management in modern, high volume environments.
