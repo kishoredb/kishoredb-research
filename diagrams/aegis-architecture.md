@@ -1,30 +1,30 @@
 ```mermaid
 flowchart TD
 
-    subgraph STT["AEGIS.STT — Speech-to-Text"]
+    subgraph STT["AEGIS.STT - Speech-to-Text"]
         A1[Extract Audio (FFmpeg)]
         A2[Transcribe Audio (Whisper / Azure STT)]
         A3[Raw Transcript]
     end
 
-    subgraph NLP["AEGIS.NLP — Embeddings & Semantic Processing"]
-        N1[Text Cleanup & Sentence Splitting]
+    subgraph NLP["AEGIS.NLP - Embeddings and Semantic Processing"]
+        N1[Text Cleanup and Sentence Splitting]
         N2[Chunking with Timestamps]
         N3[Embedding Generation (BERT / GPT)]
     end
 
-    subgraph INDEX["AEGIS.Index — Storage & Search"]
-        I1[CosmosDB (Transcript + Metadata)]
+    subgraph INDEX["AEGIS.Index - Storage and Search"]
+        I1[CosmosDB (Transcript and Metadata)]
         I2[Azure Cognitive Search (Vector Index)]
     end
 
-    subgraph QUERY["AEGIS.Search — Query & Ranking"]
+    subgraph QUERY["AEGIS.Search - Query and Ranking"]
         Q1[User Query]
         Q2[Query Embedding]
         Q3[Semantic Similarity Ranking]
     end
 
-    subgraph PLAYER["AEGIS.Player — Video Navigation"]
+    subgraph PLAYER["AEGIS.Player - Video Navigation"]
         P1[Matched Timestamps]
         P2[Jump to Video Frame]
     end
