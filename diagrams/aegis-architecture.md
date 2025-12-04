@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 
     subgraph STT["AEGIS.STT — Speech-to-Text"]
@@ -24,7 +25,7 @@ flowchart TD
     end
 
     subgraph PLAYER["AEGIS.Player — Video Navigation"]
-        P1[Matched Timestamps)]
+        P1[Matched Timestamps]
         P2[Jump to Video Frame]
     end
 
@@ -52,3 +53,4 @@ flowchart TD
     Q3 --> P1
     P1 --> P2
     P2 --> U3
+```
