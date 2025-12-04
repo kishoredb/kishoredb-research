@@ -20,3 +20,11 @@ flowchart LR
     SEARCH --> METADATA
     METADATA --> RESULTS[Search Results / Insights]
     RESULTS --> U
+```
+---
+
+## Notes  
+- The system separates **storage, transcription, and NLP analysis** for modularity.
+- NLP results drive **semantic indexing** and **search insights**.
+
+
