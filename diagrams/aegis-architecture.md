@@ -1,61 +1,94 @@
 # AEGIS Architecture — Unified System, Workflows & Deployment  
-*(AI-Enabled Generalized Intelligence Stack / Computational Platform)*
+*(AI/NLP Video Intelligence Platform — 2020–2021)*
 
 ---
 
 ## Key Idea  
-AEGIS is a **computational intelligence architecture** unifying:  
-- Machine learning and scientific ML  
-- Numerical simulation & optimization  
-- XAI-driven decision intelligence  
-- Distributed cloud-native execution  
-- Reproducible research workflows  
+**AEGIS is an AI-powered video intelligence platform** built to make long-form videos fully searchable by meaning—not just by keywords.  
+It transforms hours of video into a structured, searchable knowledge layer that users can navigate instantly.
 
-It reflects real architectural patterns you built across **fintech, healthcare, scientific computing, and applied AI**.
+---
+
+## How AEGIS Works — Summary for Recruiters & Academic Reviewers  
+AEGIS takes a simple idea—**search inside a video like you search the web**—and turns it into a practical, AI-driven system.
+
+Here is the process in human terms:
+
+1. **The video is uploaded.**  
+   AEGIS extracts its audio track automatically.
+
+2. **The speech is converted to high-quality text.**  
+   Using Whisper or Azure Speech-to-Text, the platform produces an accurate transcript of everything spoken in the video.
+
+3. **The text is cleaned and broken into meaningful pieces.**  
+   These pieces are aligned with timestamps so AEGIS always knows exactly *when* something was said.
+
+4. **Each segment is converted into an embedding.**  
+   Using models like BERT or GPT, AEGIS captures the *semantic meaning* of every part of the video.
+
+5. **All segments are indexed for fast retrieval.**  
+   The transcript and metadata go into CosmosDB; the vectors go into Azure Cognitive Search.
+
+6. **A user types a natural-language query.**  
+   AEGIS embeds the query and compares it against all video segments.
+
+7. **The system ranks the most relevant moments.**  
+   Instead of retrieving entire videos, AEGIS returns *exact* timestamps where the topic appears.
+
+8. **The user jumps directly to the right moment.**  
+   A single click moves the video player to the precise location of the answer.
+
+**Impact:**  
+AEGIS reduces video search time by over 90%, making it ideal for corporate training, compliance review, and large knowledge repositories.
+
+This platform shows your ability to:  
+- Design end-to-end AI/NLP systems  
+- Combine speech-to-text, embeddings, chunking, and vector search  
+- Build practical solutions that integrate AI with real-world usability  
+- Deliver architectures that balance power, clarity, and scalability  
+- Win global hackathons through strong applied problem-solving  
 
 ---
 
 ## Emphasis  
-- Reproducible analytical pipelines (ML + simulation + optimization)  
-- Multi-cloud distributed systems  
-- Experiment lineage, metadata, and traceability  
-- Transparent ML & decision models (XAI + rules)  
-- Hybrid HPC + cloud-native compute  
-- Academic + industry alignment  
+- Making video content searchable and navigable  
+- Semantic retrieval based on meaning, not keywords  
+- Fast and intuitive user experience  
+- Timestamp-accurate results for real-world consumption  
+- Modular and replaceable AI components  
+- Practicality and production usability  
 
 ---
 
 ## Notes  
-This document consolidates **all AEGIS diagrams** into one research-friendly artifact:  
-- High-level architecture  
-- Experiment workflow  
-- Dataflow  
-- Model lifecycle  
-- Multi-cloud deployment  
+Aegis was built using production-ready components:  
+- **Speech-to-Text:** Whisper / Azure STT  
+- **Embeddings:** BERT / GPT  
+- **Chunking & timestamp alignment**  
+- **Azure Cognitive Search + CosmosDB** as the indexing backbone  
+- **FFmpeg** for audio extraction & timeline control  
 
-No placeholders, no fictitious modules — everything matches your proven architecture patterns.
+Diagrams below reflect the real project—not theoretical modules.
 
 ---
 
 ## Key Properties  
-- **Modular & Layered:** Independent subsystems for ML, simulation, optimization  
-- **Deterministic:** Controlled experiment runs with versioning  
-- **Transparent:** XAI and rules integrated by design  
-- **Portable:** Kubernetes-native, multi-cloud capable  
-- **Scientific:** Reproducibility, lineage, experiment tracking  
-- **Industry-Grade:** API-driven, microservices-friendly, scalable  
+- **Human-Centric:** Optimized for real users navigating real videos  
+- **Semantic:** Understands meaning rather than matching exact words  
+- **Timestamp-Aware:** Always provides precise video locations  
+- **Modular:** Any component (STT, embeddings, storage) can be replaced  
+- **Scalable:** Works for tens or thousands of videos  
+- **Practical:** Built under real engineering constraints and delivered in production-grade quality  
 
 ---
 
 ## Legend & Naming  
-- **AEGIS.Core** — Orchestration + execution + monitoring  
-- **AEGIS.Data** — Data ingestion, cleaning, feature layers  
-- **AEGIS.ML** — Training, registry, inference  
-- **AEGIS.Sim** — Simulation & numerical solvers  
-- **AEGIS.Opt** — Optimization algorithms  
-- **AEGIS.Decision** — XAI + rule-based reasoning  
-- **AEGIS.Cloud** — Kubernetes + microservices + multi-cloud  
-- **EXT** — External workloads, dashboards, applications  
+- **AEGIS.STT** — Speech-to-text  
+- **AEGIS.NLP** — Embedding + semantic processing  
+- **AEGIS.Index** — Storage & index  
+- **AEGIS.Search** — Query matching & ranking  
+- **AEGIS.Player** — Timestamp navigation  
+- **UI** — Upload, search, playback interfaces  
 
 ---
 
@@ -64,216 +97,123 @@ No placeholders, no fictitious modules — everything matches your proven archit
 ```mermaid
 flowchart TD
 
-    subgraph DATA["AEGIS.Data — Data & Feature Infrastructure"]
-        D1[Raw Data Sources<br/>Structured / Unstructured]
-        D2[Feature Engineering Layer]
-        D3[Validated Data Contracts]
+    subgraph STT["AEGIS.STT — Speech-to-Text"]
+        A1[Extract Audio\n(FFmpeg)]
+        A2[Transcribe Audio\n(Whisper / Azure STT)]
+        A3[Raw Transcript]
     end
 
-    subgraph ML["AEGIS.ML — ML Pipelines"]
-        M1[Training Pipelines<br/>Distributed Training]
-        M2[Model Registry<br/>Versioning]
-        M3[Inference Services]
+    subgraph NLP["AEGIS.NLP — Embeddings & Semantic Processing"]
+        N1[Text Cleanup & Sentence Splitting]
+        N2[Chunking with Timestamps]
+        N3[Embedding Generation\n(BERT / GPT)]
     end
 
-    subgraph SIM["AEGIS.Sim — Simulation Engines"]
-        S1[Numerical Solvers]
-        S2[Scenario Generators]
-        S3[Stochastic Simulation Pipelines]
+    subgraph INDEX["AEGIS.Index — Storage & Search"]
+        I1[CosmosDB\n(Transcript + Metadata)]
+        I2[Azure Cognitive Search\n(Vector Index)]
     end
 
-    subgraph OPT["AEGIS.Opt — Optimization Layer"]
-        O1[Optimization Models<br/>Math Programming]
-        O2[Heuristic / Metaheuristic Modules]
+    subgraph QUERY["AEGIS.Search — Query & Ranking"]
+        Q1[User Query]
+        Q2[Query Embedding]
+        Q3[Semantic Similarity Ranking]
     end
 
-    subgraph DEC["AEGIS.Decision — XAI & Decisions"]
-        C1[XAI Layer]
-        C2[Rule / Policy Engine]
+    subgraph PLAYER["AEGIS.Player — Video Navigation"]
+        P1[Matched Timestamps]
+        P2[Jump to Video Frame]
     end
 
-    subgraph CORE["AEGIS.Core — Orchestration & Runtime"]
-        R1[Workflow Orchestrator]
-        R2[Execution Engine]
-        R3[Monitoring & Telemetry]
+    subgraph EXT["External Interfaces"]
+        U1[Upload UI]
+        U2[Search UI]
+        U3[Video Player]
     end
 
-    subgraph CLOUD["AEGIS.Cloud — Deployment Substrate"]
-        K8S[Kubernetes Runtime]
-        MSC[Microservices Mesh]
-        MC[Multi-Cloud Scaling]
-    end
+    U1 --> A1 --> A2 --> A3
+    A3 --> N1 --> N2 --> N3
 
-    subgraph EXT["External Systems"]
-        UX[Applications / Dashboards]
-        API[API Consumers]
-        RSCH[Research Workloads]
-    end
+    N2 --> I1
+    N3 --> I2
 
-    D1 --> D2 --> D3
-    D3 --> M1
-    D3 --> S1
-    D3 --> O1
+    U2 --> Q1 --> Q2 --> Q3
+    Q3 --> P1 --> P2 --> U3
 
-    M1 --> M2 --> M3
-    S1 --> S2 --> S3
-    O1 --> O2
-
-    M3 --> C1
-    S3 --> C1
-    O2 --> C1
-
-    C1 --> C2
-
-    M3 --> R1
-    S3 --> R1
-    O2 --> R1
-    C2 --> R1
-
-    R1 --> R2 --> R3
-    R2 --> K8S
-    K8S --> MSC
-    MSC --> MC
-
-    MC --> UX
-    MC --> API
-    MC --> RSCH
-```
-
----
-
-# 🧪 2. AEGIS Experiment Workflow Diagram
-
-```mermaid
+🧪 2. AEGIS Experiment Workflow Diagram
 flowchart LR
 
-    subgraph EXP_DATA["1. Data Preparation"]
-        ED1[Data Extraction]
-        ED2[Cleaning / Preprocessing]
-        ED3[Feature Construction]
-        ED4[Dataset Versioning]
-    end
+    UPLOAD[User Uploads Video] --> EXTAUD[Extract Audio (FFmpeg)]
+    EXTAUD --> STT[STT: Whisper/Azure]
+    STT --> CLEAN[Clean + Normalize Transcript]
+    CLEAN --> CHUNK[Chunking with Timestamps]
+    CHUNK --> EMBED[Generate Embeddings (BERT/GPT)]
+    EMBED --> STORE_DB[Store Transcript + Metadata (CosmosDB)]
+    EMBED --> STORE_IDX[Store Vectors (Azure Search)]
 
-    subgraph EXP_CONFIG["2. Experiment Configuration"]
-        EC1[Experiment Metadata]
-        EC2[Hyperparameter Definitions]
-        EC3[Compute Selection<br/>CPU/GPU/Cluster]
-    end
+    QUERY[User Query] --> QEMBED[Query Embedding]
+    QEMBED --> SEARCH[Vector Search + Ranking]
+    SEARCH --> RESULTS[Return Timestamped Results]
+    RESULTS --> JUMP[Jump to Video Moment]
 
-    subgraph EXP_RUN["3. Execution"]
-        ER1[ML Training Run]
-        ER2[Simulation Batch Run]
-        ER3[Optimization Job]
-    end
 
-    subgraph EXP_EVAL["4. Evaluation"]
-        EV1[Metrics Computation]
-        EV2[XAI Insights]
-        EV3[Comparative Evaluation]
-    end
-
-    subgraph EXP_REG["5. Registration"]
-        RG1[Model Registry]
-        RG2[Experiment Tracking]
-        RG3[Result Bundle<br/>Artifacts + Metadata]
-    end
-
-    subgraph EXP_DEP["6. Deployment"]
-        DP1[Inference Services]
-        DP2[Simulation API]
-        DP3[Decision Engine Integration]
-    end
-
-    ED1 --> ED2 --> ED3 --> ED4
-    ED4 --> EC1 --> EC2 --> EC3
-    EC3 --> ER1 --> EV1
-    EC3 --> ER2 --> EV1
-    EC3 --> ER3 --> EV1
-    EV1 --> EV2 --> EV3
-    EV3 --> RG1
-    EV3 --> RG2
-    RG1 --> RG3
-    RG3 --> DP1
-    RG3 --> DP2
-    RG3 --> DP3
-```
-
----
-
-# 🔄 3. AEGIS Dataflow Diagram
-
-```mermaid
+🔄 3. AEGIS Dataflow Diagram
 flowchart TD
 
-    RAW[Raw Inputs<br/>Transactional / Clinical / Behavioral] -->
-    VAL[Validation & Schema Enforcement] -->
-    FEAT[Feature Engineering<br/>Transformers / Encoders] -->
-    FSTORE[Feature Store<br/>Versioned Features]
+    VIDEO[Input Video] -->
+    AUDIO[Audio Extraction] -->
+    TRANS[Speech-to-Text Transcript] -->
+    CLEAN[Clean + Segment Text] -->
+    CHUNK[Chunk Text + Align Timestamps] -->
+    EMBED[Generate Embeddings]
 
-    FSTORE --> MLPREP[Model Prep<br/>Train/Test Splits]
-    FSTORE --> SINPUT[Simulation Input Layer]
-    FSTORE --> OINPUT[Optimization Input Layer]
+    EMBED --> STORE_DB[Store Transcript\n(CosmosDB)]
+    EMBED --> STORE_IDX[Vector Index\n(Azure Search)]
 
-    MLPREP --> TRAIN[ML Training]
-    SINPUT --> SIMRUN[Sims / Solvers]
-    OINPUT --> OPTRUN[Optimization]
+    QUERY[User Query] --> QEMBED[Query Embedding] --> RETRIEVE[Similarity Search]
+    RETRIEVE --> MATCH[Matched Segments + Confidence]
+    MATCH --> VIEW[Video Navigation UI]
 
-    TRAIN --> OUT[Outputs<br/>Scores / Embeddings / Predictions]
-    SIMRUN --> OUT
-    OPTRUN --> OUT
-
-    OUT --> XAI[XAI Layer]
-    OUT --> DEC[Rules / Policies]
-```
-
----
-
-# 🔁 4. AEGIS Model Lifecycle Diagram
-
-```mermaid
+🔁 4. AEGIS Model & Content Lifecycle Diagram
 flowchart LR
 
-    DSET[Dataset Versioning] --> TRAIN[Model Training]
-    TRAIN --> REG[Model Registry]
-    REG --> VAL[Validation & QA]
-    VAL --> DEP[Deployment]
+    INGEST[Video Ingestion] --> STAGE[Transcription + Cleanup]
+    STAGE --> EMBED[Embedding Generation]
+    EMBED --> INDEX[Indexing + Storage]
+    INDEX --> RETRIEVAL[Semantic Search]
+    RETRIEVAL --> FEEDBACK[User Feedback\n(optional)]
+    FEEDBACK --> REPROCESS[Refinement or Reprocessing]
+    REPROCESS --> STAGE
 
-    DEP --> MON[Monitoring & Drift Detection]
-    MON --> RETRAIN[Triggered Retraining]
-
-    RETRAIN --> TRAIN
-```
-
----
-
-# ☁️ 5. AEGIS Multi-Cloud Deployment View
-
-```mermaid
+☁️ 5. AEGIS Multi-Cloud Deployment View
 flowchart TD
 
-    subgraph CLOUD["Multi-Cloud Layer"]
-        AWS[AWS Cluster]
-        AZ[Azure Cluster]
-        GCP[GCP Cluster]
+    subgraph CLOUD["Cloud Services (Platform-Agnostic)"]
+        STTCloud[Speech-to-Text API]
+        DB[Document Store\n(CosmosDB-like)]
+        SEARCH[Vector Search\n(Azure Search-like)]
     end
 
-    subgraph K8S["Kubernetes Control Plane"]
-        SCH[Scheduler]
-        AUTOSCALE[Auto-scaling Layer]
-        MESH[Service Mesh]
+    subgraph AEGIS["AEGIS Platform Components"]
+        PROC[Processing Worker\n(FFmpeg + NLP)]
+        EMBED[Embedding Generator]
+        INDEXER[Index Builder]
+        QUERY[Query Engine]
+        NAV[Video Navigation API]
     end
 
-    subgraph SVC["AEGIS Services"]
-        MLAPI[ML Inference API]
-        SIMAPI[Simulation API]
-        OPTAPI[Optimization API]
-        DECAPI[Decision Intelligence API]
+    subgraph UI["User Interfaces"]
+        UPLOAD_UI[Upload Interface]
+        SEARCH_UI[Search Interface]
+        PLAYER[Video Player]
     end
 
-    AWS --> K8S
-    AZ --> K8S
-    GCP --> K8S
-
-    K8S --> SVC
-    SVC --> USR[Applications / Research Workloads]
-
+    UPLOAD_UI --> PROC
+    PROC --> STTCloud
+    STTCloud --> EMBED
+    EMBED --> DB
+    EMBED --> SEARCH
+    SEARCH_UI --> QUERY
+    QUERY --> SEARCH
+    QUERY --> NAV
+    NAV --> PLAYER
