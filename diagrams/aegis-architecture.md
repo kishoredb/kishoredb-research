@@ -1,23 +1,23 @@
 ```mermaid
 flowchart TD
 
-    subgraph STT [AEGIS STT Module]
+    subgraph STT [AEGIS.STT Module]
         A1[Audio Extraction - Video]
         A2[Speech To Text - Whisper / Azure STT]
         A3[Transcript Normalization - Cleanup]
     end
 
-    subgraph NLP [AEGIS NLP Module]
+    subgraph NLP [AEGIS.NLP Module]
         A4[Sentence Splitting - Chunking]
         A5[Semantic Embedding Creation - BERT / GPT Encoder]
     end
 
-    subgraph STORAGE [AEGIS Storage Module]
+    subgraph STORAGE [AEGIS.Storage Module]
         A6[Transcript Data Store - Text]
         A7[Vector Index Store - Embeddings]
     end
 
-    subgraph SEARCH [AEGIS Search Module]
+    subgraph SEARCH [AEGIS.Search Module]
         Q1[User Query Input]
         Q2[Query Embedding Creation]
         Q3[Vector Similarity Search - Match]
