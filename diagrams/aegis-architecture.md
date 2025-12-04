@@ -5,7 +5,7 @@ flowchart TD
     subgraph STT [Speech To Text Pipeline]
         A1[Audio Extraction - Video]
         A2[Speech To Text - Whisper / Azure STT]
-        A3[Transcript Normalization - Cleanup]
+        A3[Transcript Normalization (Cleanup)]
     end
 
     %% AEGIS NLP
