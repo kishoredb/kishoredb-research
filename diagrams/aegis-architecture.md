@@ -196,6 +196,8 @@ flowchart LR
     RG3 --> DP1
     RG3 --> DP2
     RG3 --> DP3
+```
+
 ---
 
 # 🔄 3. AEGIS Dataflow Diagram
