@@ -1,5 +1,5 @@
-# AEGIS Architecture — Unified System, Workflows & Deployment  
-*(AI/NLP Video Intelligence Platform — 2020–2021)*
+# AEGIS Architecture - Unified System, Workflows & Deployment  
+*(AI NLP Video Intelligence Platform — 2020–2021)*
 
 ---
 
