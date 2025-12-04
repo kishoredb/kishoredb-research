@@ -89,6 +89,7 @@ Diagrams below reflect the real project—not theoretical modules.
 - **AEGIS.Search** — Query matching & ranking  
 - **AEGIS.Player** — Timestamp navigation  
 - **UI** — Upload, search, playback interfaces  
+```
 
 ---
 
