@@ -4,14 +4,14 @@ flowchart TD
     %% AEGIS Speech to Text
     subgraph STT [Speech To Text Pipeline]
         A1[Audio Extraction - Video]
-        A2[Speech To Text - Whisper / Azure]
+        A2[Speech To Text - Whisper / Azure STT]
         A3[Transcript Normalization - Cleanup]
     end
 
     %% AEGIS NLP
     subgraph NLP [NLP Processing Pipeline]
         A4[Sentence Splitting - Chunking]
-        A5[Semantic Embedding Creation - Encoder]
+        A5[Semantic Embedding Creation - BERT / GPT Encoder]
     end
 
     %% AEGIS Storage
