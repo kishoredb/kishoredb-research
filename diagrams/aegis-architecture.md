@@ -138,3 +138,60 @@ flowchart TD
     MC --> UX
     MC --> API
     MC --> RSCH
+```
+
+# 🧪 2. AEGIS Experiment Workflow Diagram
+
+```mermaid
+flowchart LR
+
+    subgraph EXP_DATA["1. Data Preparation"]
+        ED1[Data Extraction]
+        ED2[Cleaning / Preprocessing]
+        ED3[Feature Construction]
+        ED4[Dataset Versioning]
+    end
+
+    subgraph EXP_CONFIG["2. Experiment Configuration"]
+        EC1[Experiment Metadata]
+        EC2[Hyperparameter Definitions]
+        EC3[Compute Selection<br/>CPU/GPU/Cluster]
+    end
+
+    subgraph EXP_RUN["3. Execution"]
+        ER1[ML Training Run]
+        ER2[Simulation Batch Run]
+        ER3[Optimization Job]
+    end
+
+    subgraph EXP_EVAL["4. Evaluation"]
+        EV1[Metrics Computation]
+        EV2[XAI Insights]
+        EV3[Comparative Evaluation]
+    end
+
+    subgraph EXP_REG["5. Registration"]
+        RG1[Model Registry]
+        RG2[Experiment Tracking]
+        RG3[Result Bundle<br/>Artifacts + Metadata]
+    end
+
+    subgraph EXP_DEP["6. Deployment"]
+        DP1[Inference Services]
+        DP2[Simulation API]
+        DP3[Decision Engine Integration]
+    end
+
+    ED1 --> ED2 --> ED3 --> ED4
+    ED4 --> EC1 --> EC2 --> EC3
+    EC3 --> ER1 --> EV1
+    EC3 --> ER2 --> EV1
+    EC3 --> ER3 --> EV1
+    EV1 --> EV2 --> EV3
+    EV3 --> RG1
+    EV3 --> RG2
+    RG1 --> RG3
+    RG3 --> DP1
+    RG3 --> DP2
+    RG3 --> DP3
+
