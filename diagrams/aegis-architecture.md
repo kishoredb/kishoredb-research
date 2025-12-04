@@ -139,6 +139,7 @@ flowchart TD
     MC --> API
     MC --> RSCH
 ```
+---
 
 # 🧪 2. AEGIS Experiment Workflow Diagram
 
