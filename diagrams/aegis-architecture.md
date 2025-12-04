@@ -21,6 +21,7 @@ flowchart LR
     METADATA --> RESULTS[Search Results / Insights]
     RESULTS --> U
 ```
+
 ---
 
 ## Notes  
