@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD
+flowchart LR
 
     %% =======================
     %% USER INTERFACE
@@ -10,8 +10,9 @@ flowchart TD
         U3[Video Player]
     end
 
+
     %% =======================
-    %% AEGIS.STT
+    %% AEGIS.STT PIPELINE
     %% =======================
     subgraph STT [AEGIS.STT Module]
         A1[Audio Extraction - FFmpeg]
@@ -19,24 +20,27 @@ flowchart TD
         A3[Transcript Normalization - Cleanup]
     end
 
+
     %% =======================
-    %% AEGIS.NLP
+    %% AEGIS.NLP PIPELINE
     %% =======================
     subgraph NLP [AEGIS.NLP Module]
         A4[Sentence Splitting And Chunking]
         A5[Embedding Creation - BERT / GPT]
     end
 
+
     %% =======================
-    %% AEGIS.Index
+    %% AEGIS.INDEX MODULE
     %% =======================
     subgraph INDEX [AEGIS.Index Module]
         A6[Transcript Storage - CosmosDB]
         A7[Vector Index Storage - Azure Search]
     end
 
+
     %% =======================
-    %% AEGIS.Search
+    %% AEGIS.SEARCH PIPELINE
     %% =======================
     subgraph SEARCH [AEGIS.Search Module]
         Q1[User Query Input]
@@ -46,8 +50,9 @@ flowchart TD
         Q5[Timestamp Match Output]
     end
 
+
     %% =======================
-    %% HIGH-LEVEL MODULE FLOW
+    %% HIGH LEVEL FLOW
     %% =======================
     UI --> STT
     STT --> NLP
@@ -55,8 +60,9 @@ flowchart TD
     INDEX --> SEARCH
     SEARCH --> UI
 
+
     %% =======================
-    %% INTERNAL PROCESSING FLOWS
+    %% INTERNAL DATA FLOWS
     %% =======================
     U1 --> A1
     A1 --> A2 --> A3 --> A4 --> A5
