@@ -1,12 +1,5 @@
 ```mermaid
-flowchart LR
-
-    %% Invisible spacers to widen layout
-    SPACE1[ ]:::invis
-    SPACE2[ ]:::invis
-    SPACE3[ ]:::invis
-
-    classDef invis fill=transparent,stroke=transparent;
+flowchart TB
 
     %% USER INTERFACE
     subgraph UI [User Interface]
@@ -15,7 +8,6 @@ flowchart LR
         U3[Video Player]
     end
 
-    SPACE1 --- SPACE2 --- SPACE3
 
     %% AEGIS.STT
     subgraph STT [AEGIS.STT Module]
@@ -24,17 +16,20 @@ flowchart LR
         A3[Transcript Normalization - Cleanup]
     end
 
+
     %% AEGIS.NLP
     subgraph NLP [AEGIS.NLP Module]
         A4[Sentence Splitting And Chunking]
         A5[Embedding Creation - BERT / GPT]
     end
 
+
     %% AEGIS.Index
     subgraph INDEX [AEGIS.Index Module]
         A6[Transcript Storage - CosmosDB]
         A7[Vector Index Storage - Azure Search]
     end
+
 
     %% AEGIS.Search
     subgraph SEARCH [AEGIS.Search Module]
@@ -45,10 +40,12 @@ flowchart LR
         Q5[Timestamp Match Output]
     end
 
-    %% Module-to-module flow
+
+    %% MODULE FLOW
     UI --> STT --> NLP --> INDEX --> SEARCH --> UI
 
-    %% Internal flows
+
+    %% INTERNAL FLOWS
     U1 --> A1
     A1 --> A2 --> A3 --> A4 --> A5
     A5 --> A6
