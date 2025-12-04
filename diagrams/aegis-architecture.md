@@ -91,8 +91,9 @@ Diagrams below reflect the real project—not theoretical modules.
 - **UI** — Upload, search, playback interfaces  
 
 ---
+
 # 🧩 1. AEGIS High-Level Architecture Diagram
-    
+
 ```mermaid
 flowchart TD
 
@@ -138,4 +139,3 @@ flowchart TD
 
     U2 --> Q1 --> Q2 --> Q3
     Q3 --> P1 --> P2 --> U3
-```
