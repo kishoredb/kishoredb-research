@@ -3,29 +3,29 @@ flowchart TD
 
     %% AEGIS Speech to Text
     subgraph STT [Speech To Text Pipeline]
-        A1[Audio Extraction From Video]
-        A2[Speech To Text Conversion]
-        A3[Transcript Normalization]
+        A1[Audio Extraction - Video]
+        A2[Speech To Text - Whisper Or Azure]
+        A3[Transcript Normalization - Cleanup]
     end
 
-    %% AEGIS NLP Processing
+    %% AEGIS NLP
     subgraph NLP [NLP Processing Pipeline]
-        A4[Sentence Splitting And Chunking]
-        A5[Semantic Embedding Creation]
+        A4[Sentence Splitting - Chunking]
+        A5[Semantic Embedding Creation - Encoder]
     end
 
     %% AEGIS Storage
     subgraph STORAGE [Storage Layer]
-        A6[Transcript Data Store]
-        A7[Vector Index Store]
+        A6[Transcript Data Store - Text]
+        A7[Vector Index Store - Embeddings]
     end
 
     %% AEGIS Search
     subgraph SEARCH [Search And Retrieval]
         Q1[User Query Input]
         Q2[Query Embedding Creation]
-        Q3[Vector Similarity Search]
-        Q4[Ranked Segment Matches]
+        Q3[Vector Similarity Search - Match]
+        Q4[Ranked Segment Results]
         Q5[Jump To Video Timestamp]
     end
 
