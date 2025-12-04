@@ -1,7 +1,55 @@
+# AEGIS Architecture – Video Intelligence Platform  
+A Technical Overview of the Core Processing Pipelines
+
+---
+
+## Introduction
+
+AEGIS is an applied AI platform designed to make long-form video content fully searchable by semantic meaning, not by simple keyword matching.  
+It converts raw video into a structured representation of text, embeddings, and time-linked metadata, enabling users to search inside video the same way they search the web.  
+
+This document provides a clear, modular breakdown of the AEGIS architecture using three diagrams:  
+1. Speech-to-Text + NLP Pipeline  
+2. Indexing Pipeline  
+3. Search Pipeline + User Interface
+
+Each part reflects practical, production-oriented AI engineering—built using modern ML/NLP tools such as Whisper, BERT/GPT embeddings, CosmosDB, and Azure Cognitive Search.
+
+---
+
+# Architecture Overview
+
+AEGIS processes video through a sequence of well-defined stages:
+
+1. Speech-to-Text (STT)  
+   Extract audio, convert spoken content into text, and clean it for downstream analysis.
+
+2. NLP Processing  
+   Split text into meaningful chunks and generate semantic embeddings for retrieval.
+
+3. Indexing and Storage  
+   Store transcripts and embeddings in scalable cloud-native databases optimized for search.
+
+4. Semantic Search  
+   Convert user queries into embeddings and retrieve the closest matching segments.
+
+5. User Interface Integration  
+   Provide a search interface and a video player capable of jumping directly to relevant timestamps.
+
+This layered architecture ensures that AEGIS is modular, extensible, and capable of scaling across large video repositories.
+
+---
+
+# Diagram A — Speech-to-Text + NLP Pipeline
+
+This diagram shows how AEGIS converts raw video into structured, meaningful text representations.  
+The pipeline begins with audio extraction (FFmpeg), continues through speech-to-text (Whisper / Azure STT), and produces a clean transcript.  
+The NLP stage splits the text into meaningful segments and generates semantic embeddings using BERT / GPT models.  
+These embeddings serve as the foundation for indexing and semantic retrieval.
+
 ```mermaid
 flowchart TB
 
-    %% AEGIS.STT
     subgraph STT [AEGIS.STT Module]
         A1[Audio Extraction - FFmpeg]
         A2[Speech To Text - Whisper Or Azure STT]
@@ -9,7 +57,6 @@ flowchart TB
         STT_NOTE[Note: Converts video into clean text]
     end
 
-    %% AEGIS.NLP
     subgraph NLP [AEGIS.NLP Module]
         A4[Sentence Splitting And Chunking]
         A5[Embedding Creation - BERT / GPT]
@@ -18,6 +65,15 @@ flowchart TB
 
     A1 --> A2 --> A3 --> A4 --> A5
 ```
+
+---
+
+# Diagram B — Indexing Pipeline
+
+This diagram shows how AEGIS stores both the structured transcript and the semantic embeddings.  
+Transcripts are saved in CosmosDB for fast metadata retrieval.  
+Vector embeddings are stored in Azure Search, enabling semantic similarity lookup.  
+By indexing both text and vectors, AEGIS ensures precise, timestamp-aware search across long-form videos.
 
 ```mermaid
 flowchart TB
@@ -36,10 +92,18 @@ flowchart TB
     A5 --> A7
 ```
 
+---
+
+# Diagram C — Search Pipeline + User Interface
+
+This diagram shows how users interact with the system to retrieve relevant video moments.  
+A natural-language query is converted into an embedding using the same model used during indexing.  
+The query embedding is compared with stored vectors to find the closest match.  
+Ranked results link directly to timestamps, enabling the video player to jump instantly to the correct moment.
+
 ```mermaid
 flowchart TB
 
-    %% SEARCH
     subgraph SEARCH [AEGIS.Search Module]
         Q1[User Query Input]
         Q2[Query Embedding Creation]
@@ -49,7 +113,6 @@ flowchart TB
         SEARCH_NOTE[Note: Finds the best video segments]
     end
 
-    %% UI
     subgraph UI [User Interface]
         U2[Search Interface]
         U3[Video Player]
@@ -58,3 +121,20 @@ flowchart TB
 
     U2 --> Q1 --> Q2 --> Q3 --> Q4 --> Q5 --> U3
 ```
+
+---
+
+# Closing Summary
+
+AEGIS demonstrates how modern AI systems can transform raw video into a rich, searchable knowledge layer.  
+By combining speech recognition, NLP, vector search, and timestamp-linked playback, the platform enables rapid navigation through large video repositories.  
+
+The architecture is intentionally modular—each component (STT, NLP, Index, Search, UI) can evolve independently as models and search technologies improve.  
+This design supports both applied industry use cases (training, compliance, support) and research workflows requiring scalable semantic retrieval.
+
+If you would like, I can also generate:
+
+- A PDF-ready version  
+- A GitHub Pages HTML version  
+- A single merged diagram  
+- A research-paper style architecture section  
