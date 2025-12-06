@@ -62,7 +62,7 @@ Aegis was meaningful because it solved a problem that many people quietly strugg
 
 <p align="center">
   <a href="../../diagrams/aegis-architecture.md">
-    <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="40%" />
+    <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="25%" />
   </a>
 </p>
 
