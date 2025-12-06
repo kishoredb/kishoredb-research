@@ -124,23 +124,19 @@ AEGIS shows how modern AI can turn raw video into a searchable knowledge layer. 
 
 ---
 
-## Additional Detailed Architecture Diagrams
+## 📘 AEGIS Diagram Suite
 
-Related diagrams for the AEGIS platform:
+- 🔹 **End-to-End Overview**  
+  [`/diagrams/aegis/aegis-overview.md`](../diagrams/aegis/aegis-overview.md)
 
-- **Overview**  
-  [`aegis-overview.md`](../aegis/aegis-overview.md)
+- 🔹 **Metadata Schema Flow**  
+  [`/diagrams/aegis/aegis-metadata-schema.md`](../diagrams/aegis/aegis-metadata-schema.md)
 
-- **Metadata Schema**  
-  [`aegis-metadata-schema.md`](./aegis-metadata-schema.md)
+- 🔹 **Query & Retrieval Pipeline**  
+  [`/diagrams/aegis/aegis-query-flow.md`](../diagrams/aegis/aegis-query-flow.md)
 
-- **Query Flow**  
-  [`aegis-query-flow.md`](./aegis-query-flow.md)
+- 🔹 **Evaluation Pipeline**  
+  [`/diagrams/aegis/aegis-evaluation.md`](../diagrams/aegis/aegis-evaluation.md)
 
-- **Evaluation Pipeline**  
-  [`aegis-evaluation.md`](./aegis-evaluation.md)
-
-- **Deployment Architecture**  
-  [`aegis-deployment.md`](./aegis-deployment.md)
-
-These diagrams provide deeper views of specific components.
+- 🔹 **Cloud Deployment Architecture**  
+  [`/diagrams/aegis/aegis-deployment.md`](../diagrams/aegis/aegis-deployment.md)
