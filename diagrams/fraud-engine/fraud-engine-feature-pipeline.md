@@ -1,4 +1,3 @@
-```markdown
 # Fraud Engine Diagram 2 — Feature Pipeline
 
 This diagram shows how the Fraud Engine transforms raw events into
