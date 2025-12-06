@@ -43,6 +43,29 @@ and machine-readable metadata prepared for academic and industry evaluation.
    - [`selected-works.json`](./selected-works.json)  
    - [`supporting-works.json`](./supporting-works.json)  
    - [`publications.json`](./publications.json)
+---
+
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="40" />
+# Project Deep-Dive Case Studies
+
+These deep dives present full, research-oriented analyses of my most impactful applied AI and engineering systems.  
+Each document includes the problem statement, architecture, methodology, evaluation metrics, reproducibility notes,  
+ethical considerations, and future research directions.
+
+### **1. Aegis — NLP-Driven Video Intelligence Platform**  
+→ [`aegis-deep-dive.md`](./docs/deep-dives/aegis-deep-dive.md)
+
+### **2. CredScore — Explainable Credit Scoring System**  
+→ [`credscore-deep-dive.md`](./docs/deep-dives/credscore-deep-dive.md)
+
+### **3. Real-Time Fraud Detection Engine**  
+→ [`fraud-engine-deep-dive.md`](./docs/deep-dives/fraud-engine-deep-dive.md)
+
+### **4. SmartCare — Eldercare Decision-Support Platform**  
+→ [`smartcare-deep-dive.md`](./docs/deep-dives/smartcare-deep-dive.md)
+
+These case studies provide **evidence of engineering depth, research maturity,  
+cross-domain problem solving, and human-centered design** across my 23-year career.
 
 ---
 
@@ -66,12 +89,6 @@ and machine-readable metadata prepared for academic and industry evaluation.
 - Microservices & API ecosystems  
 - CI/CD governance and compliance  
 - Secure SaaS deployments on Azure  
-
-<p align="center">
-  <img src="./assets/research-card-ai-platforms.png" width="32%" />
-  <img src="./assets/research-card-sciml.png" width="32%" />
-  <img src="./assets/research-card-hpc-simulation.png" width="32%" />
-</p>
 
 ---
 
