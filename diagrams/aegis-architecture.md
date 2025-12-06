@@ -121,3 +121,27 @@ AEGIS accelerates video understanding and navigation through multimodal AI:
 
 ## Summary
 AEGIS shows how modern AI can turn raw video into a searchable knowledge layer. By combining speech recognition, NLP processing, vector search, and timestamp linked playback, the platform enables users to jump directly to relevant moments inside long videos. The architecture is modular. Each components like Speech To Text, NLP, Indexing, Search, and the User Interface can evolve independently as models or search technologies improve. This design supports applied industry use cases such as training and compliance, as well as research workflows that require scalable semantic retrieval.
+
+---
+
+## Additional Detailed Architecture Diagrams
+
+The following detailed diagrams for AEGIS are available in the central diagrams folder:
+
+- **Overview Diagram**  
+  [`aegis-overview.md`](../aegis/aegis-overview.md)
+
+- **Metadata Schema**  
+  [`aegis-metadata-schema.md`](../aegis/aegis-metadata-schema.md)
+
+- **Query Flow**  
+  [`aegis-query-flow.md`](../aegis/aegis-query-flow.md)
+
+- **Evaluation Pipeline**  
+  [`aegis-evaluation.md`](../aegis/aegis-evaluation.md)
+
+- **Deployment Architecture**  
+  [`aegis-deployment.md`](../aegis/aegis-deployment.md)
+
+These diagrams provide a complete view of AEGIS for both engineering and research evaluation.
+
