@@ -1,4 +1,4 @@
-# AEGIS — Metadata & Storage Schema
+# AEGIS Diagram 2 — Metadata & Storage Schema
 
 This diagram explains how AEGIS structures its internal data: transcripts, embeddings, 
 timestamps, and metadata. It shows how segments are stored, how embeddings relate to the 
