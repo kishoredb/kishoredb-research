@@ -9,37 +9,27 @@ human review loop that feeds back into pipeline and model improvements.
 ```mermaid
 flowchart TB
 
-    subgraph DATA [1. Evaluation Dataset]
-        D[Evaluation Dataset]
+    subgraph DATA [AEGIS.EvalData Module]
+        D1[Evaluation Dataset]
     end
 
-    subgraph COMPONENTS [2. Component Evaluation]
-        STT[STT Accuracy Tests]
-        EMB[Embedding Quality Checks]
-        SEARCH[Search Ranking Benchmarks]
+    subgraph TESTS [AEGIS.ComponentTests Module]
+        T1[STT Accuracy Tests]
+        T2[Embedding Quality Checks]
+        T3[Search Ranking Benchmarks]
     end
 
-    D --> STT
-    D --> EMB
-    D --> SEARCH
-
-    subgraph METRICS [3. Metrics & Diagnostics]
-        M1[WER / CER Metrics]
-        M2[Embedding Similarity Metrics]
-        M3[Precision@K / Recall@K]
+    subgraph METRICS [AEGIS.Metrics Module]
+        M1[WER And CER Scores]
+        M2[Embedding Similarity Scores]
+        M3[Precision At K Metrics]
     end
 
-    STT --> M1
-    EMB --> M2
-    SEARCH --> M3
-
-    subgraph REVIEW [4. Human Review Loop]
-        H[Analyst / Reviewer Feedback]
-        I[Pipeline and Model Improvements]
+    subgraph REVIEW [AEGIS.Review Module]
+        R1[Human Review Feedback]
+        R2[Pipeline Improvements]
     end
 
-    M1 --> H
-    M2 --> H
-    M3 --> H
-
-    H --> I
+    D1 --> T1 --> M1 --> R1 --> R2
+    D1 --> T2 --> M2 --> R1
+    D1 --> T3 --> M3 --> R1
