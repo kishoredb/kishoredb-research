@@ -27,6 +27,8 @@ Aegis is an AI-powered video intelligence platform combining:
 - Modular processing using microservices  
 - Integration with content management & compliance workflows  
 
+**Full Deep-Dive:** [`aegis-deep-dive.md`](./docs/deep-dives/aegis-deep-dive.md)
+
 ---
 
 ## 2. CredScore — Explainable Credit Scoring System  
@@ -49,6 +51,8 @@ It integrates:
 - JSON-based explainability outputs  
 - Designed for auditability and regulator alignment  
 
+**Full Deep-Dive:** [`credscore-deep-dive.md`](./docs/deep-dives/credscore-deep-dive.md)
+
 ---
 
 ## 3. Real-Time Fraud Detection Engine  
@@ -69,6 +73,8 @@ This engine detects anomalous financial transactions using:
 - Model introspection outputs for review teams  
 - Integration with fraud operations workflow  
 
+**Full Deep-Dive:** [`fraud-engine-deep-dive.md`](./docs/deep-dives/fraud-engine-deep-dive.md)
+
 ---
 
 ## 4. SmartCare — Eldercare Analytics Platform  
@@ -88,6 +94,8 @@ SmartCare was an early analytics platform providing:
 - Lightweight analytics engine (pre-ML era)  
 - Domain modeling of eldercare scenarios  
 - Deployment in assisted-living environments  
+
+**Full Deep-Dive:** [`smartcare-deep-dive.md`](./docs/deep-dives/smartcare-deep-dive.md)
 
 ---
 
