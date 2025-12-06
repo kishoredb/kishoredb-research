@@ -1,5 +1,3 @@
-
-```markdown
 # AEGIS Diagram 3 — Query Processing & Ranking Flow
 
 This diagram illustrates how a natural-language user query is converted into a semantic 
