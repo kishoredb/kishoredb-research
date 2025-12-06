@@ -22,6 +22,7 @@ AEGIS processes video through a sequence of well-defined stages:
 3. Indexing and Storage Store transcripts and embeddings in scalable cloud-native databases optimized for search.
 4. Semantic Search Convert user queries into embeddings and retrieve the closest matching segments.
 5. User Interface Integration Provide a search interface and a video player capable of jumping directly to relevant timestamps.
+
 This layered architecture ensures that AEGIS is modular, extensible, and capable of scaling across large video repositories. 
 
 --- 
