@@ -230,16 +230,16 @@ Aegis is the first deep-dive.
 ## 📘 AEGIS Diagram Suite
 
 - 🔹 **End-to-End Overview**  
-  [`/diagrams/aegis/aegis-overview.md`](../diagrams/aegis/aegis-overview.md)
+  [`aegis-overview.md`](../../diagrams/aegis/aegis-overview.md)
 
 - 🔹 **Metadata Schema Flow**  
-  [`/diagrams/aegis/aegis-metadata-schema.md`](../diagrams/aegis/aegis-metadata-schema.md)
+  [`aegis-metadata-schema.md`](../../diagrams/aegis/aegis-metadata-schema.md)
 
 - 🔹 **Query & Retrieval Pipeline**  
-  [`/diagrams/aegis/aegis-query-flow.md`](../diagrams/aegis/aegis-query-flow.md)
+  [`aegis-query-flow.md`](../../diagrams/aegis/aegis-query-flow.md)
 
 - 🔹 **Evaluation Pipeline**  
-  [`/diagrams/aegis/aegis-evaluation.md`](../diagrams/aegis/aegis-evaluation.md)
+  [`aegis-evaluation.md`](../../diagrams/aegis/aegis-evaluation.md)
 
 - 🔹 **Cloud Deployment Architecture**  
-  [`/diagrams/aegis/aegis-deployment.md`](../diagrams/aegis/aegis-deployment.md)
+  [`aegis-deployment.md`](../../diagrams/aegis/aegis-deployment.md)
