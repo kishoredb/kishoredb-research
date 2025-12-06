@@ -129,7 +129,7 @@ AEGIS shows how modern AI can turn raw video into a searchable knowledge layer. 
 Related diagrams for the AEGIS platform:
 
 - **Overview**  
-  [`aegis-overview.md`](./aegis-overview.md)
+  [`aegis-overview.md`](../aegis/aegis-overview.md)
 
 - **Metadata Schema**  
   [`aegis-metadata-schema.md`](./aegis-metadata-schema.md)
