@@ -3,14 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="./assets/research-icon.png" width="90" />
+  <img src="./assets/Brain.png" width="90" />
 </p>
 
 # ❤️ FINAL 2-PAGE RESEARCH STATEMENT — Polished, Human, Academically Grounded
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 ## Where My Journey Began
 My career did not begin with a research plan. It began with a moment that I have carried for more than 20 years.
@@ -20,9 +18,7 @@ That simple sentence showed me what technology can do at its best. It can give s
 “Is this helping someone make a clearer, safer, kinder decision?”
 This human-centered lens shaped my entire 23-year journey.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 ## Why Research Feels Like the Right Next Chapter
 Even as I moved into senior roles like Director of Engineering, platform architect, mentor my curiosity always stayed stronger than my job title. I stayed hands-on because I loved learning whether it was late-night prototypes, hackathon experiments, new models, messy data, unexpected insights.
@@ -30,9 +26,7 @@ Cross-cultural collaboration shaped me just as much. Working with European resea
 A PhD is not a pause for me.
 It is a continuation of lifelong learning. A chance to slow down, reflect deeply, and turn lived experience into structured knowledge for regulators, researchers, and society.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 # Questions That Drive My Research
 
@@ -40,33 +34,25 @@ It is a continuation of lifelong learning. A chance to slow down, reflect deeply
 After building credit-scoring and fraud engines that affect real lives, I learned that trust never comes from accuracy alone. It comes from clarity and humility in a system’s behaviour.
 I want to study trustworthiness through human-understandable explanations, uncertainty-aware outputs, and transparent decision paths, contributing to ongoing discussions in explainable and trustworthy AI.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 ## 2. How do we keep AI systems reliable when real life is messy?
 Data breaks, rules change, behaviour shifts, and unexpected events disrupt models. Reliability is not perfection. It is resilience under pressure.
 I aim to explore reproducible ML workflows, adaptive scoring models, and fault-aware system design, building on work in robust ML and dependable data systems.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 ## 3. Why do so many promising research ideas never reach real people?
 I’ve seen brilliant prototypes fade because they could not withstand real-world constraints. That gap between research insight and operational reality is one of the most important challenges of applied AI.
 I want to investigate lightweight validation methods, practical experiment design, and translational ML practices that help prototypes survive beyond the lab and reach people who need them.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 ## 4. How can technology respect human dignity?
 Working within GDPR, PSD2, and emerging AI governance frameworks taught me that ethics is not theory. It is everyday engineering behaviour. Dignity shows up in design decisions, in defaults, in how systems communicate uncertainty.
 I hope to explore value-sensitive engineering, inclusive design practices, and simple governance approaches that make it easier for everyday teams to build technology that respects human lives.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 # What I Bring Into a Research Environment
 
@@ -82,9 +68,7 @@ My 12-year involvement in Women-in-Tech mentoring taught me to listen deeply, su
 ### A mindset shaped by steady, patient learning
 Nothing came quickly. Everything came through persistence, curiosity, and reflection. Research feels like the natural form of that mindset.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 # Where I Hope My Work Will Lead
 I want my research to:
@@ -96,9 +80,7 @@ I want my research to:
 
 Ultimately, I hope to contribute work that remains useful even as technologies evolve. The ideas that help create a safer and more transparent technological world.
 
-<p align="center">
-  <img src="./assets/section-divider.png" width="60" />
-</p>
+---
 
 # Conclusion
 Just as that nurse once found reassurance in a simple alert, I want my research to give people clarity and trust in the systems they depend on.
