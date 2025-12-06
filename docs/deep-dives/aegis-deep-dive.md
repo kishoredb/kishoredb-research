@@ -60,205 +60,169 @@ Aegis was meaningful because it solved a problem that many people quietly strugg
 
 ## 4. System Architecture
 
-A detailed description and architecture diagram for Aegis are provided in the dedicated architecture document:
+<p align="center">
+  <a href="../../diagrams/aegis-architecture.md">
+    <img src="../../assets/architecture-icon.png" width="90" />
+  </a>
+</p>
 
-👉 See architecture file:  
-`diagrams/aegis-architecture.md`
+### **Click to open full architecture diagram:**  
+👉 **[Aegis Architecture](../../diagrams/aegis-architecture.md)**
 
-That document covers:
+The architecture document includes:
 
 - pipeline stages and processing flow  
 - microservices layout  
-- audio extraction and ASR (Automatic Speech Recognition)  
+- audio extraction and ASR  
 - NLP processing components  
 - search index generation  
-- metadata storage and retrieval patterns  
+- metadata storage  
 - orchestration and workflow design  
 
-This modular architecture allowed Aegis to scale and evolve without large rewrites.
+This modular design allowed Aegis to scale easily across different workloads.
 
 ---
 
 ## 5. Technical Approach
 
 ### 5.1 Speech-to-Text Pipeline
+Aegis uses transformer-based ASR models to convert raw audio from video into text, handling:
 
-Aegis uses transformer-based ASR models to convert raw audio tracks from video into text. The pipeline is designed to handle:
-
-- multiple accents and speaking styles  
-- noisy or imperfect audio  
-- long-form recordings with varying speakers  
-
-The audio is segmented into manageable chunks, processed in parallel, and then reassembled into a coherent transcript aligned with timestamps.
+- multiple accents  
+- imperfect audio  
+- long-form recordings  
 
 ### 5.2 Semantic NLP Layer
+Includes:
 
-Once the transcript is available, the NLP layer applies several processing steps:
-
-- **Entity extraction** (names, organizations, locations, products)  
-- **Topic segmentation** to break the video into logical sections  
-- **Summary generation** to produce concise textual overviews  
-- **Keyword and key-phrase extraction** to support search and filtering  
-- **Basic sentiment or tone cues** where applicable
-
-This semantic layer turns raw transcripts into a structured representation of what happened in the video.
+- entity extraction  
+- topic segmentation  
+- summarization  
+- keyword extraction  
+- light sentiment cues  
 
 ### 5.3 Metadata Fusion
+Creates a unified metadata object powering:
 
-All extracted information is fused into a structured metadata object for each video, containing:
-
-- timestamps and segment markers  
-- entities and topics mentioned  
-- short summaries for segments or chapters  
-- links back into the original video at key points
-
-This metadata powers:
-
-- full-text search  
-- filtered views (by person, topic, time period)  
-- compliance review workflows  
-- knowledge discovery across large archives
+- search  
+- filtering  
+- compliance reviews  
+- knowledge discovery  
 
 ### 5.4 Microservices and Backend
+Built with:
 
-From an engineering perspective, Aegis is implemented as a set of backend services, typically:
-
-- Python-based NLP and ASR services  
-- a message queue for asynchronous processing  
-- a storage layer for transcripts and metadata  
-- an API layer for search and retrieval
-
-This allows individual components to be scaled independently and updated with minimal disruption.
+- Python NLP services  
+- message queues  
+- storage layers for transcripts and metadata  
+- API layer  
 
 ### 5.5 Integration Layer
+Works with existing:
 
-Aegis is designed to integrate with existing systems such as:
-
-- content management platforms  
-- internal knowledge bases  
-- compliance review tools  
-- search dashboards and portals
-
-This integration focus ensures that Aegis adds value without forcing teams to change their existing workflows dramatically.
+- content management systems  
+- knowledge bases  
+- compliance tools  
 
 ---
 
 ## 6. Evaluation and Real-World Metrics
 
-The success of Aegis was evaluated using both technical and practical criteria.
+### Practical Metrics
+- reduced review time  
+- improved searchability  
+- usable transcript quality  
+- pipeline stability  
 
-### 6.1 Practical Outcome Metrics
+### Technical Metrics
+- ASR quality  
+- entity extraction performance  
+- runtime throughput  
 
-- **Reduction in review time**  
-  Teams reported significant reductions in the time required to find relevant sections of long videos.
+### Operational Stability
+Designed for:
 
-- **Improved searchability**  
-  Users could locate exact discussions by searching for names, topics, or key phrases, instead of relying on memory or manual notes.
-
-- **Transcription usability**  
-  Transcripts reached a quality level that, even if not perfect, was clearly usable for search, review, and documentation.
-
-### 6.2 Technical Metrics
-
-When appropriate, standard NLP metrics such as word error rate for ASR and basic precision/recall for entity extraction were monitored. More importantly, internal feedback loops with real users were used to guide further refinements and corrections.
-
-### 6.3 Operational Stability
-
-Aegis was evaluated under realistic workloads, including long recordings and concurrent processing. Stability, throughput, and recoverability from failures were treated as first-class concerns alongside model quality.
+- long recordings  
+- concurrent processing  
+- graceful failure recovery  
 
 ---
 
 ## 7. Reproducibility Notes
 
-While the original datasets and environments are proprietary, the core ideas of Aegis can be reproduced using public resources.
+### Public Data Sources
+- lectures  
+- podcasts  
+- conference recordings  
 
-### 7.1 Example Data Sources
+### Open-Source Tools
+- Whisper  
+- spaCy  
+- HuggingFace models  
+- Elasticsearch/OpenSearch  
 
-- Public lecture recordings  
-- Open podcast datasets  
-- Publicly available meeting or conference recordings  
-
-These can be used to simulate real-world use cases.
-
-### 7.2 Open-Source Components
-
-A reproducible prototype could be built using:
-
-- Whisper or other ASR models for transcription  
-- spaCy or HuggingFace transformers for NLP tasks  
-- OpenSearch or Elasticsearch for search indexing  
-- Simple Python-based microservices for pipeline orchestration
-
-### 7.3 Key Configuration Notes
-
-- Chunking strategy and overlap settings for long audio  
-- Handling model loading and reuse for efficiency  
-- Storage layout for transcripts and metadata  
-- Basic monitoring for latency and failure cases  
-
-These notes give future researchers and engineers a starting point to re-create or extend the Aegis concept without needing access to the original environment.
+### Key Configurations
+- audio chunking  
+- model caching  
+- storage layout  
+- monitoring  
 
 ---
 
 ## 8. Ethical and Responsible AI Considerations
 
-Aegis, by its nature, touches sensitive information. Videos can contain personal, confidential, or regulated content. Several ethical aspects were considered.
+### Privacy
+- access control  
+- encryption  
+- audit logs  
+- retention rules  
 
-### 8.1 Privacy and Access Control
+### Fairness
+- accent robustness checks  
+- low-confidence alerts  
+- optional human review  
 
-- role-based access to processed content  
-- secure storage and encryption  
-- clear audit trails for who accessed which recordings  
-- configurable retention and deletion policies
-
-### 8.2 Fairness and Bias
-
-Speech recognition performance can vary by accent, speaking style, or audio quality. To mitigate issues:
-
-- quality checks were conducted across different speaker profiles  
-- low-confidence segments were surfaced for optional human review  
-- domain adaptation was considered where needed
-
-### 8.3 Transparency and Human Oversight
-
-Aegis was always intended as a decision support tool, not an automated decision maker. Users were informed about:
-
-- limitations of transcription  
-- possible errors in entity extraction or summary generation  
-- the need for human judgement when using generated insights
+### Transparency
+- visible limitations  
+- uncertainty signals  
+- human-in-the-loop workflows  
 
 ---
 
 ## 9. Limitations
 
-Aegis had known limitations that are important to acknowledge:
-
-- performance could degrade with extremely noisy audio or overlapping speech  
-- domain-specific jargon sometimes reduced entity extraction accuracy  
-- summarization occasionally missed subtle context or emotional nuance  
-- long recordings required careful resource management to avoid bottlenecks  
-- non-English support depended heavily on available ASR and NLP models
-
-Recognizing these limitations is part of what makes Aegis a useful foundation for further research rather than a finished, flawless product.
+- noise sensitivity  
+- domain-specific terminology gaps  
+- summarization nuance loss  
+- resource demands for long videos  
+- multilingual variance  
 
 ---
 
 ## 10. Future Work
 
-Aegis suggests several promising directions for research and further development:
+Promising research areas:
 
-- **Multimodal analysis** combining audio, visuals, and screen content  
-- **Improved summarization** using more advanced large language models  
-- **Interactive exploration tools** that allow users to guide what the system highlights  
-- **Adaptive models** that learn from corrections and user feedback over time  
-- **Fairness and inclusivity research** for multilingual and cross-cultural usage  
-
-These directions naturally connect Aegis to active research areas in NLP, multimodal learning, human-computer interaction, and responsible AI.
+- multimodal fusion  
+- improved LLM-based summarization  
+- adaptive learning from corrections  
+- multimodal sentiment/emotion detection  
+- fair, inclusive multilingual models  
 
 ---
 
 ## 11. Summary
 
-Aegis was not just an engineering exercise. It was an attempt to respect people’s time and attention by turning overwhelming quantities of video into something searchable, understandable, and useful. It combines modern NLP techniques with real-world constraints and reflects a broader theme in my work: technology should reduce cognitive burden, not increase it.
+Aegis was built to help people reclaim time and reduce cognitive burden by turning overwhelming video content into searchable, meaningful knowledge. It shows how research thinking and practical engineering can meet in a system that is useful today and forms the foundation for future innovations.
 
-As a deep-dive case study, Aegis demonstrates how ideas from research, engineering, and human-centered design can come together in a system that is both technically meaningful and practically helpful.
+---
+
+# 🔗 Deep-Dive Navigation
+
+### **Next Deep-Dive → CredScore**  
+`../deep-dives/credscore-deep-dive.md`
+
+### **← Previous Deep-Dive (none)**  
+Aegis is the first deep-dive.
+
+---
