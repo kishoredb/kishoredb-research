@@ -124,23 +124,27 @@ AEGIS shows how modern AI can turn raw video into a searchable knowledge layer. 
 
 ---
 
-## Additional Detailed Architecture Diagrams
+## AEGIS Architecture Diagram Suite
 
-The following detailed diagrams for AEGIS are available in the diagrams folder:
+The AEGIS platform includes a complete set of architecture diagrams that reflect the
+core components of speech processing, NLP, indexing, search, evaluation, and deployment.
+
+### 📊 AEGIS Diagrams
 
 - **Overview Diagram**  
-  [`aegis-overview.md`](./aegis/aegis-overview.md)
+  [`aegis-overview.md`](../../diagrams/aegis/aegis-overview.md)
 
-- **Metadata Schema**  
-  [`aegis-metadata-schema.md`](./aegis/aegis-metadata-schema.md)
+- **Metadata Schema Diagram**  
+  [`aegis-metadata-schema.md`](../../diagrams/aegis/aegis-metadata-schema.md)
 
-- **Query Flow**  
-  [`aegis-query-flow.md`](./aegis/aegis-query-flow.md)
+- **Query Flow Diagram**  
+  [`aegis-query-flow.md`](../../diagrams/aegis/aegis-query-flow.md)
 
-- **Evaluation Pipeline**  
-  [`aegis-evaluation.md`](./aegis/aegis-evaluation.md)
+- **Evaluation Pipeline Diagram**  
+  [`aegis-evaluation.md`](../../diagrams/aegis/aegis-evaluation.md)
 
-- **Deployment Architecture**  
-  [`aegis-deployment.md`](./aegis/aegis-deployment.md)
+- **Deployment Architecture Diagram**  
+  [`aegis-deployment.md`](../../diagrams/aegis/aegis-deployment.md)
 
-These diagrams provide a complete view of AEGIS for both engineering and research evaluation.
+---
+
