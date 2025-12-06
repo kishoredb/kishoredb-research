@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG"width="50%" />
+  <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG"width="10%" />
 </p>
 
 # ❤️ RESEARCH STATEMENT
