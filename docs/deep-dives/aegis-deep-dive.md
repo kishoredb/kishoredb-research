@@ -63,7 +63,7 @@ Aegis was meaningful because it solved a problem that many people quietly strugg
 A detailed description and architecture diagram for Aegis are provided in the dedicated architecture document:
 
 👉 See architecture file:  
-`../../diagrams/aegis-architecture.md`
+`../diagrams/aegis-architecture.md`
 
 That document covers:
 
