@@ -20,6 +20,8 @@ and metadata extraction for video archives. Delivered automated tagging, summari
 sentiment insights, and content search capabilities. Designed to support media indexing,  
 governance workflows, and knowledge retrieval.
 
+**Full Deep-Dive:** [`aegis-deep-dive.md`](./docs/deep-dives/aegis-deep-dive.md)
+
 ---
 
 ## 2. CredScore — Explainable Credit Scoring System  
@@ -30,6 +32,8 @@ governance workflows, and knowledge retrieval.
 Built an interpretable credit scoring engine integrating ML models, SHAP/LIME explanations,  
 rule-based logic, and regulatory compliance features. Designed to support transparent decision  
 making in retail and corporate lending workflows. Recognized internally for innovation.
+
+**Full Deep-Dive:** [`credscore-deep-dive.md`](./docs/deep-dives/credscore-deep-dive.md)
 
 ---
 
@@ -42,6 +46,8 @@ Created a hybrid fraud detection pipeline using time-series signal analysis, pat
 and NLP-based feature extraction. Designed for near–real-time detection with explainable anomaly  
 flags and workflow integration for risk operations.
 
+**Full Deep-Dive:** [`fraud-engine-deep-dive.md`](./docs/deep-dives/fraud-engine-deep-dive.md)
+
 ---
 
 ## 4. SmartCare — Eldercare Analytics Platform  
@@ -52,6 +58,8 @@ flags and workflow integration for risk operations.
 Designed an early care analytics platform leveraging rule-based reasoning, symptom pattern  
 evaluation, and patient monitoring workflows. Used in eldercare settings for triage support,  
 early warning signals, and caregiver recommendations — long before modern ML tooling existed.
+
+**Full Deep-Dive:** [`smartcare-deep-dive.md`](./docs/deep-dives/smartcare-deep-dive.md)
 
 ---
 
