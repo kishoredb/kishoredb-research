@@ -1,7 +1,8 @@
-#Aegis Diagram 1 — End-to-End Architecture Overview
+# Aegis Diagram 1 — End-to-End Architecture Overview
 
-##This diagram shows the whole system at once, from video input → transcript → embeddings → index → search → playback.
+## **This diagram shows the whole system at once, from video input → transcript → embeddings → index → search → playback.**
 
+```mermaid
 flowchart LR
     A[Video File] --> B[Audio Extraction (FFmpeg)]
     B --> C[Speech-to-Text (Whisper / Azure STT)]
@@ -22,3 +23,4 @@ flowchart LR
 
     F1 -.-> I
     F2 -.-> I
+```
