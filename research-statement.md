@@ -6,7 +6,7 @@
   <img src="./assets/Brain.png" width="90" />
 </p>
 
-# ❤️ FINAL 2-PAGE RESEARCH STATEMENT — Polished, Human, Academically Grounded
+# ❤️ RESEARCH STATEMENT
 
 ---
 
