@@ -10,6 +10,7 @@ This document provides a clear, modular breakdown of the AEGIS architecture usin
 1. Speech-to-Text + NLP Pipeline
 2. Indexing Pipeline
 3. Search Pipeline + User Interface
+
 Each part reflects practical, production-oriented AI engineering—built using modern ML/NLP tools such as Whisper, BERT/GPT embeddings, CosmosDB, and Azure Cognitive Search. 
 
 --- 
