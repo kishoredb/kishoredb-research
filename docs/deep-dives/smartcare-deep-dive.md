@@ -262,4 +262,50 @@ This transparency made adoption easier during daily work.
 
 ## 9. Limitations
 
-- rules
+- rules required periodic updates from domain experts  
+- system could not capture complex conditions or comorbidities  
+- lack of modern NLP limited interpretation of free-text notes  
+- no predictive ML capability in early versions  
+- integration with hospital systems was minimal  
+
+Still, as an early prototype, SmartCare delivered meaningful value.
+
+---
+
+## 10. Future Work
+
+SmartCare can evolve into a full research direction:
+
+- hybrid ML + rules-based health monitoring  
+- NLP for caregiver notes and unstructured observations  
+- time-series forecasting for patient decline  
+- explainable risk models for clinical settings  
+- multimodal sensor fusion  
+- compliance and governance frameworks for care environments  
+
+This aligns strongly with:
+
+- healthcare analytics  
+- trustworthy AI  
+- human-centered decision support  
+- digital health research  
+
+---
+
+## 11. Summary
+
+SmartCare demonstrated that even simple analytics can meaningfully support caregivers and improve outcomes in eldercare. It taught me that technology succeeds not by being clever, but by being useful, trustworthy, and compassionate.
+
+This project remains a foundational part of my journey toward human-centered AI and decision-support systems.
+
+---
+
+# 🔗 Deep-Dive Navigation
+
+### **← Previous Deep-Dive: Fraud Detection Engine**  
+`../deep-dives/fraud-engine-deep-dive.md`
+
+### **Next Deep-Dive → (none)**  
+This is the final system deep-dive in the current series.
+
+---
