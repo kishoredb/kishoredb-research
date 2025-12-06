@@ -1,4 +1,5 @@
-# AEGIS Architecture – Video Intelligence Platform A Technical Overview of the Core Processing Pipelines 
+# AEGIS Architecture – Video Intelligence Platform 
+## A Technical Overview of the Core Processing Pipelines 
 
 --- 
 
@@ -109,7 +110,10 @@ flowchart TB
 ---
 
 ## Business Impact
-AEGIS accelerates video understanding and navigation through multimodal AI: - Around **90 percent faster content discovery** - Useful in **compliance training**, **corporate learning**, and **media analytics** - Demonstrates practical application of **speech recognition, NLP, embeddings, and semantic search** across real enterprise challenges
+AEGIS accelerates video understanding and navigation through multimodal AI: 
+- Around **90 percent faster content discovery**
+- Useful in **compliance training**, **corporate learning**, and **media analytics**
+- Demonstrates practical application of **speech recognition, NLP, embeddings, and semantic search** across real enterprise challenges
 
 ---
 
