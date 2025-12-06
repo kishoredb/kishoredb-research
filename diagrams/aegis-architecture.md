@@ -74,6 +74,8 @@ flowchart TB
 
     A5 --> A6
     A5 --> A7
+```
+
 ---
 
 # Diagram C — Search Pipeline + User Interface
@@ -102,6 +104,8 @@ flowchart TB
     end
 
     U2 --> Q1 --> Q2 --> Q3 --> Q4 --> Q5 --> U3
+```
+
 ---
 
 ## Business Impact
