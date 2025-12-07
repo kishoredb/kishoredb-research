@@ -396,7 +396,6 @@ diagram suites, and methodology visuals used throughout this research portfolio.
 - [Transparency & Explainability Pipeline](../diagrams/methodology/transparency-pipeline.md)
 - [Reproducibility Cycle](../diagrams/methodology/reproducibility-cycle.md)
 
-
 ---
 
 # Conclusion
