@@ -280,6 +280,24 @@ It helped people understand decisions that shaped their financial lives.
 
 ---
 
+## 🔬 Research Methodology
+
+To understand the scientific reasoning, evaluation principles, transparency workflows,  
+and reproducibility practices behind this project, see:
+
+➡️ **Full Research Methodology & Design Philosophy**  
+[`../research-methodology.md`](../research-methodology.md)
+
+This includes:
+- My research workflow (problem → experiment → evaluation → deployment)
+- Explainability & transparency frameworks
+- Reliability and uncertainty-handling principles
+- Reproducibility cycle and evaluation methodologies
+- Diagrams describing loops, pipelines, and research structure
+
+---
+
+
 # 🔗 Deep-Dive Navigation
 
 ### **← Previous Deep-Dive: Aegis**  
