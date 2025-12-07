@@ -329,28 +329,67 @@ and supporting caregivers with clarity rather than complexity.
 
 # 8. Cross-Link Index (Full Repository Navigation)
 
-### Deep Dives  
-- `/docs/deep-dives/aegis-deep-dive.md`  
-- `/docs/deep-dives/credscore-deep-dive.md`  
-- `/docs/deep-dives/fraud-engine-deep-dive.md`  
-- `/docs/deep-dives/smartcare-deep-dive.md`  
+This section provides quick access to all deep-dives, architecture files, diagram suites,  
+and methodology diagrams used throughout the research portfolio.
 
-### Architecture Files  
-- `/diagrams/aegis-architecture.md`  
-- `/diagrams/credscore-architecture.md`  
-- `/diagrams/fraud-engine-architecture.md`  
-- `/diagrams/smartcare-architecture.md`  
+---
 
-### Diagram Suites  
-- `/diagrams/aegis/…`  
-- `/diagrams/credscore/…`  
-- `/diagrams/fraud-engine/…`  
-- `/diagrams/smartcare/…`  
+## 🔍 Deep Dive Pages
 
-### Methodology Diagrams  
-- `/diagrams/methodology/research-methodology-loop.md`  
-- `/diagrams/methodology/transparency-pipeline.md`  
-- `/diagrams/methodology/reproducibility-cycle.md`
+- [Aegis Deep Dive](../deep-dives/aegis-deep-dive.md)
+- [CredScore Deep Dive](../deep-dives/credscore-deep-dive.md)
+- [Fraud Engine Deep Dive](../deep-dives/fraud-engine-deep-dive.md)
+- [SmartCare Deep Dive](../deep-dives/smartcare-deep-dive.md)
+
+---
+
+## 🧱 Architecture Files
+
+- [Aegis Architecture](../../diagrams/aegis-architecture.md)
+- [CredScore Architecture](../../diagrams/credscore-architecture.md)
+- [Fraud Engine Architecture](../../diagrams/fraud-engine-architecture.md)
+- [SmartCare Architecture](../../diagrams/smartcare-architecture.md)
+
+---
+
+## 🗂️ Diagram Suites (Per Project)
+
+### Aegis Diagrams (`/diagrams/aegis/`)
+- [Overview](../../diagrams/aegis/aegis-overview.md)  
+- [Metadata Schema](../../diagrams/aegis/aegis-metadata-schema.md)  
+- [Query Flow](../../diagrams/aegis/aegis-query-flow.md)  
+- [Evaluation Pipeline](../../diagrams/aegis/aegis-evaluation.md)  
+- [Deployment](../../diagrams/aegis/aegis-deployment.md)
+
+### CredScore Diagrams (`/diagrams/credscore/`)
+- [Overview](../../diagrams/credscore/credscore-overview.md)
+- [Feature Pipeline](../../diagrams/credscore/credscore-feature-pipeline.md)
+- [Modeling Pipeline](../../diagrams/credscore/credscore-modeling-pipeline.md)
+- [Explainability Flow](../../diagrams/credscore/credscore-explainability-flow.md)
+- [Deployment](../../diagrams/credscore/credscore-deployment.md)
+
+### Fraud Engine Diagrams (`/diagrams/fraud-engine/`)
+- [Overview](../../diagrams/fraud-engine/fraud-engine-overview.md)
+- [Feature Pipeline](../../diagrams/fraud-engine/fraud-engine-feature-pipeline.md)
+- [Modeling Pipeline](../../diagrams/fraud-engine/fraud-engine-modeling-pipeline.md)
+- [Explainability Flow](../../diagrams/fraud-engine/fraud-engine-explainability-flow.md)
+- [Deployment](../../diagrams/fraud-engine/fraud-engine-deployment.md)
+
+### SmartCare Diagrams (`/diagrams/smartcare/`)
+- [Overview](../../diagrams/smartcare/smartcare-overview.md)
+- [Feature Pipeline](../../diagrams/smartcare/smartcare-feature-pipeline.md)
+- [Modeling Pipeline](../../diagrams/smartcare/smartcare-modeling-pipeline.md)
+- [Explainability Flow](../../diagrams/smartcare/smartcare-explainability-flow.md)
+- [Deployment](../../diagrams/smartcare/smartcare-deployment.md)
+
+---
+
+## 🧪 Methodology Diagrams (`/diagrams/methodology/`)
+
+- [Research Methodology Loop](../../diagrams/methodology/research-methodology-loop.md)
+- [Transparency & Explainability Pipeline](../../diagrams/methodology/transparency-pipeline.md)
+- [Reproducibility Cycle](../../diagrams/methodology/reproducibility-cycle.md)
+
 
 ---
 
