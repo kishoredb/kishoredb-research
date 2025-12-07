@@ -1,0 +1,9 @@
+## For AEGIS – Speech-to-Text + NLP examples
+
+🔍 Purpose:
+Used to demonstrate STT → cleanup → sentence splitting → embedding generation pipeline in Aegis.
+
+[00:00:01] Hello everyone, welcome to the training session.
+[00:00:05] Today we will discuss how to identify risks early.
+[00:00:12] This method reduces errors and improves decision clarity.
+[00:00:18] Let us walk through a simple example together.
