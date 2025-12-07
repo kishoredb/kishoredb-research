@@ -26,8 +26,30 @@ Detailed case studies of major projects, including:
 Deep-dive documents will be available in:
 /docs/deep-dives/
 
+---
+
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="35" />
+# Research Methodology & Design Philosophy
+
+A full explanation of my research approach, scientific workflow, evaluation principles, and reproducibility practices is available here:
+
+➡️ **Research Methodology (Full Document)**  
+[`/docs/research-methodology.md`](./research-methodology.md)
+
+This document details:
+
+- My philosophy for designing trustworthy, human-centered AI  
+- My evaluation workflows (quantitative + qualitative)  
+- My reproducibility approach for ML and data systems  
+- My transparency pipeline and explainability principles  
+- Methodology diagrams (loops, pipelines, reproducibility cycle)  
+- How my industry experience informs my academic direction  
+
+It provides reviewers with a clear map of *how I think, reason, and conduct research* across AI, risk analytics, and socio-technical systems.
 
 ---
+
+
 
 ## 🔬 Reproducibility Notes (Optional)
 Guides, synthetic dataset descriptions, environment configuration, and
