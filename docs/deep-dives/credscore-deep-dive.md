@@ -280,6 +280,14 @@ It helped people understand decisions that shaped their financial lives.
 
 ---
 
+### 🔍 Additional Resources: Validation & Explainability Checks
+For SHAP/LIME evaluation patterns, feature stability checks, and fairness spot-tests,  
+see:
+
+👉 [Validation Notes](../reproducibility/validation-notes.md)
+
+---
+
 ## 🔬 Research Methodology
 
 To understand the scientific reasoning, evaluation principles, transparency workflows,  
