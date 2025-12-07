@@ -1,0 +1,23 @@
+##For CredScore – feature engineering, rules + ML example
+
+🔍 Purpose:
+Used to explain feature engineering (ratios, utilization, stability flags), scoring pipeline, explainability (SHAP), and rule overrides.
+
+{
+  "application_id": "SYN-001",
+  "applicant": {
+    "age": 34,
+    "employment_type": "full_time",
+    "annual_income": 58000
+  },
+  "credit_history": {
+    "past_defaults": 0,
+    "active_loans": 1,
+    "credit_utilization": 0.32
+  },
+  "loan_request": {
+    "amount": 12000,
+    "term_months": 36,
+    "purpose": "vehicle"
+  }
+}
