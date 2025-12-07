@@ -15,3 +15,21 @@
 - 🔹 **Deployment Architecture**  
   [`aegis-deployment.md`](./aegis/aegis-deployment.md)
 
+---
+
+## 📘 CredScore Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`credscore-overview.md`](./credscore/credscore-overview.md)
+
+- 🔹 **Feature Engineering Pipeline**  
+  [`credscore-feature-pipeline.md`](./credscore/credscore-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`credscore-modeling-pipeline.md`](./credscore/credscore-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`credscore-explainability-flow.md`](./credscore/credscore-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`credscore-deployment.md`](./credscore/credscore-deployment.md)
