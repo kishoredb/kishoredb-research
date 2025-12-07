@@ -309,3 +309,22 @@ This project remains a foundational part of my journey toward human-centered AI 
 This is the final system deep-dive in the current series.
 
 ---
+
+## 📘 SmartCare Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`smartcare-overview.md`](../../diagrams/smartcare/smartcare-overview.md)
+
+- 🔹 **Feature Pipeline**  
+  [`smartcare-feature-pipeline.md`](../../diagrams/smartcare/smartcare-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`smartcare-modeling-pipeline.md`](../../diagrams/smartcare/smartcare-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`smartcare-explainability-flow.md`](../../diagrams/smartcare/smartcare-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`smartcare-deployment.md`](../../diagrams/smartcare/smartcare-deployment.md)
+
+
