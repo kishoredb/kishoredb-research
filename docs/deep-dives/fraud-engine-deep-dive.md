@@ -351,3 +351,20 @@ Its value came not only from technical innovation, but from its respect for the 
 `../deep-dives/smartcare-deep-dive.md`
 
 ---
+
+## 📘 Fraud Engine Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`fraud-engine-overview.md`](../../diagrams/fraud-engine/fraud-engine-overview.md)
+
+- 🔹 **Feature Pipeline**  
+  [`fraud-engine-feature-pipeline.md`](../../diagrams/fraud-engine/fraud-engine-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`fraud-engine-modeling-pipeline.md`](../../diagrams/fraud-engine/fraud-engine-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`fraud-engine-explainability-flow.md`](../../diagrams/fraud-engine/fraud-engine-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`fraud-engine-deployment.md`](../../diagrams/fraud-engine/fraud-engine-deployment.md)
