@@ -171,3 +171,23 @@ CredScore is a modular, explainable AI system for credit risk scoring.
 By integrating feature engineering, classical ML, SHAP and LIME explanations, and Power BI dashboards, the platform provides both predictive strength and clear, human-understandable reasoning.
 
 Its design supports ongoing monitoring, retraining, and governance, making it suitable for production lending workflows as well as research and experimentation in explainable machine learning.
+
+---
+
+## 📘 CredScore Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`credscore-overview.md`](./credscore/credscore-overview.md)
+
+- 🔹 **Feature Engineering Pipeline**  
+  [`credscore-feature-pipeline.md`](./credscore/credscore-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`credscore-modeling-pipeline.md`](./credscore/credscore-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`credscore-explainability-flow.md`](./credscore/credscore-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`credscore-deployment.md`](./credscore/credscore-deployment.md)
+
