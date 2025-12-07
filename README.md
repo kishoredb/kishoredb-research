@@ -70,6 +70,26 @@ cross-domain problem solving, and human-centered design** across my 23-year care
 ---
 
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="40" />
+# Research Methodology
+
+My full research philosophy, methods, evaluation principles, and reproducibility framework are available here:
+
+➡️ **Research Methodology & Design Philosophy**  
+[`/docs/research-methodology.md`](./docs/research-methodology.md)
+
+This document explains:
+- How I design and validate AI systems  
+- How I handle uncertainty, fairness, ethics, and governance  
+- My scientific workflow from prototype → evaluation → deployment  
+- My reproducibility and transparency approach  
+- Links to methodology diagrams (loops, pipelines, reproducibility cycles)
+
+It provides reviewers with a clear understanding of *how I think and work as a researcher*.
+
+---
+
+
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="40" />
 # Research Focus Areas
 
 ### **Applied AI & Analytics**
