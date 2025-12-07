@@ -40,6 +40,14 @@ Seed control, minimal config samples, and reproducibility practices.
 
 ---
 
+5. Validation Notes
+
+Details on evaluation methods for STT, embeddings, credit scoring explainability,
+fraud anomaly detection, and rule-based SmartCare logic.
+→ validation-notes.md
+
+---
+
 ## 🧭 How To Use This Section  
 This reproducibility folder is designed for academic review, not production execution.  
 It provides:
