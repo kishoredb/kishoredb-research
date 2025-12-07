@@ -300,6 +300,14 @@ This project remains a foundational part of my journey toward human-centered AI 
 
 ---
 
+### 🔍 Additional Resources: Validation of Rule-Based Logic
+For rule correctness tests, scenario evaluation, and human-aligned explanation checks,  
+see:
+
+👉 [Validation Notes](../reproducibility/validation-notes.md)
+
+---
+
 ## 🔬 Research Methodology
 
 To understand the scientific reasoning, evaluation principles, transparency workflows,  
