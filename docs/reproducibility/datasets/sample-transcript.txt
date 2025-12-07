@@ -1,7 +1,8 @@
-## For AEGIS – Speech-to-Text + NLP examples
-
-🔍 Purpose:
-Used to demonstrate STT → cleanup → sentence splitting → embedding generation pipeline in Aegis.
+# Synthetic transcript sample for AEGIS reproducibility
+# Purpose:
+# - Demonstrates STT → cleanup → sentence splitting → embedding generation
+# - Safe artificial example with realistic timing structure
+# - Matches the AEGIS deep-dive and evaluation steps
 
 [00:00:01] Hello everyone, welcome to the training session.
 [00:00:05] Today we will discuss how to identify risks early.
