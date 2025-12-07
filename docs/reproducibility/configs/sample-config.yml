@@ -1,3 +1,9 @@
+
+---
+
+# ✅ **/reproducibility/configs/sample-config.yml**
+
+```yaml
 # Sample configuration (synthetic demo)
 experiment:
   name: "demo-eval"
