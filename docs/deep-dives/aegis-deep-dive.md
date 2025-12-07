@@ -217,6 +217,14 @@ Aegis was built to help people reclaim time and reduce cognitive burden by turni
 
 ---
 
+### 🔍 Additional Resources: Validation & Evaluation
+For cross-project evaluation methods (WER/CER, embedding tests, search ranking, etc.),  
+see:
+
+👉 [Validation Notes](../reproducibility/validation-notes.md)
+
+---
+
 ## 🔬 Research Methodology
 
 To understand the scientific reasoning, evaluation principles, transparency workflows,  
