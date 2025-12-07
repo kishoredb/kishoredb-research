@@ -1,9 +1,12 @@
-##For CredScore – feature engineering, rules + ML example
-
-🔍 Purpose:
-Used to explain feature engineering (ratios, utilization, stability flags), scoring pipeline, explainability (SHAP), and rule overrides.
-
 {
+  "_meta": {
+    "description": "Synthetic credit application example for feature engineering, explainability (SHAP), and rule-based overrides.",
+    "purpose": [
+      "Demonstrates feature ratios, utilization metrics, and stability flags",
+      "Supports reproducibility in CredScore pipeline",
+      "Safe synthetic sample — no real data"
+    ]
+  },
   "application_id": "SYN-001",
   "applicant": {
     "age": 34,
