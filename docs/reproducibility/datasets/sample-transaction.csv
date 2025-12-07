@@ -2,7 +2,7 @@
 # For Fraud Engine – anomaly detection and hybrid scoring
 # Used for:
 # - time-series deviation analysis
-# - embedding-based text inspection ("urgent transfer")
+# - embedding-based text inspection (urgent transfer)
 # - hybrid risk scoring
 # - explainability hooks
 transaction_id,timestamp,amount,channel,merchant,location,device_score,text_note
