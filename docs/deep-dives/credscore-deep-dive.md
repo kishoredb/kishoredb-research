@@ -289,3 +289,21 @@ It helped people understand decisions that shaped their financial lives.
 `../deep-dives/fraud-engine-deep-dive.md`
 
 ---
+
+## 📘 CredScore Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`credscore-overview.md`](../../diagrams/credscore/credscore-overview.md)
+
+- 🔹 **Feature Engineering Pipeline**  
+  [`credscore-feature-pipeline.md`](../../diagrams/credscore/credscore-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`credscore-modeling-pipeline.md`](../../diagrams/credscore/credscore-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`credscore-explainability-flow.md`](../../diagrams/credscore/credscore-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`credscore-deployment.md`](../../diagrams/credscore/credscore-deployment.md)
+
