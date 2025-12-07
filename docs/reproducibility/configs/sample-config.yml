@@ -1,0 +1,13 @@
+# Sample configuration (synthetic demo)
+experiment:
+  name: "demo-eval"
+  seed: 42
+
+dataset:
+  path: "synthetic-data.csv"
+
+model:
+  type: "gbm"
+  parameters:
+    max_depth: 4
+    learning_rate: 0.1
