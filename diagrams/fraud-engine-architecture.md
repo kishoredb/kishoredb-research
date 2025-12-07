@@ -189,16 +189,17 @@ By providing both powerful detection capabilities and operational visibility, it
 - 🔹 **End-to-End Overview**  
   [`fraud-engine-overview.md`](./fraud-engine/fraud-engine-overview.md)
 
-- 🔹 **Feature Extraction Flow**  
-  [`fraud-engine-feature-flow.md`](./fraud-engine/fraud-engine-feature-flow.md)
+- 🔹 **Feature Pipeline**  
+  [`fraud-engine-feature-pipeline.md`](./fraud-engine/fraud-engine-feature-pipeline.md)
 
-- 🔹 **Detection Pipeline**  
-  [`fraud-engine-detection-pipeline.md`](./fraud-engine/fraud-engine-detection-pipeline.md)
+- 🔹 **Modeling Pipeline**  
+  [`fraud-engine-modeling-pipeline.md`](./fraud-engine/fraud-engine-modeling-pipeline.md)
 
-- 🔹 **Evaluation Pipeline**  
-  [`fraud-engine-evaluation.md`](./fraud-engine/fraud-engine-evaluation.md)
+- 🔹 **Explainability Flow**  
+  [`fraud-engine-explainability-flow.md`](./fraud-engine/fraud-engine-explainability-flow.md)
 
 - 🔹 **Deployment Architecture**  
   [`fraud-engine-deployment.md`](./fraud-engine/fraud-engine-deployment.md)
+
 
 
