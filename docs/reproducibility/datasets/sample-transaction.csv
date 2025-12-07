@@ -1,0 +1,14 @@
+# For Fraud Engine – anomaly detection, hybrid scoring
+
+transaction_id,timestamp,amount,channel,merchant,location,device_score,text_note
+T001,2024-06-01T10:05:00,42.50,online,STORE_A,INDIA,0.82,"payment for groceries"
+T002,2024-06-01T10:07:12,900.00,online,STORE_X,GERMANY,0.33,"urgent transfer"
+T003,2024-06-01T10:09:50,44.10,atm,ATM_22,INDIA,0.91,"cash withdrawal"
+T004,2024-06-01T10:11:03,2500.00,online,STORE_Y,USA,0.20,"high value electronics"
+
+# 🔍 Purpose:
+# Used for:
+# time-series deviation analysis
+# embedding-based text inspection (“urgent transfer”)
+# hybrid risk scoring
+# explanation hooks
