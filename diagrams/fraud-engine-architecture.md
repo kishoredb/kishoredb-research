@@ -181,3 +181,24 @@ The Fraud Engine is a real time, AI driven fraud detection platform that combine
 Its modular design allows each part of the system like streaming, features, models, graph analytics, decision logic, and dashboards to evolve as fraud patterns and technologies change.
 
 By providing both powerful detection capabilities and operational visibility, it supports proactive fraud management in modern, high volume environments.
+
+---
+
+## 📘 Fraud Engine Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`fraud-engine-overview.md`](./fraud-engine/fraud-engine-overview.md)
+
+- 🔹 **Feature Extraction Flow**  
+  [`fraud-engine-feature-flow.md`](./fraud-engine/fraud-engine-feature-flow.md)
+
+- 🔹 **Detection Pipeline**  
+  [`fraud-engine-detection-pipeline.md`](./fraud-engine/fraud-engine-detection-pipeline.md)
+
+- 🔹 **Evaluation Pipeline**  
+  [`fraud-engine-evaluation.md`](./fraud-engine/fraud-engine-evaluation.md)
+
+- 🔹 **Deployment Architecture**  
+  [`fraud-engine-deployment.md`](./fraud-engine/fraud-engine-deployment.md)
+
+
