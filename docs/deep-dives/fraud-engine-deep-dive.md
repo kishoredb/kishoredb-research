@@ -342,6 +342,14 @@ Its value came not only from technical innovation, but from its respect for the 
 
 ---
 
+### 🔍 Additional Resources: Validation & Anomaly Scoring
+For anomaly detector checks, NLP-similarity tests, fusion logic validation,  
+see:
+
+👉 [Validation Notes](../reproducibility/validation-notes.md)
+
+---
+
 ## 🔬 Research Methodology
 
 To understand the scientific reasoning, evaluation principles, transparency workflows,  
