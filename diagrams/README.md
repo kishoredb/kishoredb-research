@@ -53,3 +53,24 @@
 - 🔹 **Deployment Architecture**  
   [`fraud-engine-deployment.md`](./fraud-engine/fraud-engine-deployment.md)
 
+---
+
+## 📘 SmartCare Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`smartcare-overview.md`](./smartcare/smartcare-overview.md)
+
+- 🔹 **Feature Pipeline**  
+  [`smartcare-feature-pipeline.md`](./smartcare/smartcare-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`smartcare-modeling-pipeline.md`](./smartcare/smartcare-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`smartcare-explainability-flow.md`](./smartcare/smartcare-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`smartcare-deployment.md`](./smartcare/smartcare-deployment.md)
+
+
+
