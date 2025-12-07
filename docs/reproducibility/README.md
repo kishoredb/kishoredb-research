@@ -44,6 +44,7 @@ Seed control, minimal config samples, and reproducibility practices.
 
 Details on evaluation methods for STT, embeddings, credit scoring explainability,
 fraud anomaly detection, and rule-based SmartCare logic.
+
 → validation-notes.md
 
 ---
