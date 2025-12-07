@@ -7,12 +7,12 @@ T004,2024-06-01T10:11:03,2500.00,online,STORE_Y,USA,0.20,"high value electronics
 # ------------------------------------------------------------------
 # Synthetic sample dataset for Fraud Engine reproducibility
 # This block must appear AFTER the CSV table
-# No commas, no quotes — GitHub preview SAFE
-# 
+# No commas or quotes allowed in CSV comments
+#
 # Used for:
 #   - anomaly detection examples
-#   - time-series deviation analysis
-#   - text analysis ("urgent transfer")
+#   - time series deviation analysis
+#   - text analysis urgent transfer
 #   - hybrid scoring demonstrations
 #   - explainability walkthroughs
 # ------------------------------------------------------------------
