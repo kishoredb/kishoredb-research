@@ -4,12 +4,14 @@ T002,2024-06-01T10:07:12,900.00,online,STORE_X,GERMANY,0.33,"urgent transfer"
 T003,2024-06-01T10:09:50,44.10,atm,ATM_22,INDIA,0.91,"cash withdrawal"
 T004,2024-06-01T10:11:03,2500.00,online,STORE_Y,USA,0.20,"high value electronics"
 
-# ------------------------------------------------------------------
-# Metadata Notes (safe for GitHub CSV preview)
-# Synthetic sample transaction dataset
-# Purpose:
-# - anomaly detection & hybrid scoring demonstrations
-# - time-series deviation analysis
-# - embedding-based text inspection (urgent transfer)
-# - model explainability examples
-# ------------------------------------------------------------------
+# ----------------------------------------------------------------------
+# Synthetic sample dataset for Fraud Engine demonstrations
+# Safe for GitHub preview (no quotes, no commas in comments)
+# 
+# Used for:
+#   - anomaly detection examples
+#   - time-series deviation analysis
+#   - embedding-based text inspection (urgent transfer)
+#   - hybrid scoring demonstrations
+#   - explainability walkthroughs
+# ----------------------------------------------------------------------
