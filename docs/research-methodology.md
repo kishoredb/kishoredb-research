@@ -299,6 +299,15 @@ and supporting caregivers with clarity rather than complexity.
 
 ---
 
+## 5.5 How This Methodology Connects to My Project Work
+### 🔍 Validation Methods (Cross-Project)
+
+To understand how evaluation was performed consistently across Aegis, CredScore, Fraud Engine, and SmartCare — including STT accuracy tests, embedding similarity checks, credit scoring fairness checks, anomaly detection validation, and rule-based evaluation — see:
+
+👉 **[Validation Notes (Cross-Project Evaluation Methods)](../reproducibility/validation-notes.md)**
+
+---
+
 # 6. Glossary of Key Terms in My Methodology
 
 | Term | Meaning |
