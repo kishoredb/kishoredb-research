@@ -33,3 +33,23 @@
 
 - 🔹 **Deployment Architecture**  
   [`credscore-deployment.md`](./credscore/credscore-deployment.md)
+
+---
+
+## 📘 Fraud Engine Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`fraud-engine-overview.md`](./fraud-engine/fraud-engine-overview.md)
+
+- 🔹 **Feature Pipeline**  
+  [`fraud-engine-feature-pipeline.md`](./fraud-engine/fraud-engine-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`fraud-engine-modeling-pipeline.md`](./fraud-engine/fraud-engine-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`fraud-engine-explainability-flow.md`](./fraud-engine/fraud-engine-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`fraud-engine-deployment.md`](./fraud-engine/fraud-engine-deployment.md)
+
