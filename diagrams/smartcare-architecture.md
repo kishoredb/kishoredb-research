@@ -173,3 +173,23 @@ SmartCare is a modernized version of an early eldercare CRM, rebuilt as an ethic
 Its modular architecture supports patient workflows, automated data quality checks, clinical analytics dashboards, and exploratory AI models with strong human oversight.
 
 The system offers both historical value and forward-looking insights into responsible health-tech design.
+
+---
+
+## 📘 SmartCare Diagram Suite
+
+- 🔹 **End-to-End Overview**  
+  [`smartcare-overview.md`](./smartcare/smartcare-overview.md)
+
+- 🔹 **Feature Pipeline**  
+  [`smartcare-feature-pipeline.md`](./smartcare/smartcare-feature-pipeline.md)
+
+- 🔹 **Modeling Pipeline**  
+  [`smartcare-modeling-pipeline.md`](./smartcare/smartcare-modeling-pipeline.md)
+
+- 🔹 **Explainability Flow**  
+  [`smartcare-explainability-flow.md`](./smartcare/smartcare-explainability-flow.md)
+
+- 🔹 **Deployment Architecture**  
+  [`smartcare-deployment.md`](./smartcare/smartcare-deployment.md)
+
