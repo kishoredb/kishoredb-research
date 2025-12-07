@@ -217,6 +217,23 @@ Aegis was built to help people reclaim time and reduce cognitive burden by turni
 
 ---
 
+## 🔬 Research Methodology
+
+To understand the scientific reasoning, evaluation principles, transparency workflows,  
+and reproducibility practices behind this project, see:
+
+➡️ **Full Research Methodology & Design Philosophy**  
+[`../research-methodology.md`](../research-methodology.md)
+
+This includes:
+- My research workflow (problem → experiment → evaluation → deployment)
+- Explainability & transparency frameworks
+- Reliability and uncertainty-handling principles
+- Reproducibility cycle and evaluation methodologies
+- Diagrams describing loops, pipelines, and research structure
+
+---
+
 # 🔗 Deep-Dive Navigation
 
 ### **Next Deep-Dive → CredScore**  
