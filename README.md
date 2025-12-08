@@ -218,7 +218,11 @@ or contact me for additional information.
 # Contact
 
 **Kishore D. B.** — `kishoredb@gmail.com`  
-Open to collaborations in **credit/fraud analytics**, **applied AI**,  
-**secure SaaS architecture**, **cloud modernization**, and **DevSecOps engineering**.
+Open to collaborations in **credit/fraud analytics**, **applied AI**, **secure SaaS architecture**, **cloud modernization**, and **DevSecOps engineering**.
 
 ---
+
+Thank you for taking the time to review my work. I am always happy to clarify any part of this portfolio or discuss how it connects to your context. Thanks much!!!
+
+---
+
