@@ -4,7 +4,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="50" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="70" />
 # Kishore D. B. — Research & Engineering Portfolio
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--3116--5000-green?logo=orcid&style=flat)](https://orcid.org/0009-0003-3116-5000)
