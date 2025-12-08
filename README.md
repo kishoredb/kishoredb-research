@@ -198,7 +198,7 @@ Designed for **PhD applications**, **academic assessment**, and **industry R&D r
 
 ## Why This Repository Exists
 
-This repository is here to give reviewers a honest, end-to-end view of my work: the systems I have built, the risks I’ve handled, the people I’ve supported, and the way I think about responsible, research-grade engineering.
+This repository is here to give reviewers a honest, end-to-end view of my work. About the systems I have built, the risks I have handled, the people I have supported, and the way I think about responsible, research-grade engineering.
 
 ---
 
