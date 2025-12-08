@@ -4,7 +4,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="50" />
 # Kishore D. B. — Research & Engineering Portfolio
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--3116--5000-green?logo=orcid&style=flat)](https://orcid.org/0009-0003-3116-5000)
@@ -25,7 +25,7 @@ and machine-readable metadata prepared for academic and industry evaluation.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Contents.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Contents.JPG" width="50" />
 # Contents
 
 1. **Selected Works** — High-impact real contributions (AI platforms, credit scoring, fraud detection, cloud modernization).  
@@ -52,7 +52,7 @@ and machine-readable metadata prepared for academic and industry evaluation.
    - [`publications.json`](./publications.json)
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="50" />
 # Project Deep-Dive Case Studies
 
 These deep dives present full, research-oriented analyses of my most impactful applied AI and engineering systems.  
@@ -76,7 +76,7 @@ cross-domain problem solving, and human-centered design** across my 23-year care
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="50" />
 # Research Methodology
 
 My full research philosophy, methods, evaluation principles, and reproducibility framework are available here:
@@ -96,7 +96,7 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 ---
 
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="50" />
 # Research Focus Areas
 
 ### **Applied AI & Analytics**
@@ -119,7 +119,7 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Star.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Star.JPG" width="50" />
 # Signature Contributions (High Level)
 
 - **Aegis — NLP-Driven Video Intelligence Platform**  
@@ -154,7 +154,7 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Artifacts.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Artifacts.JPG" width="50" />
 # Included Artifacts
 
 This repository includes or will include:
@@ -170,7 +170,7 @@ This repository includes or will include:
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/EntryPoints.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/EntryPoints.JPG" width="50" />
 # Recommended Entry Points for Reviewers
 
 1. **Selected Works** — Start here for flagship items  
@@ -183,7 +183,7 @@ Designed for **PhD applications**, **academic assessment**, and **industry R&D r
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Globe.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Globe.JPG" width="50" />
 # External Profiles & Citation
 
 - **ORCID:** https://orcid.org/0009-0003-3116-5000  
@@ -195,7 +195,7 @@ or contact me for additional information.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Email.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Email.JPG" width="50" />
 # Contact
 
 **Kishore D. B.** — `kishoredb@gmail.com`  
