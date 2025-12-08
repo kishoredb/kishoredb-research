@@ -133,6 +133,9 @@ risk scoring and priority classification for large-scale SaaS deployments.
 
 ---
 
+_See also: [Technical Projects](./tech-projects.md) and [Publications](./publications.md) for more detailed views of these systems._
+
+
 ## Summary  
 These Selected Works capture the core of my real, hands-on contributions across  
 **applied AI**, **credit and fraud analytics**, **secure SaaS engineering**,  
