@@ -1,4 +1,7 @@
 # ⭐ Selected Research & Engineering Works  
+
+These are the projects I most often talk about when someone asks what I actually built and led.
+
 **Author:** Kishore D. B.  
 **Version:** 2.1  
 **Updated:** 2025-12-02  
