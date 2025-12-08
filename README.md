@@ -107,7 +107,7 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 ---
 
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="50" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/BulbBlue.JPG" width="50" />
 # Research Focus Areas
 
 ### **Applied AI & Analytics**
