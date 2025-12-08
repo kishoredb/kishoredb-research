@@ -1,4 +1,7 @@
 # 🔧 Supporting Works  
+
+These are the smaller building blocks and utilities that quietly keep larger platforms reliable and usable in real life.
+
 **Author:** Kishore D. B.  
 **Version:** 2.0  
 **Updated:** 2025-12-02  
