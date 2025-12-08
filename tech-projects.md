@@ -1,4 +1,7 @@
 # 🧩 Technical Projects  
+
+These projects show the end-to-end systems I have designed or led, from problem framing to deployment.
+
 **Author:** Kishore D. B.  
 **Version:** 2.0  
 **Updated:** 2025-12-02  
