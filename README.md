@@ -196,6 +196,10 @@ This repository includes or will include:
 
 Designed for **PhD applications**, **academic assessment**, and **industry R&D reviews**.
 
+## Why This Repository Exists
+
+This repository is here to give reviewers a honest, end-to-end view of my work: the systems I have built, the risks I’ve handled, the people I’ve supported, and the way I think about responsible, research-grade engineering.
+
 ---
 
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Globe.JPG" width="50" />
