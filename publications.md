@@ -10,6 +10,10 @@ This list is organized by topic area to reflect the breadth of applied AI,
 financial analytics, security engineering, healthcare analytics, and  
 cloud-native SaaS architecture expertise.
 
+> **Note:**  
+> This repository uses `publications.md` as the central index for all whitepapers, technical reports, and research summaries.  
+> The `whitepapers/` folder is reserved for storing full PDF versions or extended documents, which will be added as they become available.
+
 ---
 
 # 🔹 Financial AI & Risk Modeling  
