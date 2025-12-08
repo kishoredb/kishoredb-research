@@ -220,7 +220,7 @@ Open to collaborations in **credit/fraud analytics**, **applied AI**, **secure S
 
 ---
 
-Thank you for taking the time to review my work. I am always happy to clarify any part of this portfolio or discuss how it connects to your context. Thanks much!!!
+Thank you for taking the time to review my work. I am always happy to clarify any part of this portfolio or discuss how it connects to your context. Thank you very much.
 
 ---
 
