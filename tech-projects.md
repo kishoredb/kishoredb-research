@@ -102,8 +102,12 @@ SmartCare was an early analytics platform providing:
 
 ---
 
+_These projects are closely related to the items in [Selected Works](./selected-works.md) and many are described further in [Publications](./publications.md)._
+
+
 ## Summary  
 These technical projects highlight hands-on engineering depth across  
 **AI-driven intelligence systems**, **explainable ML**, **fraud analytics**,  
 and **healthcare decision support**. They demonstrate practical architecture,  
 implementation experience, and integration with enterprise platforms.
+
