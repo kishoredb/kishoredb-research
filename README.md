@@ -17,6 +17,7 @@
 > The goal is to give reviewers a clear, human-readable view of what I actually built and how I think as an engineer–researcher.  
 > If you're a reviewer: start with **Selected Works**, then explore the **Deep-Dive Case Studies** and **Research Methodology**.
 
+![Research & Engineering Portfolio banner](./assets/hero.jpg)
 
 This repository contains my **applied AI**, **credit and fraud analytics**,  
 **healthcare analytics**, **SaaS security engineering**, and **cloud modernization** work.  
