@@ -64,6 +64,9 @@ and machine-readable metadata prepared for academic and industry evaluation.
 - **Research Statement & Methodology** – how I think and work as a researcher (`research-statement.md`, `docs/research-methodology.md`).
 ---
 
+The sections below link to curated views of my work, so that different kinds of reviewers (academic, industry, R&D) can quickly find what they need.
+
+
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="50" />
 # Project Deep-Dive Case Studies
 
