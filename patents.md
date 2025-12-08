@@ -1,4 +1,7 @@
 # 🛡️ Patents & Technical Disclosures  
+
+These disclosures record security and platform ideas that originated in real systems and were formalized for reuse and protection.
+
 **Author:** Kishore D. B.  
 **Version:** 2.0  
 **Updated:** 2025-12-03  
