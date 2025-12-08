@@ -87,7 +87,7 @@ cross-domain problem solving, and human-centered design** across my 23-year care
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="50" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="60" />
 # Research Methodology
 
 My full research philosophy, methods, evaluation principles, and reproducibility framework are available here:
