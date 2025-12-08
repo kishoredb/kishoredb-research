@@ -52,6 +52,15 @@ and machine-readable metadata prepared for academic and industry evaluation.
    - [`publications.json`](./publications.json)
 ---
 
+## How to Navigate This Repository
+
+- **Selected Works** – flagship systems and contributions (`selected-works.md`).
+- **Technical Projects** – implementation and architecture detail (`tech-projects.md`).
+- **Publications** – whitepapers, reports, and internal research (`publications.md`).
+- **Talks** – invited sessions and long-running mentoring (`talks.md`).
+- **Research Statement & Methodology** – how I think and work as a researcher (`research-statement.md`, `docs/research-methodology.md`).
+---
+
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="50" />
 # Project Deep-Dive Case Studies
 
