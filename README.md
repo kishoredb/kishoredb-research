@@ -24,6 +24,8 @@ This repository contains my **applied AI**, **credit and fraud analytics**,
 It includes selected works, whitepapers, talks, patents, technical projects,  
 and machine-readable metadata prepared for academic and industry evaluation.
 
+> **Why this matters:** this repository is meant to help reviewers see not just tools and buzzwords, but the real systems, decisions, and responsibilities I have handled.
+
 ---
 
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Contents.JPG" width="50" />
