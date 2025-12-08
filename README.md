@@ -200,6 +200,11 @@ and the way I think about responsible, research-grade engineering.
 
 ---
 
+**Domain Expertise — Lending, Compliance & Security**  
+   → [`domain-expertise.md`](./domain-expertise.md)
+
+---
+
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Globe.JPG" width="50" />
 # External Profiles & Citation
 
