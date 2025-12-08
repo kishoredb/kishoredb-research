@@ -77,6 +77,9 @@ context detection, and semantic search.
 
 ---
 
+_If you want to see the systems behind these papers, start with [Selected Works](./selected-works.md) and [Technical Projects](./tech-projects.md)._
+
+
 ## Summary  
 These publications represent practical, industry-driven applied research across  
 five core domains:  
