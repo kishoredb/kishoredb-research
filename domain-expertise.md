@@ -1,4 +1,8 @@
-# 🏦 Domain Expertise — Lending, Compliance, Security & Global Delivery
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Professional.JPG" width="80" />
+</p>
+
+# Domain Expertise — Lending, Compliance, Security & Global Delivery
 
 Author: Kishore D. B.  
 Version: 1.0  
