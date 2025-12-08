@@ -63,7 +63,7 @@ It includes selected works, whitepapers, talks, patents, technical projects, and
 The sections below link to curated views of my work, so that different kinds of reviewers (academic, industry, R&D) can quickly find what they need.
 
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="50" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/SystemArchitecture.JPG" width="80" />
 # Project Deep-Dive Case Studies
 
 These deep dives present full, research-oriented analyses of my most impactful applied AI and engineering systems.  
