@@ -1,4 +1,7 @@
 # 🎤 Talks & Presentations  
+
+These talks are how I share what I have learned with engineers, data scientists, and communities in a practical way.
+
 **Author:** Kishore D. B.  
 **Version:** 2.0  
 **Updated:** 2025-12-03  
