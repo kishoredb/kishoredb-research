@@ -1,4 +1,7 @@
 # 📘 Publications & Technical Papers  
+
+These papers and reports capture how I document systems, decisions, and patterns so that others can understand and reuse the work.
+
 **Author:** Kishore D. B.  
 **Version:** 3.0  
 **Updated:** 2025-12-03  
