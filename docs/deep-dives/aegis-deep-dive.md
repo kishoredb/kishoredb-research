@@ -217,6 +217,14 @@ Aegis was built to help people reclaim time and reduce cognitive burden by turni
 
 ---
 
+## Related Research
+
+For cognitive, interpretability, and human–AI behaviour studies connected to this system:
+
+→ [`Human-Centered AI & Cognitive Research`](../human-centered-ai.md)
+
+---
+
 ### 🔍 Additional Resources: Validation & Evaluation
 For cross-project evaluation methods (WER/CER, embedding tests, search ranking, etc.),  
 see:
