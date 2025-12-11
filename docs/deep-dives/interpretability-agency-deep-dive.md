@@ -8,7 +8,7 @@
 Location: `docs/deep-dives/interpretability-agency-deep-dive.md`
 
 This deep dive covers my 2022–2023 research on how humans understand, question,
-and exert agency when interacting with AI-generated explanations — especially in
+and exert agency when interacting with AI-generated explanations, especially in
 high-stakes environments such as credit, fraud review, and compliance.
 
 ---
