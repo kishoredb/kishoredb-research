@@ -1,8 +1,8 @@
 # Explanation Misalignment Flow
 
 This diagram shows why AI explanations sometimes fail to support human understanding.
-Misalignment occurs when the explanation provided does not match the user’s
-mental model, cognitive needs, or context.
+
+Misalignment occurs when the explanation provided does not match the user’s mental model, cognitive needs, or context.
 
 ```mermaid
 flowchart TB
