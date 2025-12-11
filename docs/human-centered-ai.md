@@ -43,7 +43,7 @@ of trust in human–AI interactions.
 ### Key contributions  
 - Studied how professionals interpret AI explanations.  
 - Conducted interviews and observational studies (pre-May 2023).  
-- Mapped how agency changes depending on transparency and cognitive effort.  
+- Mapped how agency changes depending on transparency and cognitive effort, and perceived control.  
 
 ### Related materials  
 - **CredScore Deep Dive:**  
@@ -98,6 +98,29 @@ explanations for loan officers, credit analysts, and cross-cultural teams.
 ### Cross-Disciplinary Collaboration
 - Engineering ↔ Cognitive Science ↔ Behavioural Economics.  
 - Consortium-style communication and stakeholder alignment.
+
+---
+
+🕊️ How 23 Years of Industry Experience Shaped This Research
+
+Much of this research grew naturally from my experience building AI systems
+used by real people in high-pressure environments—credit analysts, risk teams,
+healthcare workers, and global engineering groups.
+
+Across these roles, I observed how humans:
+
+interpret AI signals differently based on experience and cognitive style,
+
+struggle with uncertainty when explanations are unclear,
+
+modify their decisions through metacognitive reasoning,
+
+adjust trust dynamically in response to system behaviour, and
+
+rely on a mix of intuition + evidence when making high-stakes choices.
+
+These observations shaped my academic interest in metacognition, human
+agency, interpretability, and responsible AI design.
 
 ---
 
