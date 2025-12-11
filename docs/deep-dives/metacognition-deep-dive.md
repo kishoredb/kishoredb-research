@@ -129,3 +129,17 @@ Relevant reproducibility materials:
 - [`Human-Centered AI`](../human-centered-ai.md)
 
 ---
+
+# 10. Related Human–AI Cognitive Diagrams
+
+- **Trust Calibration Loop**  
+  [`trust-calibration-loop.md`](../../diagrams/human-ai/trust-calibration-loop.md)
+
+- **Cognitive Load Flow**  
+  [`cognitive-load-flow.md`](../../diagrams/human-ai/cognitive-load-flow.md)
+
+- **Explanation Misalignment Flow**  
+  [`explanation-misalignment-flow.md`](../../diagrams/human-ai/explanation-misalignment-flow.md)
+
+---
+
