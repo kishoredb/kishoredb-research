@@ -280,6 +280,14 @@ It helped people understand decisions that shaped their financial lives.
 
 ---
 
+## Related Research
+
+For cognitive, interpretability, and human–AI behaviour studies connected to this system:
+
+→ [`Human-Centered AI & Cognitive Research`](../human-centered-ai.md)
+
+---
+
 ### 🔍 Additional Resources: Validation & Explainability Checks
 For SHAP/LIME evaluation patterns, feature stability checks, and fairness spot-tests,  
 see:
