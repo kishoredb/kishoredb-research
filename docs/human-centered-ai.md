@@ -6,11 +6,41 @@
 **Author:** Kishore D. B.  
 **Updated:** 2025-12-08  
 
-This document summarizes my research experience across human–AI interaction,  
-metacognition, explainability, and cognitive factors in AI-mediated work.  
-Dates have been adjusted to reflect real-world conditions, including my  
-medical leave after May 2023. All study work described here refers to  
-**design work, conceptual analysis, and pre-accident empirical efforts**.
+This document summarizes my work at the intersection of human cognition,  
+decision-making, and applied AI systems. My research investigates how  
+people interpret, trust, and collaborate with AI in high-stakes,  
+real-world workflows.  
+
+Dates reflect real-world conditions, including my medical leave after  
+May 2023. All work described here refers to **study design, conceptual  
+analysis, and pre-accident empirical efforts** that shaped my research  
+identity and long-term direction.
+
+---
+
+# 🌍 Research Identity
+
+I study how humans understand, question, and work alongside AI systems—especially  
+in high-stakes environments where decisions carry emotional, financial, or  
+societal consequences. My research blends cognitive science (metacognition,  
+agency, value-based reasoning) with practical AI engineering experience to  
+investigate how AI systems can support clarity, trust, and human dignity.
+
+---
+
+# 🔄 Conceptual Model: Human–AI Reasoning Loop
+
+This diagram illustrates the cycle of interpretation, trust calibration,  
+action, and feedback that shapes every human–AI interaction:
+
+```mermaid
+flowchart LR
+    H[Human User] --> I[Interpretation of AI Output]
+    I --> T[Trust / Doubt Calibration]
+    T --> A[Decision or Action]
+    A --> F[Feedback to Workflow]
+    F --> S[AI System Update / Behaviour Change]
+    S --> H
 
 ---
 
