@@ -106,7 +106,6 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 
 ---
 
-
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/BulbBlue.JPG" width="70" />
 # Research Focus Areas
 
@@ -127,6 +126,16 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 - Microservices & API ecosystems  
 - CI/CD governance and compliance  
 - Secure SaaS deployments on Azure  
+
+---
+
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/HumanAI.JPG" width="40" />
+# Human-Centered AI & Cognitive Research
+
+A dedicated section covering my work on metacognition, interpretability, human agency,
+and cognitive behaviour in AI-supported decision workflows.
+
+→ [`docs/human-centered-ai.md`](./docs/human-centered-ai.md)
 
 ---
 
