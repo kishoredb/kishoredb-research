@@ -175,6 +175,14 @@ agency, interpretability, and responsible AI design.
 - [`Transparency Pipeline`](../diagrams/methodology/transparency-pipeline.md)  
 - [`Reproducibility Cycle`](../diagrams/methodology/reproducibility-cycle.md)
 
+## Human–AI Interaction Diagrams
+- **Trust Calibration Loop**  
+  [`/diagrams/human-ai/trust-calibration-loop.md`](../diagrams/human-ai/trust-calibration-loop.md)
+- **Cognitive Load Flow**  
+  [`/diagrams/human-ai/cognitive-load-flow.md`](../diagrams/human-ai/cognitive-load-flow.md)
+- **Explanation Misalignment Flow**  
+  [`/diagrams/human-ai/explanation-misalignment-flow.md`](../diagrams/human-ai/explanation-misalignment-flow.md)
+
 ## Reproducibility Section  
 - [`/docs/reproducibility/README.md`](./reproducibility/README.md)  
 - [`Evaluation Notes`](./reproducibility/validation-notes.md)
