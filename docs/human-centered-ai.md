@@ -2,206 +2,139 @@
   <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Brain.JPG" width="120" />
 </p>
 
-# 🧠 Human–AI Interaction, Metacognition & Explainability  
-### **Research Portfolio — Kishore D. B.**
+# 🧠 Human-Centered AI & Cognitive Research Profile  
+**Author:** Kishore D. B.  
+**Updated:** 2025-12-08  
 
-This page presents the **human-centred, cognitive science, and explainability aspects** of my research practice.  
-While much of my GitHub highlights applied AI and engineering systems, a significant part of my work focuses on:
-
-- **how humans interpret, trust, and respond to AI systems**  
-- **metacognition in AI-assisted decision-making**  
-- **agency, epistemic grounding, and cognitive diversity**  
-- **human factors in high-stakes, AI-mediated workflows**  
-
-These studies form the foundation of my long-term agenda:  
-**to understand how human reasoning, values, and cognitive strategies shape AI adoption and how AI reshapes work, inclusion, and well-being.**
+This document summarizes my research experience across human–AI interaction,  
+metacognition, explainability, and cognitive factors in AI-mediated work.  
+Dates have been adjusted to reflect real-world conditions, including my  
+medical leave after May 2023. All study work described here refers to  
+**design work, conceptual analysis, and pre-accident empirical efforts**.
 
 ---
 
-# 🧩 Research Identity
+## 🌱 1. Metacognitive Strategies in AI-Assisted Decision-Making  
+**Designed in early 2023; conceptual analysis continued during 2023–24**
 
-I work at the intersection of **Human–AI Interaction**, **cognitive science**, **explainable AI**, **social behaviour**, and **applied ML**.  
-My research questions emerge from lived professional experience: observing how people make sense of AI recommendations, how trust fluctuates, and how decisions change when AI enters the workflow.
+This study focused on how human evaluators calibrate confidence and adjust  
+decisions when interacting with assistive AI tools.
 
-### Core themes in my research:
-- **Metacognition** (monitoring, calibration, confidence, self-regulation)  
-- **Agency & epistemic dependence**  
-- **Interpretability and human-understandable explanations**  
-- **Cognitive diversity in AI-assisted workplaces**  
-- **Human factors: workload, trust, transparency, inclusion**  
-- **Behavioural modelling of AI adoption**
+### Key contributions  
+- Designed think-aloud protocols and early interview guides (pre-May 2023).  
+- Conducted initial thematic analysis and conceptual modelling during recovery.  
+- Developed a framework explaining how confidence, uncertainty, and  
+  self-monitoring shape trust in AI outputs.  
 
-This work complements my 20+ years of experience in engineering, AI design, and real-world deployment.
-
----
-
-# 📚 Independent Research Programme (2021–Present)
-
-A self-driven research programme exploring human reasoning, transparency, trust, and agency in AI-mediated environments.
-
-### Key contributions:
-- Designed and conducted **interviews, think-aloud protocols, and thematic analysis** on how professionals interpret AI explanations.
-- Mixed-method investigations of **confidence calibration**, metacognitive strategies, and human reliance on AI.
-- Analysed **cognitive diversity** in decision-making workflows using behavioural and observational data.
-- Developed **behavioural data frameworks** for metacognitive self-regulation in high-stakes tasks.
-- Created **Aegis**, a system enabling traceable, interpretable AI interactions for empirical study.
-- Modelled **value-based adoption behaviours** (willingness–trust–effort trade-offs).
-- Delivered talks and disclosures on **interpretability, human-centred AI**, and transparency.
+### Related materials  
+- **Research Methodology:**  
+  [`/docs/research-methodology.md`](./research-methodology.md)  
+- **Aegis Deep Dive:**  
+  [`/docs/deep-dives/aegis-deep-dive.md`](./deep-dives/aegis-deep-dive.md)
 
 ---
 
-# 🔍 Selected Human–AI Research Projects
+## 🧭 2. Interpretability & Human Agency in AI-Mediated Work  
+**2022–Early 2023**
 
-## 1. **Metacognitive Strategies in AI-Assisted Decision-Making**  
-**Study initiated:** early 2023  
-**Conceptual refinement and analysis:** continued through 2023–24 during recovery
+This work examined epistemic dependence, user agency, and cognitive grounding  
+of trust in human–AI interactions.
 
-**Focus:**  
-How evaluators adjust decisions, calibrate confidence, and shift reliance when interacting with AI-generated suggestions.
+### Key contributions  
+- Studied how professionals interpret AI explanations.  
+- Conducted interviews and observational studies (pre-May 2023).  
+- Mapped how agency changes depending on transparency and cognitive effort.  
 
-**Methods:**  
-Interview plans, behavioural coding schemes, think-aloud protocols, mixed-method analysis.
-
-**Insights:**  
-Metacognitive strategies strongly influence trust, override behaviour, and perceived agency.
-
----
-
-## 2. **Interpretability & Human Agency in AI-Mediated Work (2022–Early 2023)**  
-**Active study period:** 2022 to early 2023  
-(No implied work after May 2023)
-
-**Focus:**  
-How explanation formats, uncertainty cues, and model transparency affect user agency and epistemic grounding.
-
-**Methods:**  
-Qualitative studies, cognitive walkthroughs, comparative explanation testing.
-
-**Insights:**  
-Clear explanations and uncertainty handling significantly shape user confidence and autonomy.
+### Related materials  
+- **CredScore Deep Dive:**  
+  [`/docs/deep-dives/credscore-deep-dive.md`](./deep-dives/credscore-deep-dive.md)  
+- **Explainability Diagrams:**  
+  [`/diagrams/credscore/credscore-explainability-flow.md`](../diagrams/credscore/credscore-explainability-flow.md)
 
 ---
 
-## 3. **CredScore Behavioural Evaluation (2022)**  
-This behavioural evaluation was conducted as part of the award-winning CredScore XAI system.
+## 💳 3. CredScore Behavioural Evaluation  
+**2022 (evaluation studies designed & executed pre-2023)**
 
-**Focus:**  
-Human understanding of model rationale and interpretability cues.
+CredScore included structured behavioural-interpretive testing of model  
+explanations for loan officers, credit analysts, and cross-cultural teams.
 
-**Contributions:**  
-- Designed behavioural evaluation workflows  
-- Analysed how different users interpreted SHAP/LIME explanations  
-- Studied trust, acceptance, and override patterns  
+### Key contributions  
+- Designed explainability questionnaires and comprehension tests.  
+- Analysed cognitive differences in how users interpret SHAP-based reasoning.  
+- Developed a hybrid evaluation approach combining rules + ML + behavioural signals.  
 
-This created a **human-centred explainability layer**, complementing the technical system.
-
----
-
-# 🧠 Theoretical Foundations
-
-My research aligns with:
-
-### **Cognitive Science**
-- Metacognition (monitoring, calibration, control)  
-- Cognitive load, uncertainty perception  
-- Confidence modelling & judgement formation  
-
-### **Philosophy of Agency**
-- Practical, bounded, and epistemic agency  
-- Value-based decision frameworks  
-- Human autonomy in algorithmic workflows  
-
-### **Responsible AI**
-- Transparency obligations  
-- Ethical inclusion  
-- Decision support & human oversight  
+### Related materials  
+- **CredScore Architecture:**  
+  [`/diagrams/credscore-architecture.md`](../diagrams/credscore-architecture.md)  
+- **Modeling Pipeline Diagram:**  
+  [`/diagrams/credscore/credscore-modeling-pipeline.md`](../diagrams/credscore/credscore-modeling-pipeline.md)
 
 ---
 
-# 🔬 Research Skills & Methodological Strengths
+# 🧩 Supporting Cross-Domain Research Foundations
 
-### **Empirical Human Research**
-- Semi-structured interviews  
-- Cognitive interviews  
-- Thematic analysis & grounded theory  
-- Survey design, psychometrics  
-- Behavioural time-series analysis  
-- Mixed-effects and longitudinal modelling  
-
-### **Human–AI Interaction Studies**
-- Interpretability testing  
-- Trust calibration  
-- Cognitive diversity assessment  
-- UX evaluation for AI explanations  
-
-### **Quantitative & Computational**
-- Python, R, SciPy, Statsmodels  
-- Experimental modelling  
-- Causal inference basics  
-- Reproducible pipelines  
+## Human Factors, Cognitive Science & Philosophy
+- Metacognition (monitoring, control, self-regulation).  
+- Agency theory (practical, bounded, and epistemic agency).  
+- Value-based decision theory and cognitive-effort models.  
+- Ethics of AI—explanation obligations, inclusion, dignity.
 
 ---
 
-# 🧭 Connection to Engineering & AI Systems
+# 🧪 Relevant Technical Skills for Human-Centered AI Research
 
-Although grounded in human behaviour, this work is deeply connected to the **technical systems** in my portfolio:
+### Empirical Research
+- Semi-structured interviews, cognitive interviews.  
+- Think-aloud studies and thematic analysis.  
+- Behavioural time-series and mixed-effects models.  
+- Survey design, psychometrics, validity checks.  
 
-| Human–AI Question | System That Enables It |
-|-------------------|------------------------|
-| How do users interpret AI signals? | Aegis (traceability + semantic context) |
-| How does confidence shift with explanations? | CredScore (SHAP/LIME UX experiments) |
-| How does behaviour change under pressure? | Fraud Engine (high-stakes anomalies) |
-| How do different cognition profiles handle AI? | SmartCare & financial workflows |
+### Experimental & Computational Skills
+- Python, R, SciPy, Statsmodels.  
+- Interaction modelling and causal-inference basics.  
+- Reproducible pipelines and experiment configuration.  
 
-This dual background (engineering + cognitive research) is a major strength for interdisciplinary research.
-
----
-
-# 🔗 Cross-Repository Navigation
-
-### **Deep-Dive Case Studies**
-- [Aegis Deep Dive](../deep-dives/aegis-deep-dive.md)  
-- [CredScore Deep Dive](../deep-dives/credscore-deep-dive.md)  
-- [Fraud Engine Deep Dive](../deep-dives/fraud-engine-deep-dive.md)  
-- [SmartCare Deep Dive](../deep-dives/smartcare-deep-dive.md)
-
-### **Architecture Files**
-- [AEGIS Architecture](../../diagrams/aegis-architecture.md)  
-- [CredScore Architecture](../../diagrams/credscore-architecture.md)  
-- [Fraud Engine Architecture](../../diagrams/fraud-engine-architecture.md)  
-- [SmartCare Architecture](../../diagrams/smartcare-architecture.md)
-
-### **Methodology**
-- [Research Methodology](../research-methodology.md)
-
-### **Reproducibility**
-- [Reproducibility Notes](../reproducibility/README.md)
+### Cross-Disciplinary Collaboration
+- Engineering ↔ Cognitive Science ↔ Behavioural Economics.  
+- Consortium-style communication and stakeholder alignment.
 
 ---
 
-# 🪜 Future Directions
+# 🔗 Cross-Links to Relevant Repository Sections
 
-My long-term research goal is to build a **coherent framework** connecting:
+## Deep-Dive Documents
+- [`Aegis`](./deep-dives/aegis-deep-dive.md)  
+- [`CredScore`](./deep-dives/credscore-deep-dive.md)  
+- [`Fraud Engine`](./deep-dives/fraud-engine-deep-dive.md)  
+- [`SmartCare`](./deep-dives/smartcare-deep-dive.md)
 
-- human metacognition  
-- value-based reasoning  
-- AI transparency  
-- real-world adoption behaviour  
+## Architecture Files
+- [`Aegis`](../diagrams/aegis-architecture.md)  
+- [`CredScore`](../diagrams/credscore-architecture.md)  
+- [`Fraud Engine`](../diagrams/fraud-engine-architecture.md)  
+- [`SmartCare`](../diagrams/smartcare-architecture.md)
 
-And to design tools that improve:
+## Diagram Suites  
+- [`/diagrams/aegis/`](../diagrams/aegis/)  
+- [`/diagrams/credscore/`](../diagrams/credscore/)  
+- [`/diagrams/fraud-engine/`](../diagrams/fraud-engine/)  
+- [`/diagrams/smartcare/`](../diagrams/smartcare/)  
 
-- inclusion  
-- well-being  
-- workplace resilience  
-- human trust & clarity  
+## Methodology Diagrams  
+- [`Research Methodology Loop`](../diagrams/methodology/research-methodology-loop.md)  
+- [`Transparency Pipeline`](../diagrams/methodology/transparency-pipeline.md)  
+- [`Reproducibility Cycle`](../diagrams/methodology/reproducibility-cycle.md)
+
+## Reproducibility Section  
+- [`/docs/reproducibility/README.md`](./reproducibility/README.md)  
+- [`Evaluation Notes`](./reproducibility/validation-notes.md)
 
 ---
 
-# 🧩 Summary
-
-This page captures the **human-centred half** of my research identity —  
-the part that explores how people think, interpret, trust, and act when AI enters their world.
-
-It complements my engineering work and completes the picture of who I am as a researcher:  
-technical, human-oriented, cross-disciplinary, and deeply reflective about the systems we build.
+# 📌 Final Note  
+All research activities listed here respect your real timeline, including  
+design and conceptual work done before May 2023 and reflective theoretical  
+development during recovery. Nothing claims active experimentation beyond  
+your capacity during your medical leave.
 
