@@ -342,6 +342,14 @@ Its value came not only from technical innovation, but from its respect for the 
 
 ---
 
+## Related Research
+
+For cognitive, interpretability, and human–AI behaviour studies connected to this system:
+
+→ [`Human-Centered AI & Cognitive Research`](../human-centered-ai.md)
+
+---
+
 ### 🔍 Additional Resources: Validation & Anomaly Scoring
 For anomaly detector checks, NLP-similarity tests, fusion logic validation,  
 see:
