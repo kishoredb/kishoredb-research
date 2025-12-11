@@ -129,7 +129,7 @@ It provides reviewers with a clear understanding of *how I think and work as a r
 
 ---
 
-## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/HumanAI.JPG" width="40" />
+## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/HumanAI.JPG" width="60" />
 # Human-Centered AI & Cognitive Research
 
 A dedicated section covering my work on metacognition, interpretability, human agency,
