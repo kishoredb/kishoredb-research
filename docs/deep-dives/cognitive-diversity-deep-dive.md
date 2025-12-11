@@ -60,7 +60,7 @@ The study investigated:
 - Fast pattern matchers rely more on AI but are also more override-prone.  
 - Reflective thinkers preferred uncertainty-aware explanations.  
 - Rule-driven users trusted deterministic rules more than probabilistic SHAP.  
-- Diversity improved group accuracy — complementary strengths reduced blind spots.  
+- For diversity improved group accuracy, complementary strengths reduced blind spots.  
 
 ---
 
