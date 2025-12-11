@@ -300,6 +300,14 @@ This project remains a foundational part of my journey toward human-centered AI 
 
 ---
 
+## Related Research
+
+For cognitive, interpretability, and human–AI behaviour studies connected to this system:
+
+→ [`Human-Centered AI & Cognitive Research`](../human-centered-ai.md)
+
+---
+
 ### 🔍 Additional Resources: Validation of Rule-Based Logic
 For rule correctness tests, scenario evaluation, and human-aligned explanation checks,  
 see:
