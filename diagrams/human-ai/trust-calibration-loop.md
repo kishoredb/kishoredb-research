@@ -4,7 +4,7 @@ This diagram models how humans regulate trust when interacting with AI systems.
 
 It shows the feedback cycle between:
 
-AI output → human interpretation → confidence calibration → decision → outcome → updated trust.
+### AI output → human interpretation → confidence calibration → decision → outcome → updated trust.
 
 
 ```mermaid
