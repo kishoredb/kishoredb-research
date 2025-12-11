@@ -139,16 +139,11 @@ used by real people in high-pressure environments—credit analysts, risk teams,
 healthcare workers, and global engineering groups.
 
 Across these roles, I observed how humans:
-
-- interpret AI signals differently based on experience and cognitive style,
-
-- struggle with uncertainty when explanations are unclear,
-
-- modify their decisions through metacognitive reasoning,
-
-- adjust trust dynamically in response to system behaviour, and
-
-- rely on a mix of intuition + evidence when making high-stakes choices.
+- **interpret AI signals differently based on experience and cognitive style,**
+- **struggle with uncertainty when explanations are unclear,**
+- **modify their decisions through metacognitive reasoning,**
+- **adjust trust dynamically in response to system behaviour, and**
+- **rely on a mix of intuition + evidence when making high-stakes choices.**
 
 These observations shaped my academic interest in metacognition, human
 agency, interpretability, and responsible AI design.
