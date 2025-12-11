@@ -407,6 +407,14 @@ diagram suites, and methodology visuals used throughout this research portfolio.
 
 ---
 
+## Human-Centered AI Research
+
+To understand how this methodology connects with my cognitive and behavioural studies:
+
+→ [`Human-Centered AI & Cognitive Research`](./human-centered-ai.md)
+
+---
+
 # Conclusion
 
 This methodology is grounded in lived experience, scientific discipline, and a belief that  
