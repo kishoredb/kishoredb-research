@@ -181,7 +181,7 @@ agency, interpretability, and responsible AI design.
 
 ---
 
-🌟 Conclusion
+# 🌟 Conclusion
 
 This human-centered research program reflects my long-standing belief that
 technology should support human clarity, confidence, and dignity—especially
