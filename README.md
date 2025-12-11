@@ -186,6 +186,9 @@ This repository includes or will include:
 - Experiment summaries  
 - Machine-readable metadata for research evaluation  
 
+- Human–AI Interaction Diagram Suite  
+  → [`/diagrams/human-ai`](./diagrams/human-ai)
+
 (Additional PDFs and diagrams will be added under `/docs/`.)
 
 ---
