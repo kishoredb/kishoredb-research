@@ -132,9 +132,4 @@ explanations for loan officers, credit analysts, and cross-cultural teams.
 
 ---
 
-# 📌 Final Note  
-All research activities listed here respect your real timeline, including  
-design and conceptual work done before May 2023 and reflective theoretical  
-development during recovery. Nothing claims active experimentation beyond  
-your capacity during your medical leave.
 
