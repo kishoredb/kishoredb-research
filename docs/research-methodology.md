@@ -1,4 +1,8 @@
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="25%" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="25%" />
+</p>
+
 # Research Methodology & Design Philosophy  
 **Author:** Kishore D. B.  
 **Updated:** 2025-12-08  
