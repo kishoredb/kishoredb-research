@@ -184,8 +184,8 @@ agency, interpretability, and responsible AI design.
 # 🌟 Conclusion
 
 This human-centered research program reflects my long-standing belief that
-technology should support human clarity, confidence, and dignity—especially
-in environments where decisions matter deeply.
+technology should support human clarity, confidence, and dignity.
+Especially in environments where decisions matter deeply.
 
 My goal is to continue developing methods, explanations, and systems that
 bridge human reasoning with trustworthy AI, contributing meaningfully to
