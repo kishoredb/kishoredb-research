@@ -219,16 +219,28 @@ See deployment diagrams:
 (Located under `/diagrams/methodology/`)
 
 ### 4.1 Research Methodology Loop
-
-/diagrams/methodology/research-methodology-loop.md
+`/diagrams/methodology/research-methodology-loop.md`
 
 ### 4.2 Transparency & Explainability Pipeline
-
-/diagrams/methodology/transparency-pipeline.md
+`/diagrams/methodology/transparency-pipeline.md`
 
 ### 4.3 Reproducibility Cycle
+`/diagrams/methodology/reproducibility-cycle.md`
 
-/diagrams/methodology/reproducibility-cycle.md
+### 4.4  Human–AI Cognitive Process Diagrams
+
+These diagrams illustrate foundational cognitive and behavioural mechanisms
+referenced in this methodology. They help connect abstract principles with
+observable human–AI interactions.
+
+- **Trust Calibration Loop**  
+  [`trust-calibration-loop.md`](../diagrams/human-ai/trust-calibration-loop.md)
+
+- **Cognitive Load Flow**  
+  [`cognitive-load-flow.md`](../diagrams/human-ai/cognitive-load-flow.md)
+
+- **Explanation Misalignment Flow**  
+  [`explanation-misalignment-flow.md`](../diagrams/human-ai/explanation-misalignment-flow.md)
 
 
 ---
