@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/HumanAi.PNG" width="120" />
+  <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/HumanAi.png" width="120" />
 </p>
 
 # 🧠 Human-Centered AI & Cognitive Research Profile  
