@@ -219,13 +219,13 @@ See deployment diagrams:
 (Located under `/diagrams/methodology/`)
 
 ### 4.1 Research Methodology Loop
-`/diagrams/methodology/research-methodology-loop.md`
+➡️`/diagrams/methodology/research-methodology-loop.md`
 
 ### 4.2 Transparency & Explainability Pipeline
-`/diagrams/methodology/transparency-pipeline.md`
+➡️`/diagrams/methodology/transparency-pipeline.md`
 
 ### 4.3 Reproducibility Cycle
-`/diagrams/methodology/reproducibility-cycle.md`
+➡️`/diagrams/methodology/reproducibility-cycle.md`
 
 ### 4.4  Human–AI Cognitive Process Diagrams
 
