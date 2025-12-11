@@ -48,6 +48,16 @@ Details on evaluation methods for STT, embeddings, credit scoring explainability
 
 ---
 
+### 6. Human-Centered AI Studies (Relevance)
+
+The reproducibility principles described here apply to the behavioural and cognitive
+research documented in:
+
+→ [`Human-Centered AI & Cognitive Research`](../human-centered-ai.md)
+
+---
+
+
 ## 🧭 How To Use This Section  
 This reproducibility folder is designed for academic review, not production execution.  
 It provides:
