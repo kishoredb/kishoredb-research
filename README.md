@@ -78,16 +78,16 @@ These deep dives present full, research-oriented analyses of my most impactful a
 Each document includes the problem statement, architecture, methodology, evaluation metrics, reproducibility notes,  
 ethical considerations, and future research directions.
 
-### **1. Aegis — NLP-Driven Video Intelligence Platform**  
+### **1. Aegis - NLP-Driven Video Intelligence Platform**  
 → [`aegis-deep-dive.md`](./docs/deep-dives/aegis-deep-dive.md)
 
-### **2. CredScore — Explainable Credit Scoring System**  
+### **2. CredScore - Explainable Credit Scoring System**  
 → [`credscore-deep-dive.md`](./docs/deep-dives/credscore-deep-dive.md)
 
 ### **3. Real-Time Fraud Detection Engine**  
 → [`fraud-engine-deep-dive.md`](./docs/deep-dives/fraud-engine-deep-dive.md)
 
-### **4. SmartCare — Eldercare Decision-Support Platform**  
+### **4. SmartCare - Eldercare Decision-Support Platform**  
 → [`smartcare-deep-dive.md`](./docs/deep-dives/smartcare-deep-dive.md)
 
 These case studies provide **evidence of engineering depth, research maturity,  
