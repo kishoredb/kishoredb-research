@@ -8,7 +8,7 @@ flowchart TB
 
 %% Top-level
 
-R[kishoredb-research (root)]
+R[kishoredb-research]
 
     R --> A[assets\n(images)]
     R --> B[datasets\n(README.md — empty)]
