@@ -1,4 +1,4 @@
-# <Title of Whitepaper>
+# Title of Whitepaper
 ### <Subtitle or Domain>  
 **Author:** Kishore D. B.  
 **Version:** 1.0  
