@@ -5,6 +5,8 @@ This folder is reserved for conceptual, architectural, and research-oriented whi
 At present, whitepapers are summarized and indexed in  
 ➡️ [`publications.md`](../publications.md)  
 along with links to related deep-dive case studies and technical project documentation.
+- Whitepaper Template → [`whitepaper-template.md`](whitepaper-template.md)
+- Whitepaper Metadata Schema → [`whitepapers.json`](whitepapers.json)
 
 ---
 
