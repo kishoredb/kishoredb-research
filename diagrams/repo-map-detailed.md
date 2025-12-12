@@ -8,11 +8,6 @@ diagram categories.
 This map is intended for reviewers who want a deeper understanding of the internal 
 structure and documentation layout of the portfolio.
 
-# Repository Architecture Map — Full Detail (Vertical)
-
-This diagram expands the high-level architecture map into all major folders and files,
-including deep dives, diagrams, reproducibility artifacts, metadata files, and supporting documents.
-
 ```mermaid
 flowchart LR
 
