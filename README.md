@@ -212,8 +212,8 @@ and the way I think about responsible, research-grade engineering.
 
 ---
 
-**Domain Expertise — Lending, Compliance & Security**  
-   → [`domain-expertise.md`](./domain-expertise.md)
+## Domain Expertise
+**Lending, Compliance, Security & Global Delivery** → [`domain-expertise.md`](./domain-expertise.md)
 
 ---
 
