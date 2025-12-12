@@ -7,7 +7,7 @@
 ---
 
 ## 1. Executive Summary
-Provide a concise overview (5–7 sentences) describing:
+Provide a concise overview (5-7 sentences) describing:
 - the problem space
 - why the topic matters
 - the system, model, or framework being proposed
