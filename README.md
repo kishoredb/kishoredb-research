@@ -17,6 +17,11 @@
 > The goal is to give reviewers a clear, human-readable view of what I actually built and how I think as an engineer–researcher.  
 > If you're a reviewer: start with **Selected Works**, then explore the **Deep-Dive Case Studies** and **Research Methodology**.
 
+**Key Documents for Reviewers:**
+- [PhD Portfolio Summary](PhD-portfolio-summary.md)
+- [Narrative Description](narrative-description.md)
+- [Repository Architecture](diagrams/repo-map.md)
+
 This repository contains my **applied AI**, **credit and fraud analytics**, **healthcare analytics**, **SaaS security engineering**, and **cloud modernization** work.  
 It includes selected works, whitepapers, talks, patents, technical projects, and machine-readable metadata prepared for academic and industry evaluation.
 
