@@ -3,6 +3,7 @@
 This Mermaid diagram provides a high-level visual overview of the structure of the `kishoredb-research` repository, including key documentation, diagrams, reproducibility artifacts, and portfolio metadata.
 
 ```mermaid
+
 flowchart TB
     %% Top-level
     R[kishoredb-research (root)]
