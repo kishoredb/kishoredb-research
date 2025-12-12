@@ -5,7 +5,7 @@
 ---
 
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/R&D.JPG" width="70" />
-# Kishore D. B. — Research & Engineering Portfolio
+# Kishore D. B. - Research & Engineering Portfolio
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--3116--5000-green?logo=orcid&style=flat)](https://orcid.org/0009-0003-3116-5000)
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE)
@@ -32,22 +32,22 @@ It includes selected works, whitepapers, talks, patents, technical projects, and
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Contents.JPG" width="50" />
 # Contents
 
-1. **Selected Works** — High-impact real contributions (AI platforms, credit scoring, fraud detection, cloud modernization).  
+1. **Selected Works** - High-impact real contributions (AI platforms, credit scoring, fraud detection, cloud modernization).  
    → [`selected-works.md`](./selected-works.md)
 
-2. **Supporting Works** — Case studies, prototypes, experiments, process notes.  
+2. **Supporting Works** - Case studies, prototypes, experiments, process notes.  
    → [`supporting-works.md`](./supporting-works.md)
 
-3. **Publications** — Whitepapers, technical reports, knowledge artifacts.  
+3. **Publications** - Whitepapers, technical reports, knowledge artifacts.  
    → [`publications.md`](./publications.md)
 
-4. **Talks & Presentations** — Invited sessions, technical briefings.  
+4. **Talks & Presentations** - Invited sessions, technical briefings.  
    → [`talks.md`](./talks.md)
 
-5. **Patents & Disclosures** — Technical IP and invention summaries.  
+5. **Patents & Disclosures** - Technical IP and invention summaries.  
    → [`patents.md`](./patents.md)
 
-6. **Technical Projects** — Applied engineering systems, platforms, and prototypes.  
+6. **Technical Projects** - Applied engineering systems, platforms, and prototypes.  
    → [`tech-projects.md`](./tech-projects.md)
 
 7. **Metadata (machine-readable)**  
@@ -58,11 +58,11 @@ It includes selected works, whitepapers, talks, patents, technical projects, and
 
 ## How to Navigate This Repository
 
-- **Selected Works** – flagship systems and contributions (`selected-works.md`).
-- **Technical Projects** – implementation and architecture detail (`tech-projects.md`).
-- **Publications** – whitepapers, reports, and internal research (`publications.md`).
-- **Talks** – invited sessions and long-running mentoring (`talks.md`).
-- **Research Statement & Methodology** – how I think and work as a researcher (`research-statement.md`, `docs/research-methodology.md`).
+- **Selected Works** - flagship systems and contributions (`selected-works.md`).
+- **Technical Projects** - implementation and architecture detail (`tech-projects.md`).
+- **Publications** - whitepapers, reports, and internal research (`publications.md`).
+- **Talks** - invited sessions and long-running mentoring (`talks.md`).
+- **Research Statement & Methodology** - how I think and work as a researcher (`research-statement.md`, `docs/research-methodology.md`).
 - **PhD Portfolio Summary (1-page)** → [`PhD-portfolio-summary.md`](PhD-portfolio-summary.md)
 - **Narrative Description for Reviewers** → [`narrative-description.md`](narrative-description.md)
 
@@ -150,16 +150,16 @@ and cognitive behaviour in AI-supported decision workflows.
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Star.JPG" width="50" />
 # Signature Contributions (High Level)
 
-- **Aegis — NLP-Driven Video Intelligence Platform**  
+- **Aegis - NLP-Driven Video Intelligence Platform**  
   Intelligent metadata extraction and NLP-based analysis for video archives.
 
-- **CredScore — Explainable Credit Scoring System**  
+- **CredScore - Explainable Credit Scoring System**  
   Transparent, regulator-aligned credit scoring with SHAP/LIME explanations.
 
 - **Real-Time Fraud Detection Engine**  
   Hybrid time-series + NLP feature anomaly detection pipeline.
 
-- **SmartCare — Eldercare Analytics Platform (2003–2006)**  
+- **SmartCare - Eldercare Analytics Platform (2003–2006)**  
   Early decision-support system for eldercare, predating modern ML stacks.
 
 - **Cloud Cost Observability & Optimization (Whitepaper)**  
@@ -168,7 +168,7 @@ and cognitive behaviour in AI-supported decision workflows.
 - **ISO20022 Modernization (Whitepaper)**  
   Event-driven patterns for payments modernization and schema transformation.
 
-- **Secure SaaS on Azure — DevSecOps Blueprint**  
+- **Secure SaaS on Azure - DevSecOps Blueprint**  
   Reference architecture for secure, multi-tenant SaaS.
 
 - **DevSecOps Culture for Regulated SaaS (Talk)**  
@@ -177,7 +177,7 @@ and cognitive behaviour in AI-supported decision workflows.
 - **AI-Driven Credit Analytics (Talk)**  
   How ML enhances lending intelligence and credit workflows.
 
-- **Security Vulnerability Triaging — SEC-2023-41 (Technical Disclosure)**  
+- **Security Vulnerability Triaging - SEC-2023-41 (Technical Disclosure)**  
   ML-assisted vulnerability classification for multi-tenant environments.
 
 ---
@@ -204,11 +204,11 @@ This repository includes or will include:
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/EntryPoints.JPG" width="50" />
 # Recommended Entry Points for Reviewers
 
-1. **Selected Works** — Start here for flagship items  
-2. **Technical Projects** — For reproducible engineering depth  
-3. **Whitepapers** — For architectural or conceptual clarity → [`Whitepaper Template`](./whitepapers/whitepaper-template.md)
-4. **Talks** — For narrative and leadership perspective  
-5. **Machine-readable metadata** — For automated ingestion (`*.json`)
+1. **Selected Works** - Start here for flagship items  
+2. **Technical Projects** - For reproducible engineering depth  
+3. **Whitepapers** - For architectural or conceptual clarity → [`Whitepaper Template`](./whitepapers/whitepaper-template.md)
+4. **Talks** - For narrative and leadership perspective  
+5. **Machine-readable metadata** - For automated ingestion (`*.json`)
 
 Designed for **PhD applications**, **academic assessment**, and **industry R&D reviews**.
 
