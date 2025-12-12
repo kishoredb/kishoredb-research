@@ -6,7 +6,7 @@ This repository is designed to give academic reviewers, supervisors, and R&D eva
 
 ## What This Repository Represents
 
-This portfolio is not a collection of toy examples — it documents **real, high-impact systems** that were deployed in enterprise environments or validated through research processes. These systems reflect:
+This portfolio is not a collection of toy examples. It documents **real, high-impact systems** that were deployed in enterprise environments or validated through research processes. These systems reflect:
 
 - My ability to design, build, and evaluate complex ML-driven decision frameworks  
 - My emphasis on **explainability, reproducibility, and governance**  
