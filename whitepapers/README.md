@@ -1,21 +1,43 @@
-# 📄 Whitepapers & Technical Documents
+# 📄 Whitepapers & Architectural Documents
 
-This folder is reserved for storing extended versions or PDF copies of whitepapers, architecture briefs, and technical reports referenced in the main repository.
+This folder is reserved for conceptual, architectural, and research-oriented whitepapers that complement the systems, deep-dives, and publications referenced in the main repository. These documents capture the strategic, design, and methodological thinking behind the platforms and analytics workflows I have developed.
 
-At this time, all whitepapers are summarized and indexed in [`publications.md`](../publications.md), along with links to related deep-dive documents and technical projects.
-
-As additional documents (PDFs, detailed write-ups, or published versions) become available, they will be added here for easier access and archival.
+At present, whitepapers are summarized and indexed in  
+➡️ [`publications.md`](../publications.md)  
+along with links to related deep-dive case studies and technical project documentation.
 
 ---
 
-### What You Will Find Here (Future Additions)
+## 🔍 What These Whitepapers Represent
+
+Each whitepaper typically provides:
+
+- **System-level perspective** on design and architecture  
+- **Data flow and pipeline insights** applicable to real-world deployments  
+- **Patterns for reliability, trust, and explainability** in decision systems  
+- **Domain-specific frameworks**, e.g., lending, fraud, healthcare, or cloud modernization  
+- **Connections to deep-dive evaluations** and reproducibility artifacts  
+
+These documents serve as high-level guidance for understanding the broader context and principles behind the engineering systems in this portfolio.
+
+---
+
+## 📚 Current Status
+
+This folder currently acts as an **organized placeholder** for upcoming uploads such as:
 
 - Full PDF versions of whitepapers  
-- Extended architectural notes  
-- Supporting technical diagrams  
-- Supplementary materials referenced in publications  
+- Extended architectural briefs  
+- Supporting diagrams and supplementary visuals  
+- Published reports and internal research documentation  
 
-For now, this folder acts as a placeholder for future uploads and organizes the repository structure cleanly.
+As PDFs and expanded documents become available, they will be archived here for easy access and citation.
 
-If you need any referenced whitepaper in full form, feel free to reach out: **kishoredb@gmail.com**
+---
+
+## 📬 Access to Full Copies
+
+If you need any referenced whitepaper or architectural document in full form, please reach out:
+
+**kishoredb@gmail.com**
 
