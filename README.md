@@ -206,7 +206,7 @@ This repository includes or will include:
 
 1. **Selected Works** — Start here for flagship items  
 2. **Technical Projects** — For reproducible engineering depth  
-3. **Whitepapers** — For architectural or conceptual clarity  
+3. **Whitepapers** — For architectural or conceptual clarity - Whitepaper Template → /whitepapers/whitepaper-template.md
 4. **Talks** — For narrative and leadership perspective  
 5. **Machine-readable metadata** — For automated ingestion (`*.json`)
 
