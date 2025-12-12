@@ -4,11 +4,11 @@ This Mermaid diagram provides a high-level visual overview of the structure of t
 
 ```mermaid
 
-flowchart TB
+flowchart LR
 
     R[kishoredb-research]
 
-    %% Top-level folders
+    %% Top-level folders (vertical)
     R --> A[assets]
     R --> B[datasets]
     R --> C[diagrams]
