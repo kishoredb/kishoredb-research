@@ -1,0 +1,59 @@
+
+---
+
+# ✅ **2. Metadata Schema for Whitepapers (`whitepapers.json`)**
+
+### **Location to create the file:**
+
+This schema ensures:
+
+- doctoral committees can auto-ingest documents  
+- metadata is consistent with `publications.json`, `selected-works.json`, etc.  
+- research software engineers or automated pipelines can index your portfolio  
+- future whitepapers can be added easily  
+
+---
+
+## **📄 `whitepapers/whitepapers.json` (copy-paste)**
+
+```json
+{
+  "schema_version": "1.0",
+  "generated_by": "kishoredb-research",
+  "last_updated": "<YYYY-MM-DD>",
+  "whitepapers": [
+    {
+      "id": "",
+      "title": "",
+      "subtitle": "",
+      "version": "",
+      "date": "",
+      "tags": [],
+      "summary": "",
+      "keywords": [],
+      "domain": "",
+      "status": "draft | published | internal",
+      "link_markdown": "",
+      "link_pdf": "",
+      "related_projects": [],
+      "related_diagrams": [],
+      "related_publications": [],
+      "description": "",
+      "contributions": {
+        "technical": "",
+        "research": "",
+        "methodological": "",
+        "architectural": ""
+      },
+      "methodology": {
+        "approach": "",
+        "evaluation": "",
+        "datasets": [],
+        "libraries": []
+      },
+      "limitations": "",
+      "future_work": "",
+      "contact": "kishoredb@gmail.com"
+    }
+  ]
+}
