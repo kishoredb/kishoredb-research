@@ -218,8 +218,9 @@ and the way I think about responsible, research-grade engineering.
 ---
 
 ## Repository Architecture
-- **Repository Architecture Map** → [/diagrams/repo-map.md](diagrams/repo-map.md)
-
+- **Repository Architecture Map** → [`/diagrams/repo-map.md`](diagrams/repo-map.md)
+- **Repository Architecture Detailed Map** → [`/diagrams/repo-map-detailed.md`](diagrams/repo-map-detailed.md)
+  
 ---
 
 ## <img src="https://raw.githubusercontent.com/kishoredb/kishoredb-research/main/assets/Globe.JPG" width="50" />
