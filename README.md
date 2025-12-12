@@ -58,6 +58,9 @@ It includes selected works, whitepapers, talks, patents, technical projects, and
 - **Publications** – whitepapers, reports, and internal research (`publications.md`).
 - **Talks** – invited sessions and long-running mentoring (`talks.md`).
 - **Research Statement & Methodology** – how I think and work as a researcher (`research-statement.md`, `docs/research-methodology.md`).
+- **PhD Portfolio Summary (1-page)** → [`PhD-portfolio-summary.md`](PhD-portfolio-summary.md)
+- **Narrative Description for Reviewers** → [`narrative-description.md`](narrative-description.md)
+
 ---
 
 The sections below link to curated views of my work, so that different kinds of reviewers (academic, industry, R&D) can quickly find what they need.
