@@ -217,6 +217,7 @@ and the way I think about responsible, research-grade engineering.
 
 ---
 
+## Repository Architecture
 - **Repository Architecture Map** → [/diagrams/repo-map.md](diagrams/repo-map.md)
 
 ---
